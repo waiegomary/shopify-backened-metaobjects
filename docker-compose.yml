@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  shopify-app-metaobjects:
+    # image: ghcr.io/ovesorg/shopify-app-metaobjects:prod
+    build:
+      context: .
+    stdin_open: true
+    container_name: shopify-app-metaobjects
+    restart: unless-stopped
+    ports:
+      - 8111:3000
+

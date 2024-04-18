@@ -1,0 +1,4 @@
+/* app/components/Views/styles.css */
+.draggable-item {
+  z-index: 99999;
+}
