@@ -865,7 +865,7 @@ __export(app_site_map_handle_exports, {
   links: () => links,
   loader: () => loader4
 });
-var import_node7 = require("@remix-run/node"), import_react31 = require("@remix-run/react"), import_polaris30 = require("@shopify/polaris"), _16 = __toESM(require("lodash")), import_react32 = require("react");
+var import_node7 = require("@remix-run/node"), import_react31 = require("@remix-run/react"), import_polaris29 = require("@shopify/polaris"), _16 = __toESM(require("lodash")), import_react32 = require("react");
 
 // app/components/Form/SaveAppBar.tsx
 var import_polaris5 = require("@shopify/polaris"), import_jsx_dev_runtime6 = require("react/jsx-dev-runtime"), SaveAppBar = ({ saveAction, discardAction, loading = !1 }) => /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { style: { height: "0px" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(
@@ -1422,7 +1422,7 @@ var import_react8 = require("@remix-run/react"), import_jsx_dev_runtime7 = requi
 }, MetaForm_default = MetaForm;
 
 // node_modules/@uiw/react-md-editor/markdown-editor.css
-var markdown_editor_default = "/build/_assets/markdown-editor-Y42RWBS4.css";
+var markdown_editor_default = "/build/_assets/markdown-editor-X4E3DXMZ.css";
 
 // node_modules/@uiw/react-markdown-preview/markdown.css
 var markdown_default = "/build/_assets/markdown-VPXFE4SC.css";
@@ -1778,7 +1778,7 @@ var import_react11 = require("@remix-run/react"), import_jsx_dev_runtime9 = requ
 }, FooterForm_default = FooterForm;
 
 // app/components/Tables/PageMetaObject.tsx
-var import_polaris19 = require("@shopify/polaris");
+var import_polaris18 = require("@shopify/polaris");
 var import_react20 = require("react");
 
 // app/components/Icons/DeleteIcon.tsx
@@ -1828,36 +1828,23 @@ var import_jsx_dev_runtime13 = require("react/jsx-dev-runtime"), DragHandle = (0
 }, this)), DragHandle_default = DragHandle;
 
 // app/components/Form/SiteMap/PageEditor/PageForm.tsx
-var import_polaris18 = require("@shopify/polaris"), import_react19 = require("react"), _7 = __toESM(require("lodash"));
+var import_polaris17 = require("@shopify/polaris"), import_react19 = require("react"), _7 = __toESM(require("lodash"));
 
 // app/components/Form/SiteMap/PageEditor/SectionForm.tsx
-var import_polaris16 = require("@shopify/polaris"), import_react17 = require("react"), import_polaris_icons5 = require("@shopify/polaris-icons");
+var import_polaris15 = require("@shopify/polaris"), import_react17 = require("react"), import_polaris_icons4 = require("@shopify/polaris-icons");
 
 // app/components/Tables/BlocksMetaobject.tsx
-var import_polaris15 = require("@shopify/polaris");
+var import_polaris14 = require("@shopify/polaris");
 var import_react15 = require("react");
-
-// app/components/Icons/SearchIcon.tsx
-var import_polaris_icons4 = require("@shopify/polaris-icons"), import_polaris12 = require("@shopify/polaris"), import_jsx_dev_runtime14 = require("react/jsx-dev-runtime");
-function SearchIcon() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(import_polaris12.Icon, { source: import_polaris_icons4.SearchMajor }, void 0, !1, {
-    fileName: "app/components/Icons/SearchIcon.tsx",
-    lineNumber: 5,
-    columnNumber: 10
-  }, this);
-}
-var SearchIcon_default = SearchIcon;
-
-// app/components/Tables/BlocksMetaobject.tsx
 var import_react_sortable_hoc2 = require("react-sortable-hoc"), _6 = __toESM(require("lodash"));
 
 // app/components/Form/SiteMap/PageEditor/BlockForm.tsx
-var import_polaris14 = require("@shopify/polaris"), import_react13 = require("react");
+var import_polaris13 = require("@shopify/polaris"), import_react13 = require("react");
 var _5 = __toESM(require("lodash"));
 
 // app/components/Form/Fields/TagSearchField.tsx
-var import_polaris13 = require("@shopify/polaris"), import_react12 = require("react");
-var import_jsx_dev_runtime15 = require("react/jsx-dev-runtime"), validateOption = (options) => map2(options, (option) => ({
+var import_polaris12 = require("@shopify/polaris"), import_react12 = require("react");
+var import_jsx_dev_runtime14 = require("react/jsx-dev-runtime"), validateOption = (options) => map2(options, (option) => ({
   label: (option == null ? void 0 : option.label) || (option == null ? void 0 : option.name),
   value: (option == null ? void 0 : option.value) || (option == null ? void 0 : option.id)
 })) || [];
@@ -1903,11 +1890,11 @@ function TagSearchField({
       options2.splice(options2 == null ? void 0 : options2.indexOf(tag), 1), setSelectedOptions(options2), handleChangeCollection(options2);
     },
     [selectedOptions]
-  ), verticalContentMarkup = selectedOptions.length > 0 ? /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_polaris13.LegacyStack, { spacing: "extraTight", alignment: "center", children: selectedOptions == null ? void 0 : selectedOptions.map((option) => {
+  ), verticalContentMarkup = selectedOptions.length > 0 ? /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(import_polaris12.LegacyStack, { spacing: "extraTight", alignment: "center", children: selectedOptions == null ? void 0 : selectedOptions.map((option) => {
     let tagLabel = "";
     tagLabel = option == null ? void 0 : option.replace("_", " "), tagLabel = titleCase2(tagLabel);
     let item = find2(deselectedOptions, { value: option });
-    return item && (tagLabel = item == null ? void 0 : item.label), selectedOptions != null && selectedOptions.includes(tagLabel) ? null : /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_polaris13.Tag, { onRemove: removeTag(option), children: tagLabel }, `option${option}`, !1, {
+    return item && (tagLabel = item == null ? void 0 : item.label), selectedOptions != null && selectedOptions.includes(tagLabel) ? null : /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(import_polaris12.Tag, { onRemove: removeTag(option), children: tagLabel }, `option${option}`, !1, {
       fileName: "app/components/Form/Fields/TagSearchField.tsx",
       lineNumber: 90,
       columnNumber: 13
@@ -1916,8 +1903,8 @@ function TagSearchField({
     fileName: "app/components/Form/Fields/TagSearchField.tsx",
     lineNumber: 77,
     columnNumber: 7
-  }, this) : null, textField = /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
-    import_polaris13.Autocomplete.TextField,
+  }, this) : null, textField = /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+    import_polaris12.Autocomplete.TextField,
     {
       onChange: updateText,
       label,
@@ -1935,8 +1922,8 @@ function TagSearchField({
     },
     this
   );
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { style: { height: "100%" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
-    import_polaris13.Autocomplete,
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { style: { height: "100%" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+    import_polaris12.Autocomplete,
     {
       allowMultiple: !0,
       options,
@@ -1969,7 +1956,7 @@ function TagSearchField({
 var TagSearchField_default = TagSearchField;
 
 // app/components/Form/SiteMap/PageEditor/BlockForm.tsx
-var import_react14 = require("@remix-run/react"), import_jsx_dev_runtime16 = require("react/jsx-dev-runtime"), MDEditor3 = (0, import_react13.lazy)(() => import("@uiw/react-md-editor")), BlockForm = ({
+var import_react14 = require("@remix-run/react"), import_jsx_dev_runtime15 = require("react/jsx-dev-runtime"), MDEditor3 = (0, import_react13.lazy)(() => import("@uiw/react-md-editor")), BlockForm = ({
   pageIndex,
   sectionIndex,
   block,
@@ -1988,8 +1975,8 @@ var import_react14 = require("@remix-run/react"), import_jsx_dev_runtime16 = req
   }), fieldName = `${section}.blocks[${blockIndex}]`, [style, setStyle] = (0, import_react13.useState)(get2(block, "style", "hero")), handleChangeStyle = (0, import_react13.useCallback)((value) => setStyle(value), []), [title, setTitle] = (0, import_react13.useState)(get2(block, "title")), handleChangeTitle = (0, import_react13.useCallback)((value) => setTitle(value), []), [media, setMedia] = (0, import_react13.useState)(get2(block, "media")), handleChangeMedia = (0, import_react13.useCallback)((value) => setMedia(value), []), [ctaLabel, setctaLabel] = (0, import_react13.useState)(get2(block, "ctaLabel")), handleChangectaLabel = (0, import_react13.useCallback)((value) => setctaLabel(value), []), [ctaLink, setctaLink] = (0, import_react13.useState)(get2(block, "ctaLink")), handleChangectaLink = (0, import_react13.useCallback)((value) => setctaLink(value), []), [text, setText] = (0, import_react13.useState)(get2(block, "text")), handleChangeText = (0, import_react13.useCallback)((value) => setText(value), []), [collection, setCollection] = (0, import_react13.useState)(get2(block, "collections", [])), handleChangeCollection = (0, import_react13.useCallback)((value) => {
     setCollection(value);
   }, []);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_jsx_dev_runtime16.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { style: { height: 0, display: "none" }, ref: activatorRef, children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_polaris14.Button, { onClick: handleOpen, children: "~" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_jsx_dev_runtime15.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { style: { height: 0, display: "none" }, ref: activatorRef, children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_polaris13.Button, { onClick: handleOpen, children: "~" }, void 0, !1, {
       fileName: "app/components/Form/SiteMap/PageEditor/BlockForm.tsx",
       lineNumber: 81,
       columnNumber: 9
@@ -1998,10 +1985,10 @@ var import_react14 = require("@remix-run/react"), import_jsx_dev_runtime16 = req
       lineNumber: 80,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(
-      import_polaris14.Modal,
+    /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
+      import_polaris13.Modal,
       {
-        activator: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_polaris14.Button, { size: "micro", onClick: handleChange, children: activatorTitle }, void 0, !1, {
+        activator: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_polaris13.Button, { size: "micro", onClick: handleChange, children: activatorTitle }, void 0, !1, {
           fileName: "app/components/Form/SiteMap/PageEditor/BlockForm.tsx",
           lineNumber: 73,
           columnNumber: 5
@@ -2032,9 +2019,9 @@ var import_react14 = require("@remix-run/react"), import_jsx_dev_runtime16 = req
             onAction: handleClose
           }
         ],
-        children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_polaris14.Modal.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_polaris14.Box, { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(
-            import_polaris14.Select,
+        children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_polaris13.Modal.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_polaris13.Box, { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
+            import_polaris13.Select,
             {
               label: "Style",
               options: [
@@ -2063,8 +2050,8 @@ var import_react14 = require("@remix-run/react"), import_jsx_dev_runtime16 = req
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(
-            import_polaris14.TextField,
+          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
+            import_polaris13.TextField,
             {
               label: "Title",
               value: title,
@@ -2084,13 +2071,13 @@ var import_react14 = require("@remix-run/react"), import_jsx_dev_runtime16 = req
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_polaris14.Box, { padding: "2" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_polaris13.Box, { padding: "2" }, void 0, !1, {
             fileName: "app/components/Form/SiteMap/PageEditor/BlockForm.tsx",
             lineNumber: 131,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(
-            import_polaris14.TextField,
+          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
+            import_polaris13.TextField,
             {
               label: "Media",
               value: media,
@@ -2110,13 +2097,13 @@ var import_react14 = require("@remix-run/react"), import_jsx_dev_runtime16 = req
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_polaris14.Box, { padding: "2" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_polaris13.Box, { padding: "2" }, void 0, !1, {
             fileName: "app/components/Form/SiteMap/PageEditor/BlockForm.tsx",
             lineNumber: 142,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(
-            import_polaris14.TextField,
+          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
+            import_polaris13.TextField,
             {
               label: "ctaLabel",
               value: ctaLabel,
@@ -2136,13 +2123,13 @@ var import_react14 = require("@remix-run/react"), import_jsx_dev_runtime16 = req
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_polaris14.Box, { padding: "2" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_polaris13.Box, { padding: "2" }, void 0, !1, {
             fileName: "app/components/Form/SiteMap/PageEditor/BlockForm.tsx",
             lineNumber: 153,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(
-            import_polaris14.TextField,
+          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
+            import_polaris13.TextField,
             {
               label: "ctaLink",
               value: ctaLink,
@@ -2162,24 +2149,24 @@ var import_react14 = require("@remix-run/react"), import_jsx_dev_runtime16 = req
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_polaris14.Box, { padding: "2" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_polaris13.Box, { padding: "2" }, void 0, !1, {
             fileName: "app/components/Form/SiteMap/PageEditor/BlockForm.tsx",
             lineNumber: 164,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_react13.Suspense, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_react14.Await, { resolve: text, children: (value) => /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_jsx_dev_runtime16.Fragment, { children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("label", { children: "Text" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_react13.Suspense, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_react14.Await, { resolve: text, children: (value) => /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_jsx_dev_runtime15.Fragment, { children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("label", { children: "Text" }, void 0, !1, {
               fileName: "app/components/Form/SiteMap/PageEditor/BlockForm.tsx",
               lineNumber: 169,
               columnNumber: 21
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_polaris14.Box, { padding: "1" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_polaris13.Box, { padding: "1" }, void 0, !1, {
               fileName: "app/components/Form/SiteMap/PageEditor/BlockForm.tsx",
               lineNumber: 170,
               columnNumber: 21
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { "data-color-mode": "light", children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { "data-color-mode": "light", children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
                 MDEditor3,
                 {
                   value: value != null && value.includes("children") ? toHTML(value) : value,
@@ -2197,7 +2184,7 @@ var import_react14 = require("@remix-run/react"), import_jsx_dev_runtime16 = req
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_polaris14.Box, { padding: "2" }, void 0, !1, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_polaris13.Box, { padding: "2" }, void 0, !1, {
                 fileName: "app/components/Form/SiteMap/PageEditor/BlockForm.tsx",
                 lineNumber: 181,
                 columnNumber: 23
@@ -2220,12 +2207,12 @@ var import_react14 = require("@remix-run/react"), import_jsx_dev_runtime16 = req
             lineNumber: 165,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_polaris14.Box, { padding: "2" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_polaris13.Box, { padding: "2" }, void 0, !1, {
             fileName: "app/components/Form/SiteMap/PageEditor/BlockForm.tsx",
             lineNumber: 187,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
             TagSearchField_default,
             {
               label: "Collections",
@@ -2277,7 +2264,7 @@ var import_react14 = require("@remix-run/react"), import_jsx_dev_runtime16 = req
 }, BlockForm_default = BlockForm;
 
 // app/components/Tables/BlocksMetaobject.tsx
-var import_jsx_dev_runtime17 = require("react/jsx-dev-runtime"), import_react16 = require("react"), BlocksMetaobject = ({
+var import_jsx_dev_runtime16 = require("react/jsx-dev-runtime"), import_react16 = require("react"), BlocksMetaobject = ({
   blocks,
   loading: isLoading,
   onEdit,
@@ -2302,32 +2289,32 @@ var import_jsx_dev_runtime17 = require("react/jsx-dev-runtime"), import_react16 
   }, edit = (block) => {
     let index = _6.findIndex(blocks, (_item) => (_item == null ? void 0 : _item.id) == block.id), otherItems = [...blocks];
     otherItems[index] = block, logger(index), logger(block), handleSetBlocks(otherItems);
-  }, SortableItem = (0, import_react_sortable_hoc2.sortableElement)((block, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(
-    import_polaris15.IndexTable.Row,
+  }, SortableItem = (0, import_react_sortable_hoc2.sortableElement)((block, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(
+    import_polaris14.IndexTable.Row,
     {
       id: get2(block, "id"),
       position: index,
       children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_polaris15.IndexTable.Cell, { className: "draggable-item", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_polaris15.ButtonGroup, { segmented: !0, children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_polaris15.Button, { size: "micro", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(DragHandle_default, {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_polaris14.IndexTable.Cell, { className: "draggable-item", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_polaris14.ButtonGroup, { segmented: !0, children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_polaris14.Button, { size: "micro", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(DragHandle_default, {}, void 0, !1, {
             fileName: "app/components/Tables/BlocksMetaobject.tsx",
-            lineNumber: 74,
+            lineNumber: 72,
             columnNumber: 13
           }, this) }, void 0, !1, {
             fileName: "app/components/Tables/BlocksMetaobject.tsx",
-            lineNumber: 73,
+            lineNumber: 71,
             columnNumber: 11
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(
-            import_polaris15.Button,
+          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(
+            import_polaris14.Button,
             {
               size: "micro",
               onClick: () => {
                 remove(get2(block, "id"));
               },
-              children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(DeleteIcon_default, {}, void 0, !1, {
+              children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(DeleteIcon_default, {}, void 0, !1, {
                 fileName: "app/components/Tables/BlocksMetaobject.tsx",
-                lineNumber: 82,
+                lineNumber: 80,
                 columnNumber: 13
               }, this)
             },
@@ -2335,27 +2322,18 @@ var import_jsx_dev_runtime17 = require("react/jsx-dev-runtime"), import_react16 
             !1,
             {
               fileName: "app/components/Tables/BlocksMetaobject.tsx",
-              lineNumber: 76,
+              lineNumber: 74,
               columnNumber: 11
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_polaris15.Button, { size: "micro", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(SearchIcon_default, {}, void 0, !1, {
-            fileName: "app/components/Tables/BlocksMetaobject.tsx",
-            lineNumber: 85,
-            columnNumber: 13
-          }, this) }, void 0, !1, {
-            fileName: "app/components/Tables/BlocksMetaobject.tsx",
-            lineNumber: 84,
-            columnNumber: 11
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(
             BlockForm_default,
             {
               activatorRef,
-              activatorTitle: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(EditIcon_default, {}, void 0, !1, {
+              activatorTitle: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(EditIcon_default, {}, void 0, !1, {
                 fileName: "app/components/Tables/BlocksMetaobject.tsx",
-                lineNumber: 90,
+                lineNumber: 85,
                 columnNumber: 29
               }, this),
               modalTitle: "Block",
@@ -2371,22 +2349,22 @@ var import_jsx_dev_runtime17 = require("react/jsx-dev-runtime"), import_react16 
             !1,
             {
               fileName: "app/components/Tables/BlocksMetaobject.tsx",
-              lineNumber: 88,
+              lineNumber: 83,
               columnNumber: 11
             },
             this
           )
         ] }, void 0, !0, {
           fileName: "app/components/Tables/BlocksMetaobject.tsx",
-          lineNumber: 72,
+          lineNumber: 70,
           columnNumber: 9
         }, this) }, void 0, !1, {
           fileName: "app/components/Tables/BlocksMetaobject.tsx",
-          lineNumber: 71,
+          lineNumber: 69,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_polaris15.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(
-          import_polaris15.Thumbnail,
+        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_polaris14.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(
+          import_polaris14.Thumbnail,
           {
             source: get2(
               block,
@@ -2400,28 +2378,28 @@ var import_jsx_dev_runtime17 = require("react/jsx-dev-runtime"), import_react16 
           !1,
           {
             fileName: "app/components/Tables/BlocksMetaobject.tsx",
-            lineNumber: 103,
+            lineNumber: 98,
             columnNumber: 9
           },
           this
         ) }, void 0, !1, {
           fileName: "app/components/Tables/BlocksMetaobject.tsx",
-          lineNumber: 102,
+          lineNumber: 97,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_polaris15.IndexTable.Cell, { children: get2(block, "style") }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_polaris14.IndexTable.Cell, { children: get2(block, "style") }, void 0, !1, {
           fileName: "app/components/Tables/BlocksMetaobject.tsx",
-          lineNumber: 113,
+          lineNumber: 108,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_polaris15.IndexTable.Cell, { children: get2(block, "ctaLabel") }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_polaris14.IndexTable.Cell, { children: get2(block, "ctaLabel") }, void 0, !1, {
           fileName: "app/components/Tables/BlocksMetaobject.tsx",
-          lineNumber: 114,
+          lineNumber: 109,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_polaris15.IndexTable.Cell, { children: get2(block, "ctaLink") }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_polaris14.IndexTable.Cell, { children: get2(block, "ctaLink") }, void 0, !1, {
           fileName: "app/components/Tables/BlocksMetaobject.tsx",
-          lineNumber: 115,
+          lineNumber: 110,
           columnNumber: 7
         }, this)
       ]
@@ -2430,13 +2408,13 @@ var import_jsx_dev_runtime17 = require("react/jsx-dev-runtime"), import_react16 
     !0,
     {
       fileName: "app/components/Tables/BlocksMetaobject.tsx",
-      lineNumber: 66,
+      lineNumber: 64,
       columnNumber: 5
     },
     this
   )), SortableContainer = (0, import_react_sortable_hoc2.sortableContainer)(
-    ({ children, helperClass = "draggable-item" }) => /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(
-      import_polaris15.IndexTable,
+    ({ children, helperClass = "draggable-item" }) => /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(
+      import_polaris14.IndexTable,
       {
         resourceName,
         itemCount: (blocks == null ? void 0 : blocks.length) || 0,
@@ -2454,14 +2432,14 @@ var import_jsx_dev_runtime17 = require("react/jsx-dev-runtime"), import_react16 
       !1,
       {
         fileName: "app/components/Tables/BlocksMetaobject.tsx",
-        lineNumber: 121,
+        lineNumber: 116,
         columnNumber: 9
       },
       this
     )
   );
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_polaris15.LegacyCard, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_polaris15.VerticalStack, { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(SortableContainer, { onSortEnd: ({ oldIndex, newIndex }) => {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_polaris14.LegacyCard, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_polaris14.VerticalStack, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(SortableContainer, { onSortEnd: ({ oldIndex, newIndex }) => {
       let __blocks = (0, import_react_sortable_hoc2.arrayMove)(blocks, oldIndex, newIndex);
       handleSetBlocks(__blocks);
     }, useDragHandle: !0, children: _6.map(blocks, (value, index) => /* @__PURE__ */ (0, import_react16.createElement)(
@@ -2474,10 +2452,10 @@ var import_jsx_dev_runtime17 = require("react/jsx-dev-runtime"), import_react16 
       }
     )) }, void 0, !1, {
       fileName: "app/components/Tables/BlocksMetaobject.tsx",
-      lineNumber: 147,
+      lineNumber: 142,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { style: { padding: 5 }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { style: { padding: 5 }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(
       BlockForm_default,
       {
         activatorRef: activatorRefAdd,
@@ -2493,28 +2471,28 @@ var import_jsx_dev_runtime17 = require("react/jsx-dev-runtime"), import_react16 
       !1,
       {
         fileName: "app/components/Tables/BlocksMetaobject.tsx",
-        lineNumber: 157,
+        lineNumber: 152,
         columnNumber: 11
       },
       this
     ) }, void 0, !1, {
       fileName: "app/components/Tables/BlocksMetaobject.tsx",
-      lineNumber: 156,
+      lineNumber: 151,
       columnNumber: 9
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/Tables/BlocksMetaobject.tsx",
-    lineNumber: 146,
+    lineNumber: 141,
     columnNumber: 7
   }, this) }, void 0, !1, {
     fileName: "app/components/Tables/BlocksMetaobject.tsx",
-    lineNumber: 145,
+    lineNumber: 140,
     columnNumber: 5
   }, this);
 }, BlocksMetaobject_default = BlocksMetaobject;
 
 // app/components/Form/SiteMap/PageEditor/SectionForm.tsx
-var import_jsx_dev_runtime18 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime17 = require("react/jsx-dev-runtime");
 function SectionForm({
   sectionIndex,
   section,
@@ -2531,8 +2509,8 @@ function SectionForm({
     let _page = { ...page };
     _page.sections[sectionIndex].blocks = value;
   }, []);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { style: { marginTop: "20px" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_polaris16.LegacyCard, { sectioned: !0, children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_polaris16.LegacyStack, { vertical: !0, children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { style: { marginTop: "20px" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_polaris15.LegacyCard, { sectioned: !0, children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_polaris15.LegacyStack, { vertical: !0, children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(
       "div",
       {
         style: {
@@ -2541,18 +2519,18 @@ function SectionForm({
           justifyContent: "space-between"
         },
         children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
-            import_polaris16.Button,
+          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(
+            import_polaris15.Button,
             {
               size: "micro",
               onClick: handleToggle,
               ariaExpanded: open,
               ariaControls: "basic-collapsible",
-              children: open ? /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_polaris16.Icon, { source: import_polaris_icons5.ChevronDownMinor, color: "base" }, void 0, !1, {
+              children: open ? /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_polaris15.Icon, { source: import_polaris_icons4.ChevronDownMinor, color: "base" }, void 0, !1, {
                 fileName: "app/components/Form/SiteMap/PageEditor/SectionForm.tsx",
                 lineNumber: 57,
                 columnNumber: 17
-              }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_polaris16.Icon, { source: import_polaris_icons5.ChevronRightMinor, color: "base" }, void 0, !1, {
+              }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_polaris15.Icon, { source: import_polaris_icons4.ChevronRightMinor, color: "base" }, void 0, !1, {
                 fileName: "app/components/Form/SiteMap/PageEditor/SectionForm.tsx",
                 lineNumber: 55,
                 columnNumber: 17
@@ -2567,7 +2545,7 @@ function SectionForm({
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(import_polaris16.Text, { variant: "headingMd", as: "h6", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(import_polaris15.Text, { variant: "headingMd", as: "h6", children: [
             "Section ",
             sectionIndex + 1
           ] }, void 0, !0, {
@@ -2575,8 +2553,8 @@ function SectionForm({
             lineNumber: 61,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
-            import_polaris16.Button,
+          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(
+            import_polaris15.Button,
             {
               size: "micro",
               onClick: () => {
@@ -2588,7 +2566,7 @@ function SectionForm({
                   )
                 });
               },
-              children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(DeleteIcon_default, {}, void 0, !1, {
+              children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(DeleteIcon_default, {}, void 0, !1, {
                 fileName: "app/components/Form/SiteMap/PageEditor/SectionForm.tsx",
                 lineNumber: 76,
                 columnNumber: 15
@@ -2614,14 +2592,14 @@ function SectionForm({
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
-      import_polaris16.Collapsible,
+    /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(
+      import_polaris15.Collapsible,
       {
         open,
         id: "basic-collapsible",
         transition: { duration: "500ms", timingFunction: "ease-in-out" },
         expandOnPrint: !0,
-        children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
+        children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(
           BlocksMetaobject_default,
           {
             blocks: blocks || [],
@@ -2671,14 +2649,14 @@ function SectionForm({
 var SectionForm_default = SectionForm;
 
 // app/utils/useToast.tsx
-var import_polaris17 = require("@shopify/polaris"), import_react18 = require("react"), import_jsx_dev_runtime19 = require("react/jsx-dev-runtime");
+var import_polaris16 = require("@shopify/polaris"), import_react18 = require("react"), import_jsx_dev_runtime18 = require("react/jsx-dev-runtime");
 function useToast() {
   let [active, setActive] = (0, import_react18.useState)(!1), [message, setMessage] = (0, import_react18.useState)("Success"), [error, setError] = (0, import_react18.useState)(!1), handleSetMessage = (0, import_react18.useCallback)((value) => setMessage(value), []), toggleActive = (0, import_react18.useCallback)(() => setActive((active2) => !active2), []), showToast = (0, import_react18.useCallback)((message2, _error = !1) => {
     handleSetMessage(message2), _error && setError(!0), toggleActive();
   }, []);
   return {
-    toastMarkup: active ? /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
-      import_polaris17.Toast,
+    toastMarkup: active ? /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
+      import_polaris16.Toast,
       {
         content: message,
         error,
@@ -2701,7 +2679,7 @@ function useToast() {
 }
 
 // app/components/Form/SiteMap/PageEditor/PageForm.tsx
-var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), PageForm = ({
+var import_jsx_dev_runtime19 = require("react/jsx-dev-runtime"), PageForm = ({
   page: _page,
   activatorRef,
   formik,
@@ -2725,8 +2703,8 @@ var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), PageForm = ({
     }
     page != null && page.handle && (onSubmit({ ...page, id: numberGenerator() }, pageIndex), handleClose());
   }, collections = (0, import_react19.useMemo)(() => _collections, [rest]);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { style: {}, id: `${page == null ? void 0 : page.id}-page-button`, ref: activatorRef, children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(import_polaris18.Button, { size: "micro", onClick: handleOpen, children: activatorElement }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { style: {}, id: `${page == null ? void 0 : page.id}-page-button`, ref: activatorRef, children: /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(import_polaris17.Button, { size: "micro", onClick: handleOpen, children: activatorElement }, void 0, !1, {
       fileName: "app/components/Form/SiteMap/PageEditor/PageForm.tsx",
       lineNumber: 79,
       columnNumber: 9
@@ -2735,8 +2713,8 @@ var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), PageForm = ({
       lineNumber: 78,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
-      import_polaris18.Modal,
+    /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
+      import_polaris17.Modal,
       {
         large: !0,
         open: active,
@@ -2753,10 +2731,10 @@ var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), PageForm = ({
             onAction: handleClose
           }
         ],
-        children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(import_polaris18.Modal.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(import_polaris18.Box, { children: [
+        children: /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(import_polaris17.Modal.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(import_polaris17.Box, { children: [
           toastMarkup,
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
-            import_polaris18.TextField,
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
+            import_polaris17.TextField,
             {
               label: "Name",
               value: get2(page, "name"),
@@ -2775,8 +2753,8 @@ var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), PageForm = ({
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
-            import_polaris18.TextField,
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
+            import_polaris17.TextField,
             {
               label: "Title",
               value: get2(page, "title"),
@@ -2802,8 +2780,8 @@ var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), PageForm = ({
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
-            import_polaris18.Select,
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
+            import_polaris17.Select,
             {
               label: "Style",
               options: [
@@ -2825,8 +2803,8 @@ var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), PageForm = ({
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
-            import_polaris18.TextField,
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
+            import_polaris17.TextField,
             {
               label: "Keywords",
               value: get2(page, "keywords"),
@@ -2844,8 +2822,8 @@ var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), PageForm = ({
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
-            import_polaris18.TextField,
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
+            import_polaris17.TextField,
             {
               label: "Handle",
               value: get2(page, "handle"),
@@ -2864,8 +2842,8 @@ var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), PageForm = ({
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
-            import_polaris18.TextField,
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
+            import_polaris17.TextField,
             {
               label: "Description",
               value: get2(page, "description"),
@@ -2884,12 +2862,12 @@ var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), PageForm = ({
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(import_polaris18.Box, { padding: 2 }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(import_polaris17.Box, { padding: 2 }, void 0, !1, {
             fileName: "app/components/Form/SiteMap/PageEditor/PageForm.tsx",
             lineNumber: 165,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
             "div",
             {
               style: {
@@ -2898,13 +2876,13 @@ var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), PageForm = ({
                 justifyContent: "space-between"
               },
               children: [
-                /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(import_polaris18.Text, { variant: "headingMd", as: "h6", children: "Sections" }, void 0, !1, {
+                /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(import_polaris17.Text, { variant: "headingMd", as: "h6", children: "Sections" }, void 0, !1, {
                   fileName: "app/components/Form/SiteMap/PageEditor/PageForm.tsx",
                   lineNumber: 173,
                   columnNumber: 15
                 }, this),
-                /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
-                  import_polaris18.Button,
+                /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
+                  import_polaris17.Button,
                   {
                     onClick: () => {
                       handleSetPage({
@@ -2951,7 +2929,7 @@ var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), PageForm = ({
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { children: map2(get2(page, "sections"), (section, sectionIndex) => /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { children: map2(get2(page, "sections"), (section, sectionIndex) => /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
             SectionForm_default,
             {
               section,
@@ -3004,7 +2982,7 @@ var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), PageForm = ({
 }, PageForm_default = PageForm;
 
 // app/components/Tables/PageMetaObject.tsx
-var import_jsx_dev_runtime21 = require("react/jsx-dev-runtime"), PageMetaObject = ({ fetcher, formik }) => {
+var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), PageMetaObject = ({ fetcher, formik }) => {
   let resourceName = {
     singular: "page",
     plural: "pages"
@@ -3038,14 +3016,14 @@ var import_jsx_dev_runtime21 = require("react/jsx-dev-runtime"), PageMetaObject 
       "pages",
       pagesCopy == null ? void 0 : pagesCopy.filter((it) => _8.get(page, "id") !== get2(it, "id"))
     );
-  }, SortableItem = (0, import_react_sortable_hoc3.sortableElement)((page, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
-    import_polaris19.IndexTable.Row,
+  }, SortableItem = (0, import_react_sortable_hoc3.sortableElement)((page, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+    import_polaris18.IndexTable.Row,
     {
       id: get2(page, "id"),
       position: index,
       children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(import_polaris19.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(import_polaris19.ButtonGroup, { segmented: !0, children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(import_polaris19.Button, { size: "micro", children: /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(DragHandle_default, {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(import_polaris18.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(import_polaris18.ButtonGroup, { segmented: !0, children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(import_polaris18.Button, { size: "micro", children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(DragHandle_default, {}, void 0, !1, {
             fileName: "app/components/Tables/PageMetaObject.tsx",
             lineNumber: 83,
             columnNumber: 13
@@ -3054,14 +3032,14 @@ var import_jsx_dev_runtime21 = require("react/jsx-dev-runtime"), PageMetaObject 
             lineNumber: 82,
             columnNumber: 11
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
-            import_polaris19.Button,
+          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+            import_polaris18.Button,
             {
               size: "micro",
               onClick: () => {
                 onRemove(page);
               },
-              children: /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(DeleteIcon_default, {}, void 0, !1, {
+              children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(DeleteIcon_default, {}, void 0, !1, {
                 fileName: "app/components/Tables/PageMetaObject.tsx",
                 lineNumber: 91,
                 columnNumber: 13
@@ -3076,13 +3054,13 @@ var import_jsx_dev_runtime21 = require("react/jsx-dev-runtime"), PageMetaObject 
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
             PageForm_default,
             {
               pageIndex: _8.findIndex(pages, { id: get2(page, "id") }),
               formik,
               activatorRef,
-              activatorElement: /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(EditIcon_default, {}, void 0, !1, {
+              activatorElement: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(EditIcon_default, {}, void 0, !1, {
                 fileName: "app/components/Tables/PageMetaObject.tsx",
                 lineNumber: 98,
                 columnNumber: 31
@@ -3112,27 +3090,27 @@ var import_jsx_dev_runtime21 = require("react/jsx-dev-runtime"), PageMetaObject 
           lineNumber: 80,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(import_polaris19.IndexTable.Cell, { children: get2(page, "name") }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(import_polaris18.IndexTable.Cell, { children: get2(page, "name") }, void 0, !1, {
           fileName: "app/components/Tables/PageMetaObject.tsx",
           lineNumber: 108,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(import_polaris19.IndexTable.Cell, { children: get2(page, "title") }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(import_polaris18.IndexTable.Cell, { children: get2(page, "title") }, void 0, !1, {
           fileName: "app/components/Tables/PageMetaObject.tsx",
           lineNumber: 109,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(import_polaris19.IndexTable.Cell, { children: get2(page, "style") }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(import_polaris18.IndexTable.Cell, { children: get2(page, "style") }, void 0, !1, {
           fileName: "app/components/Tables/PageMetaObject.tsx",
           lineNumber: 111,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(import_polaris19.IndexTable.Cell, { children: get2(page, "handle") }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(import_polaris18.IndexTable.Cell, { children: get2(page, "handle") }, void 0, !1, {
           fileName: "app/components/Tables/PageMetaObject.tsx",
           lineNumber: 112,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(import_polaris19.IndexTable.Cell, { children: get2(page, "sections.length") }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(import_polaris18.IndexTable.Cell, { children: get2(page, "sections.length") }, void 0, !1, {
           fileName: "app/components/Tables/PageMetaObject.tsx",
           lineNumber: 113,
           columnNumber: 7
@@ -3147,8 +3125,8 @@ var import_jsx_dev_runtime21 = require("react/jsx-dev-runtime"), PageMetaObject 
       columnNumber: 5
     },
     this
-  )), SortableContainer = (0, import_react_sortable_hoc3.sortableContainer)(({ children }) => /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
-    import_polaris19.IndexTable,
+  )), SortableContainer = (0, import_react_sortable_hoc3.sortableContainer)(({ children }) => /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+    import_polaris18.IndexTable,
     {
       resourceName,
       itemCount: (pages == null ? void 0 : pages.length) || 0,
@@ -3176,8 +3154,8 @@ var import_jsx_dev_runtime21 = require("react/jsx-dev-runtime"), PageMetaObject 
   }, onEdit = (page, pageIndex) => {
     formik.setFieldValue(`pages[${pageIndex}]`, page);
   };
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(import_jsx_dev_runtime21.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(import_jsx_dev_runtime20.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
       "div",
       {
         style: {
@@ -3186,12 +3164,12 @@ var import_jsx_dev_runtime21 = require("react/jsx-dev-runtime"), PageMetaObject 
           justifyContent: "space-between"
         },
         children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(import_polaris19.Text, { variant: "headingMd", as: "h6" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(import_polaris18.Text, { variant: "headingMd", as: "h6" }, void 0, !1, {
             fileName: "app/components/Tables/PageMetaObject.tsx",
             lineNumber: 157,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
             PageForm_default,
             {
               pageIndex: -1,
@@ -3234,15 +3212,15 @@ var import_jsx_dev_runtime21 = require("react/jsx-dev-runtime"), PageMetaObject 
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(import_polaris19.Box, { padding: 2 }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(import_polaris18.Box, { padding: 2 }, void 0, !1, {
       fileName: "app/components/Tables/PageMetaObject.tsx",
       lineNumber: 183,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(import_polaris19.LegacyCard, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(import_polaris19.VerticalStack, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(SortableContainer, { onSortEnd: ({ oldIndex, newIndex }) => {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(import_polaris18.LegacyCard, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(import_polaris18.VerticalStack, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(SortableContainer, { onSortEnd: ({ oldIndex, newIndex }) => {
       let _items = (0, import_react_sortable_hoc3.arrayMove)(pages, oldIndex, newIndex);
       formik.setFieldValue("pages", _items);
-    }, useDragHandle: !0, children: _8.map(pages, (value, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
+    }, useDragHandle: !0, children: _8.map(pages, (value, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
       SortableItem,
       {
         index,
@@ -3280,12 +3258,12 @@ var import_jsx_dev_runtime21 = require("react/jsx-dev-runtime"), PageMetaObject 
 var styles_default = "/build/_assets/styles-YEBJMFSO.css";
 
 // app/components/Tables/MenuMetaobject.tsx
-var import_polaris21 = require("@shopify/polaris");
+var import_polaris20 = require("@shopify/polaris");
 var import_react23 = require("react");
 var import_react_sortable_hoc4 = require("react-sortable-hoc"), _9 = __toESM(require("lodash"));
 
 // app/components/Form/SiteMap/MenuEditor/index.tsx
-var import_polaris20 = require("@shopify/polaris"), import_react22 = __toESM(require("react"));
+var import_polaris19 = require("@shopify/polaris"), import_react22 = __toESM(require("react"));
 
 // app/utils/hooks.ts
 var import_react21 = require("react"), useHandleToggleModal = () => {
@@ -3299,7 +3277,7 @@ var import_react21 = require("react"), useHandleToggleModal = () => {
 };
 
 // app/components/Form/SiteMap/MenuEditor/index.tsx
-var import_polaris_icons6 = require("@shopify/polaris-icons"), import_jsx_dev_runtime22 = require("react/jsx-dev-runtime"), MenuEditorForm = ({
+var import_polaris_icons5 = require("@shopify/polaris-icons"), import_jsx_dev_runtime21 = require("react/jsx-dev-runtime"), MenuEditorForm = ({
   menuItem = {},
   formik,
   activatorElement,
@@ -3345,13 +3323,13 @@ var import_polaris_icons6 = require("@shopify/polaris-icons"), import_jsx_dev_ru
       setSelectedOptions(selected), setInputValue(selectedText[0] || "");
     },
     [options]
-  ), textField = /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
-    import_polaris20.Autocomplete.TextField,
+  ), textField = /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
+    import_polaris19.Autocomplete.TextField,
     {
       onChange: updateText,
       label: "Page",
       value: inputValue,
-      prefix: /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(import_polaris20.Icon, { source: import_polaris_icons6.SearchMinor, tone: "base" }, void 0, !1, {
+      prefix: /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(import_polaris19.Icon, { source: import_polaris_icons5.SearchMinor, tone: "base" }, void 0, !1, {
         fileName: "app/components/Form/SiteMap/MenuEditor/index.tsx",
         lineNumber: 108,
         columnNumber: 15
@@ -3374,13 +3352,13 @@ var import_polaris_icons6 = require("@shopify/polaris-icons"), import_jsx_dev_ru
     if (!name)
       return handleChangeErrors({ ...errors, name: FIELD_REQUIRED });
     onSubmit({ page, name, id: get2(menuItem, "id", numberGenerator()) }), handleClose();
-  }, emptyState = /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(import_react22.default.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(import_polaris20.Icon, { source: import_polaris_icons6.SearchMinor }, void 0, !1, {
+  }, emptyState = /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(import_react22.default.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(import_polaris19.Icon, { source: import_polaris_icons5.SearchMinor }, void 0, !1, {
       fileName: "app/components/Form/SiteMap/MenuEditor/index.tsx",
       lineNumber: 130,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)("div", { style: { textAlign: "center" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(import_polaris20.TextContainer, { children: "Could not find any results" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { style: { textAlign: "center" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(import_polaris19.TextContainer, { children: "Could not find any results" }, void 0, !1, {
       fileName: "app/components/Form/SiteMap/MenuEditor/index.tsx",
       lineNumber: 132,
       columnNumber: 9
@@ -3394,8 +3372,8 @@ var import_polaris_icons6 = require("@shopify/polaris-icons"), import_jsx_dev_ru
     lineNumber: 129,
     columnNumber: 5
   }, this);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)("div", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)("div", { style: {}, id: `${page == null ? void 0 : page.id}-page-button`, ref: activatorRef, children: /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(import_polaris20.Button, { size: "micro", onClick: handleOpen, children: activatorElement }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { style: {}, id: `${page == null ? void 0 : page.id}-page-button`, ref: activatorRef, children: /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(import_polaris19.Button, { size: "micro", onClick: handleOpen, children: activatorElement }, void 0, !1, {
       fileName: "app/components/Form/SiteMap/MenuEditor/index.tsx",
       lineNumber: 140,
       columnNumber: 9
@@ -3404,8 +3382,8 @@ var import_polaris_icons6 = require("@shopify/polaris-icons"), import_jsx_dev_ru
       lineNumber: 139,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
-      import_polaris20.Modal,
+    /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
+      import_polaris19.Modal,
       {
         large: !0,
         open: active,
@@ -3422,9 +3400,9 @@ var import_polaris_icons6 = require("@shopify/polaris-icons"), import_jsx_dev_ru
             onAction: handleClose
           }
         ],
-        children: /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(import_polaris20.Modal.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(import_polaris20.Box, { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
-            import_polaris20.TextField,
+        children: /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(import_polaris19.Modal.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(import_polaris19.Box, { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
+            import_polaris19.TextField,
             {
               label: "Name",
               value: name,
@@ -3443,13 +3421,13 @@ var import_polaris_icons6 = require("@shopify/polaris-icons"), import_jsx_dev_ru
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(import_polaris20.Box, { padding: "1" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(import_polaris19.Box, { padding: "1" }, void 0, !1, {
             fileName: "app/components/Form/SiteMap/MenuEditor/index.tsx",
             lineNumber: 172,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
-            import_polaris20.Autocomplete,
+          /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(
+            import_polaris19.Autocomplete,
             {
               options,
               selected: selectedOptions,
@@ -3494,7 +3472,7 @@ var import_polaris_icons6 = require("@shopify/polaris-icons"), import_jsx_dev_ru
 }, MenuEditor_default = MenuEditorForm;
 
 // app/components/Tables/MenuMetaobject.tsx
-var import_jsx_dev_runtime23 = require("react/jsx-dev-runtime"), MenuMetaobject = ({ formik }) => {
+var import_jsx_dev_runtime22 = require("react/jsx-dev-runtime"), MenuMetaobject = ({ formik }) => {
   let resourceName = {
     singular: "menu",
     plural: "menus"
@@ -3511,14 +3489,14 @@ var import_jsx_dev_runtime23 = require("react/jsx-dev-runtime"), MenuMetaobject 
   }, onEdit = (menuItem) => {
     let index = _9.findIndex(menuItems, (_item) => (_item == null ? void 0 : _item.id) === menuItem.id);
     formik.setFieldValue(`menu.menuItems[${index}]`, menuItem);
-  }, SortableItem = (0, import_react_sortable_hoc4.sortableElement)(({ menuItem }, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(
-    import_polaris21.IndexTable.Row,
+  }, SortableItem = (0, import_react_sortable_hoc4.sortableElement)(({ menuItem }, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
+    import_polaris20.IndexTable.Row,
     {
       id: get2(menuItem, "id"),
       position: index,
       children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_polaris21.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_polaris21.ButtonGroup, { segmented: !0, children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_polaris21.Button, { size: "micro", children: /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(DragHandle_default, {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(import_polaris20.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(import_polaris20.ButtonGroup, { segmented: !0, children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(import_polaris20.Button, { size: "micro", children: /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(DragHandle_default, {}, void 0, !1, {
             fileName: "app/components/Tables/MenuMetaobject.tsx",
             lineNumber: 62,
             columnNumber: 13
@@ -3527,14 +3505,14 @@ var import_jsx_dev_runtime23 = require("react/jsx-dev-runtime"), MenuMetaobject 
             lineNumber: 61,
             columnNumber: 11
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(
-            import_polaris21.Button,
+          /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
+            import_polaris20.Button,
             {
               size: "micro",
               onClick: () => {
                 onRemove(menuItem);
               },
-              children: /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(DeleteIcon_default, {}, void 0, !1, {
+              children: /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(DeleteIcon_default, {}, void 0, !1, {
                 fileName: "app/components/Tables/MenuMetaobject.tsx",
                 lineNumber: 70,
                 columnNumber: 13
@@ -3549,12 +3527,12 @@ var import_jsx_dev_runtime23 = require("react/jsx-dev-runtime"), MenuMetaobject 
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
             MenuEditor_default,
             {
               formik,
               menuItem,
-              activatorElement: /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(EditIcon_default, {}, void 0, !1, {
+              activatorElement: /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(EditIcon_default, {}, void 0, !1, {
                 fileName: "app/components/Tables/MenuMetaobject.tsx",
                 lineNumber: 75,
                 columnNumber: 31
@@ -3580,17 +3558,17 @@ var import_jsx_dev_runtime23 = require("react/jsx-dev-runtime"), MenuMetaobject 
           lineNumber: 59,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_polaris21.IndexTable.Cell, { children: truncate(get2(menuItem, "name")) }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(import_polaris20.IndexTable.Cell, { children: truncate(get2(menuItem, "name")) }, void 0, !1, {
           fileName: "app/components/Tables/MenuMetaobject.tsx",
           lineNumber: 81,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_polaris21.IndexTable.Cell, { children: get2(menuItem, "page.name") }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(import_polaris20.IndexTable.Cell, { children: get2(menuItem, "page.name") }, void 0, !1, {
           fileName: "app/components/Tables/MenuMetaobject.tsx",
           lineNumber: 82,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_polaris21.IndexTable.Cell, { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(import_polaris20.IndexTable.Cell, { children: [
           get2(menuItem, "page.handle"),
           " "
         ] }, void 0, !0, {
@@ -3608,8 +3586,8 @@ var import_jsx_dev_runtime23 = require("react/jsx-dev-runtime"), MenuMetaobject 
       columnNumber: 5
     },
     this
-  )), SortableContainer = (0, import_react_sortable_hoc4.sortableContainer)(({ children }) => /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(
-    import_polaris21.IndexTable,
+  )), SortableContainer = (0, import_react_sortable_hoc4.sortableContainer)(({ children }) => /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
+    import_polaris20.IndexTable,
     {
       resourceName,
       itemCount: (menuItems == null ? void 0 : menuItems.length) || 0,
@@ -3631,13 +3609,13 @@ var import_jsx_dev_runtime23 = require("react/jsx-dev-runtime"), MenuMetaobject 
     },
     this
   ));
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_jsx_dev_runtime23.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_polaris21.Box, { padding: 1 }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(import_jsx_dev_runtime22.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(import_polaris20.Box, { padding: 1 }, void 0, !1, {
       fileName: "app/components/Tables/MenuMetaobject.tsx",
       lineNumber: 111,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
       "div",
       {
         style: {
@@ -3646,12 +3624,12 @@ var import_jsx_dev_runtime23 = require("react/jsx-dev-runtime"), MenuMetaobject 
           justifyContent: "space-between"
         },
         children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_polaris21.Text, { variant: "headingMd", as: "h6", children: "Menu Items" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(import_polaris20.Text, { variant: "headingMd", as: "h6", children: "Menu Items" }, void 0, !1, {
             fileName: "app/components/Tables/MenuMetaobject.tsx",
             lineNumber: 119,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
             MenuEditor_default,
             {
               formik,
@@ -3680,10 +3658,10 @@ var import_jsx_dev_runtime23 = require("react/jsx-dev-runtime"), MenuMetaobject 
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_polaris21.LegacyCard, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_polaris21.VerticalStack, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(SortableContainer, { onSortEnd: ({ oldIndex, newIndex }) => {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(import_polaris20.LegacyCard, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(import_polaris20.VerticalStack, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(SortableContainer, { onSortEnd: ({ oldIndex, newIndex }) => {
       let _menuItems = (0, import_react_sortable_hoc4.arrayMove)(menuItems, oldIndex, newIndex);
       handleChangeMenuItems(_menuItems);
-    }, useDragHandle: !0, children: _9.map(menuItems, (value, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(
+    }, useDragHandle: !0, children: _9.map(menuItems, (value, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime22.jsxDEV)(
       SortableItem,
       {
         index,
@@ -3720,11 +3698,11 @@ var import_jsx_dev_runtime23 = require("react/jsx-dev-runtime"), MenuMetaobject 
 }, MenuMetaobject_default = MenuMetaobject;
 
 // app/components/Accordion.tsx
-var import_polaris22 = require("@shopify/polaris");
-var import_polaris_icons7 = require("@shopify/polaris-icons"), import_jsx_dev_runtime24 = require("react/jsx-dev-runtime"), Accordion = ({ children, title }) => {
+var import_polaris21 = require("@shopify/polaris");
+var import_polaris_icons6 = require("@shopify/polaris-icons"), import_jsx_dev_runtime23 = require("react/jsx-dev-runtime"), Accordion = ({ children, title }) => {
   let { active: open, handleClose, handleOpen } = useHandleToggleModal();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(import_jsx_dev_runtime24.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_jsx_dev_runtime23.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(
       "div",
       {
         style: {
@@ -3732,18 +3710,18 @@ var import_polaris_icons7 = require("@shopify/polaris-icons"), import_jsx_dev_ru
           flexDirection: "row"
         },
         children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
-            import_polaris22.Button,
+          /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(
+            import_polaris21.Button,
             {
               size: "micro",
               onClick: open ? handleClose : handleOpen,
               ariaExpanded: open,
               ariaControls: "basic-collapsible",
-              children: open ? /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(import_polaris22.Icon, { source: import_polaris_icons7.ChevronDownMinor, color: "base" }, void 0, !1, {
+              children: open ? /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_polaris21.Icon, { source: import_polaris_icons6.ChevronDownMinor, color: "base" }, void 0, !1, {
                 fileName: "app/components/Accordion.tsx",
                 lineNumber: 25,
                 columnNumber: 13
-              }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(import_polaris22.Icon, { source: import_polaris_icons7.ChevronRightMinor, color: "base" }, void 0, !1, {
+              }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_polaris21.Icon, { source: import_polaris_icons6.ChevronRightMinor, color: "base" }, void 0, !1, {
                 fileName: "app/components/Accordion.tsx",
                 lineNumber: 23,
                 columnNumber: 13
@@ -3758,7 +3736,7 @@ var import_polaris_icons7 = require("@shopify/polaris-icons"), import_jsx_dev_ru
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(import_polaris22.Text, { variant: "headingMd", as: "h6", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(import_polaris21.Text, { variant: "headingMd", as: "h6", children: [
             "\xA0\xA0\xA0 ",
             title
           ] }, void 0, !0, {
@@ -3777,8 +3755,8 @@ var import_polaris_icons7 = require("@shopify/polaris-icons"), import_jsx_dev_ru
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
-      import_polaris22.Collapsible,
+    /* @__PURE__ */ (0, import_jsx_dev_runtime23.jsxDEV)(
+      import_polaris21.Collapsible,
       {
         open,
         id: "basic-collapsible",
@@ -3803,16 +3781,16 @@ var import_polaris_icons7 = require("@shopify/polaris-icons"), import_jsx_dev_ru
 }, Accordion_default = Accordion;
 
 // app/components/Tables/FaqMetaObjects.tsx
-var import_polaris25 = require("@shopify/polaris");
+var import_polaris24 = require("@shopify/polaris");
 var import_react26 = require("react");
 var import_react_sortable_hoc5 = require("react-sortable-hoc"), _11 = __toESM(require("lodash"));
 
 // app/components/Form/SiteMap/FaqForm.tsx
 var import_react25 = require("react");
-var _10 = __toESM(require("lodash")), import_polaris24 = require("@shopify/polaris");
+var _10 = __toESM(require("lodash")), import_polaris23 = require("@shopify/polaris");
 
 // app/components/Form/Fields/SelectField.tsx
-var import_polaris23 = require("@shopify/polaris"), import_polaris_icons8 = require("@shopify/polaris-icons"), import_react24 = require("react"), import_jsx_dev_runtime25 = require("react/jsx-dev-runtime");
+var import_polaris22 = require("@shopify/polaris"), import_polaris_icons7 = require("@shopify/polaris-icons"), import_react24 = require("react"), import_jsx_dev_runtime24 = require("react/jsx-dev-runtime");
 function SelectField({
   options,
   loading,
@@ -3842,13 +3820,13 @@ function SelectField({
       setSelectedOptions(selected), setInputValue(selectedText[0] || "");
     },
     [options]
-  ), textField = /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(
-    import_polaris23.Autocomplete.TextField,
+  ), textField = /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
+    import_polaris22.Autocomplete.TextField,
     {
       onChange: updateText,
       label,
       value: inputValue,
-      prefix: /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(import_polaris23.Icon, { source: import_polaris_icons8.SearchMinor, color: "base" }, void 0, !1, {
+      prefix: /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(import_polaris22.Icon, { source: import_polaris_icons7.SearchMinor, color: "base" }, void 0, !1, {
         fileName: "app/components/Form/Fields/SelectField.tsx",
         lineNumber: 49,
         columnNumber: 15
@@ -3866,8 +3844,8 @@ function SelectField({
     },
     this
   );
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(
-    import_polaris23.Autocomplete,
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime24.jsxDEV)(
+    import_polaris22.Autocomplete,
     {
       options,
       selected: selectedOptions,
@@ -3892,7 +3870,7 @@ function SelectField({
 var SelectField_default = SelectField;
 
 // app/components/Form/SiteMap/FaqForm.tsx
-var import_jsx_dev_runtime26 = require("react/jsx-dev-runtime"), FaqForm = ({ fetcher, activatorTitle, formik }) => {
+var import_jsx_dev_runtime25 = require("react/jsx-dev-runtime"), FaqForm = ({ fetcher, activatorTitle, formik }) => {
   let [faq, setFaq] = (0, import_react25.useState)(), handleSetFaq = (0, import_react25.useCallback)((value) => setFaq(value), []), { active, handleClose, handleOpen } = useHandleToggleModal(), [loading, setLoading] = (0, import_react25.useState)(!1), handleLoading = (0, import_react25.useCallback)((value) => setLoading(value), []), [options, setOptions] = (0, import_react25.useState)([]), [selectedOptions, setSelectedOptions] = (0, import_react25.useState)([]), [error, setError] = (0, import_react25.useState)(), handleSelectedOption = (0, import_react25.useCallback)(
     (value) => {
       let _faq = options == null ? void 0 : options.filter((it) => get2(it, "value") == get2(value, "[0]"));
@@ -3923,10 +3901,10 @@ var import_jsx_dev_runtime26 = require("react/jsx-dev-runtime"), FaqForm = ({ fe
       )}&before=${_10.get(data, "before")}`
     );
   };
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(
-    import_polaris24.Modal,
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(
+    import_polaris23.Modal,
     {
-      activator: /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(import_polaris24.Button, { size: "micro", onClick: handleOpen, children: activatorTitle }, void 0, !1, {
+      activator: /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(import_polaris23.Button, { size: "micro", onClick: handleOpen, children: activatorTitle }, void 0, !1, {
         fileName: "app/components/Form/SiteMap/FaqForm.tsx",
         lineNumber: 69,
         columnNumber: 5
@@ -3946,13 +3924,13 @@ var import_jsx_dev_runtime26 = require("react/jsx-dev-runtime"), FaqForm = ({ fe
           onAction: handleClose
         }
       ],
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(import_polaris24.Modal.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(import_polaris24.Box, { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(import_polaris24.Box, { padding: "2" }, void 0, !1, {
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(import_polaris23.Modal.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(import_polaris23.Box, { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(import_polaris23.Box, { padding: "2" }, void 0, !1, {
           fileName: "app/components/Form/SiteMap/FaqForm.tsx",
           lineNumber: 93,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(
           SelectField_default,
           {
             onSearch,
@@ -3973,7 +3951,7 @@ var import_jsx_dev_runtime26 = require("react/jsx-dev-runtime"), FaqForm = ({ fe
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(import_polaris24.Box, { padding: "2" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime25.jsxDEV)(import_polaris23.Box, { padding: "2" }, void 0, !1, {
           fileName: "app/components/Form/SiteMap/FaqForm.tsx",
           lineNumber: 104,
           columnNumber: 11
@@ -4000,7 +3978,7 @@ var import_jsx_dev_runtime26 = require("react/jsx-dev-runtime"), FaqForm = ({ fe
 }, FaqForm_default = FaqForm;
 
 // app/components/Tables/FaqMetaObjects.tsx
-var import_jsx_dev_runtime27 = require("react/jsx-dev-runtime"), FaqMetaObjects = ({ formik, faqFetcher: fetcher }) => {
+var import_jsx_dev_runtime26 = require("react/jsx-dev-runtime"), FaqMetaObjects = ({ formik, faqFetcher: fetcher }) => {
   let resourceName = {
     singular: "faq",
     plural: "faqs"
@@ -4012,14 +3990,14 @@ var import_jsx_dev_runtime27 = require("react/jsx-dev-runtime"), FaqMetaObjects 
       "faq",
       faqs == null ? void 0 : faqs.filter((it) => get2(it, "id") !== id)
     );
-  }, SortableItem = (0, import_react_sortable_hoc5.sortableElement)((faq, type, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(
-    import_polaris25.IndexTable.Row,
+  }, SortableItem = (0, import_react_sortable_hoc5.sortableElement)((faq, type, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(
+    import_polaris24.IndexTable.Row,
     {
       id: get2(faq, "id"),
       position: index,
       children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(import_polaris25.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(import_polaris25.ButtonGroup, { segmented: !0, children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(import_polaris25.Button, { size: "micro", children: /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(DragHandle_default, {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(import_polaris24.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(import_polaris24.ButtonGroup, { segmented: !0, children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(import_polaris24.Button, { size: "micro", children: /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(DragHandle_default, {}, void 0, !1, {
             fileName: "app/components/Tables/FaqMetaObjects.tsx",
             lineNumber: 51,
             columnNumber: 13
@@ -4028,14 +4006,14 @@ var import_jsx_dev_runtime27 = require("react/jsx-dev-runtime"), FaqMetaObjects 
             lineNumber: 50,
             columnNumber: 11
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(
-            import_polaris25.Button,
+          /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(
+            import_polaris24.Button,
             {
               size: "micro",
               onClick: () => {
                 onRemove(get2(faq, "id"));
               },
-              children: /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(DeleteIcon_default, {}, void 0, !1, {
+              children: /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(DeleteIcon_default, {}, void 0, !1, {
                 fileName: "app/components/Tables/FaqMetaObjects.tsx",
                 lineNumber: 59,
                 columnNumber: 13
@@ -4059,19 +4037,19 @@ var import_jsx_dev_runtime27 = require("react/jsx-dev-runtime"), FaqMetaObjects 
           lineNumber: 48,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(import_polaris25.IndexTable.Cell, { children: get2(faq, "name") }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(import_polaris24.IndexTable.Cell, { children: get2(faq, "name") }, void 0, !1, {
           fileName: "app/components/Tables/FaqMetaObjects.tsx",
-          lineNumber: 72,
+          lineNumber: 69,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(import_polaris25.IndexTable.Cell, { children: get2(faq, "type") }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(import_polaris24.IndexTable.Cell, { children: get2(faq, "type") }, void 0, !1, {
           fileName: "app/components/Tables/FaqMetaObjects.tsx",
-          lineNumber: 73,
+          lineNumber: 70,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(import_polaris25.IndexTable.Cell, { children: get2(faq, "id") }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(import_polaris24.IndexTable.Cell, { children: get2(faq, "id") }, void 0, !1, {
           fileName: "app/components/Tables/FaqMetaObjects.tsx",
-          lineNumber: 74,
+          lineNumber: 71,
           columnNumber: 7
         }, this)
       ]
@@ -4084,8 +4062,8 @@ var import_jsx_dev_runtime27 = require("react/jsx-dev-runtime"), FaqMetaObjects 
       columnNumber: 5
     },
     this
-  )), SortableContainer = (0, import_react_sortable_hoc5.sortableContainer)(({ children }) => /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(
-    import_polaris25.IndexTable,
+  )), SortableContainer = (0, import_react_sortable_hoc5.sortableContainer)(({ children }) => /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(
+    import_polaris24.IndexTable,
     {
       resourceName,
       itemCount: (faqs == null ? void 0 : faqs.length) || 0,
@@ -4102,13 +4080,13 @@ var import_jsx_dev_runtime27 = require("react/jsx-dev-runtime"), FaqMetaObjects 
     !1,
     {
       fileName: "app/components/Tables/FaqMetaObjects.tsx",
-      lineNumber: 79,
+      lineNumber: 76,
       columnNumber: 7
     },
     this
   ));
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(import_jsx_dev_runtime27.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(import_jsx_dev_runtime26.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(
       "div",
       {
         style: {
@@ -4117,14 +4095,14 @@ var import_jsx_dev_runtime27 = require("react/jsx-dev-runtime"), FaqMetaObjects 
           justifyContent: "space-between"
         },
         children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(import_polaris25.Text, { variant: "headingMd", as: "h6", children: "\xA0" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(import_polaris24.Text, { variant: "headingMd", as: "h6", children: "\xA0" }, void 0, !1, {
             fileName: "app/components/Tables/FaqMetaObjects.tsx",
-            lineNumber: 108,
+            lineNumber: 105,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(FaqForm_default, { fetcher, activatorTitle: "Add FAQ", formik }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(FaqForm_default, { fetcher, activatorTitle: "Add FAQ", formik }, void 0, !1, {
             fileName: "app/components/Tables/FaqMetaObjects.tsx",
-            lineNumber: 112,
+            lineNumber: 109,
             columnNumber: 9
           }, this)
         ]
@@ -4133,20 +4111,20 @@ var import_jsx_dev_runtime27 = require("react/jsx-dev-runtime"), FaqMetaObjects 
       !0,
       {
         fileName: "app/components/Tables/FaqMetaObjects.tsx",
-        lineNumber: 101,
+        lineNumber: 98,
         columnNumber: 7
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(import_polaris25.Box, { padding: 2 }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(import_polaris24.Box, { padding: 2 }, void 0, !1, {
       fileName: "app/components/Tables/FaqMetaObjects.tsx",
-      lineNumber: 114,
+      lineNumber: 111,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(import_polaris25.LegacyCard, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(import_polaris25.VerticalStack, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(SortableContainer, { onSortEnd: ({ oldIndex, newIndex }) => {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(import_polaris24.LegacyCard, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(import_polaris24.VerticalStack, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(SortableContainer, { onSortEnd: ({ oldIndex, newIndex }) => {
       let _items = (0, import_react_sortable_hoc5.arrayMove)(faqs, oldIndex, newIndex);
       formik.setFieldValue("faq", _items);
-    }, useDragHandle: !0, children: _11.map(faqs, (value, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(
+    }, useDragHandle: !0, children: _11.map(faqs, (value, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime26.jsxDEV)(
       SortableItem,
       {
         index,
@@ -4160,39 +4138,39 @@ var import_jsx_dev_runtime27 = require("react/jsx-dev-runtime"), FaqMetaObjects 
       !1,
       {
         fileName: "app/components/Tables/FaqMetaObjects.tsx",
-        lineNumber: 119,
+        lineNumber: 116,
         columnNumber: 15
       },
       this
     )) }, void 0, !1, {
       fileName: "app/components/Tables/FaqMetaObjects.tsx",
-      lineNumber: 117,
+      lineNumber: 114,
       columnNumber: 11
     }, this) }, void 0, !1, {
       fileName: "app/components/Tables/FaqMetaObjects.tsx",
-      lineNumber: 116,
+      lineNumber: 113,
       columnNumber: 9
     }, this) }, void 0, !1, {
       fileName: "app/components/Tables/FaqMetaObjects.tsx",
-      lineNumber: 115,
+      lineNumber: 112,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/Tables/FaqMetaObjects.tsx",
-    lineNumber: 100,
+    lineNumber: 97,
     columnNumber: 5
   }, this);
 }, FaqMetaObjects_default = FaqMetaObjects;
 
 // app/components/Tables/ArticleMetaobject.tsx
-var import_polaris27 = require("@shopify/polaris");
+var import_polaris26 = require("@shopify/polaris");
 var import_react28 = require("react");
 var import_react_sortable_hoc6 = require("react-sortable-hoc"), _13 = __toESM(require("lodash"));
 
 // app/components/Form/SiteMap/ArticleForm.tsx
 var import_react27 = require("react");
-var _12 = __toESM(require("lodash")), import_polaris26 = require("@shopify/polaris");
-var import_jsx_dev_runtime28 = require("react/jsx-dev-runtime"), ArticleForm = ({ fetcher, activatorTitle, formik }) => {
+var _12 = __toESM(require("lodash")), import_polaris25 = require("@shopify/polaris");
+var import_jsx_dev_runtime27 = require("react/jsx-dev-runtime"), ArticleForm = ({ fetcher, activatorTitle, formik }) => {
   let [faq, setFaq] = (0, import_react27.useState)(), handleSetFaq = (0, import_react27.useCallback)((value) => setFaq(value), []), { active, handleClose, handleOpen } = useHandleToggleModal(), [loading, setLoading] = (0, import_react27.useState)(!1), handleLoading = (0, import_react27.useCallback)((value) => setLoading(value), []), [options, setOptions] = (0, import_react27.useState)([]), [selectedOptions, setSelectedOptions] = (0, import_react27.useState)([]), [error, setError] = (0, import_react27.useState)(), handleSelectedOption = (0, import_react27.useCallback)(
     (value) => {
       let _faq = options == null ? void 0 : options.filter((it) => get2(it, "value") == get2(value, "[0]"));
@@ -4223,10 +4201,10 @@ var import_jsx_dev_runtime28 = require("react/jsx-dev-runtime"), ArticleForm = (
       )}&before=${_12.get(data, "before")}`
     );
   };
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(
-    import_polaris26.Modal,
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(
+    import_polaris25.Modal,
     {
-      activator: /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(import_polaris26.Button, { size: "micro", onClick: handleOpen, children: activatorTitle }, void 0, !1, {
+      activator: /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(import_polaris25.Button, { size: "micro", onClick: handleOpen, children: activatorTitle }, void 0, !1, {
         fileName: "app/components/Form/SiteMap/ArticleForm.tsx",
         lineNumber: 69,
         columnNumber: 5
@@ -4246,13 +4224,13 @@ var import_jsx_dev_runtime28 = require("react/jsx-dev-runtime"), ArticleForm = (
           onAction: handleClose
         }
       ],
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(import_polaris26.Modal.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(import_polaris26.Box, { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(import_polaris26.Box, { padding: "2" }, void 0, !1, {
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(import_polaris25.Modal.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(import_polaris25.Box, { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(import_polaris25.Box, { padding: "2" }, void 0, !1, {
           fileName: "app/components/Form/SiteMap/ArticleForm.tsx",
           lineNumber: 93,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(
           SelectField_default,
           {
             onSearch,
@@ -4273,7 +4251,7 @@ var import_jsx_dev_runtime28 = require("react/jsx-dev-runtime"), ArticleForm = (
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(import_polaris26.Box, { padding: "2" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime27.jsxDEV)(import_polaris25.Box, { padding: "2" }, void 0, !1, {
           fileName: "app/components/Form/SiteMap/ArticleForm.tsx",
           lineNumber: 104,
           columnNumber: 11
@@ -4300,7 +4278,7 @@ var import_jsx_dev_runtime28 = require("react/jsx-dev-runtime"), ArticleForm = (
 }, ArticleForm_default = ArticleForm;
 
 // app/components/Tables/ArticleMetaobject.tsx
-var import_jsx_dev_runtime29 = require("react/jsx-dev-runtime"), ArticleMetaobject = ({ formik, faqFetcher: fetcher }) => {
+var import_jsx_dev_runtime28 = require("react/jsx-dev-runtime"), ArticleMetaobject = ({ formik, faqFetcher: fetcher }) => {
   let resourceName = {
     singular: "article",
     plural: "articles"
@@ -4312,32 +4290,32 @@ var import_jsx_dev_runtime29 = require("react/jsx-dev-runtime"), ArticleMetaobje
       "articles",
       articles == null ? void 0 : articles.filter((it) => get2(it, "id") !== id)
     );
-  }, SortableItem = (0, import_react_sortable_hoc6.sortableElement)((faq, type, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(
-    import_polaris27.IndexTable.Row,
+  }, SortableItem = (0, import_react_sortable_hoc6.sortableElement)((faq, type, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(
+    import_polaris26.IndexTable.Row,
     {
       id: get2(faq, "id"),
       position: index,
       children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(import_polaris27.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(import_polaris27.ButtonGroup, { segmented: !0, children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(import_polaris27.Button, { size: "micro", children: /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(DragHandle_default, {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(import_polaris26.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(import_polaris26.ButtonGroup, { segmented: !0, children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(import_polaris26.Button, { size: "micro", children: /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(DragHandle_default, {}, void 0, !1, {
             fileName: "app/components/Tables/ArticleMetaobject.tsx",
-            lineNumber: 50,
+            lineNumber: 49,
             columnNumber: 13
           }, this) }, void 0, !1, {
             fileName: "app/components/Tables/ArticleMetaobject.tsx",
-            lineNumber: 49,
+            lineNumber: 48,
             columnNumber: 11
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(
-            import_polaris27.Button,
+          /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(
+            import_polaris26.Button,
             {
               size: "micro",
               onClick: () => {
                 onRemove(get2(faq, "id"));
               },
-              children: /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(DeleteIcon_default, {}, void 0, !1, {
+              children: /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(DeleteIcon_default, {}, void 0, !1, {
                 fileName: "app/components/Tables/ArticleMetaobject.tsx",
-                lineNumber: 58,
+                lineNumber: 57,
                 columnNumber: 13
               }, this)
             },
@@ -4345,42 +4323,33 @@ var import_jsx_dev_runtime29 = require("react/jsx-dev-runtime"), ArticleMetaobje
             !1,
             {
               fileName: "app/components/Tables/ArticleMetaobject.tsx",
-              lineNumber: 52,
+              lineNumber: 51,
               columnNumber: 11
             },
             this
-          ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(import_polaris27.Button, { size: "micro", children: /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(SearchIcon_default, {}, void 0, !1, {
-            fileName: "app/components/Tables/ArticleMetaobject.tsx",
-            lineNumber: 62,
-            columnNumber: 13
-          }, this) }, void 0, !1, {
-            fileName: "app/components/Tables/ArticleMetaobject.tsx",
-            lineNumber: 61,
-            columnNumber: 11
-          }, this)
+          )
         ] }, void 0, !0, {
           fileName: "app/components/Tables/ArticleMetaobject.tsx",
-          lineNumber: 48,
+          lineNumber: 47,
           columnNumber: 9
         }, this) }, void 0, !1, {
           fileName: "app/components/Tables/ArticleMetaobject.tsx",
-          lineNumber: 47,
+          lineNumber: 46,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(import_polaris27.IndexTable.Cell, { children: get2(faq, "name") }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(import_polaris26.IndexTable.Cell, { children: get2(faq, "name") }, void 0, !1, {
           fileName: "app/components/Tables/ArticleMetaobject.tsx",
-          lineNumber: 67,
+          lineNumber: 61,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(import_polaris27.IndexTable.Cell, { children: get2(faq, "type") }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(import_polaris26.IndexTable.Cell, { children: get2(faq, "type") }, void 0, !1, {
           fileName: "app/components/Tables/ArticleMetaobject.tsx",
-          lineNumber: 68,
+          lineNumber: 62,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(import_polaris27.IndexTable.Cell, { children: get2(faq, "id") }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(import_polaris26.IndexTable.Cell, { children: get2(faq, "id") }, void 0, !1, {
           fileName: "app/components/Tables/ArticleMetaobject.tsx",
-          lineNumber: 69,
+          lineNumber: 63,
           columnNumber: 7
         }, this)
       ]
@@ -4389,12 +4358,12 @@ var import_jsx_dev_runtime29 = require("react/jsx-dev-runtime"), ArticleMetaobje
     !0,
     {
       fileName: "app/components/Tables/ArticleMetaobject.tsx",
-      lineNumber: 42,
+      lineNumber: 41,
       columnNumber: 5
     },
     this
-  )), SortableContainer = (0, import_react_sortable_hoc6.sortableContainer)(({ children }) => /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(
-    import_polaris27.IndexTable,
+  )), SortableContainer = (0, import_react_sortable_hoc6.sortableContainer)(({ children }) => /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(
+    import_polaris26.IndexTable,
     {
       resourceName,
       itemCount: (articles == null ? void 0 : articles.length) || 0,
@@ -4411,13 +4380,13 @@ var import_jsx_dev_runtime29 = require("react/jsx-dev-runtime"), ArticleMetaobje
     !1,
     {
       fileName: "app/components/Tables/ArticleMetaobject.tsx",
-      lineNumber: 74,
+      lineNumber: 68,
       columnNumber: 7
     },
     this
   ));
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(import_jsx_dev_runtime29.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(import_jsx_dev_runtime28.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(
       "div",
       {
         style: {
@@ -4426,12 +4395,12 @@ var import_jsx_dev_runtime29 = require("react/jsx-dev-runtime"), ArticleMetaobje
           justifyContent: "space-between"
         },
         children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(import_polaris27.Text, { variant: "headingMd", as: "h6", children: "\xA0" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(import_polaris26.Text, { variant: "headingMd", as: "h6", children: "\xA0" }, void 0, !1, {
             fileName: "app/components/Tables/ArticleMetaobject.tsx",
-            lineNumber: 103,
+            lineNumber: 97,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(
             ArticleForm_default,
             {
               fetcher,
@@ -4442,7 +4411,7 @@ var import_jsx_dev_runtime29 = require("react/jsx-dev-runtime"), ArticleMetaobje
             !1,
             {
               fileName: "app/components/Tables/ArticleMetaobject.tsx",
-              lineNumber: 107,
+              lineNumber: 101,
               columnNumber: 9
             },
             this
@@ -4453,20 +4422,20 @@ var import_jsx_dev_runtime29 = require("react/jsx-dev-runtime"), ArticleMetaobje
       !0,
       {
         fileName: "app/components/Tables/ArticleMetaobject.tsx",
-        lineNumber: 96,
+        lineNumber: 90,
         columnNumber: 7
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(import_polaris27.Box, { padding: 2 }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(import_polaris26.Box, { padding: 2 }, void 0, !1, {
       fileName: "app/components/Tables/ArticleMetaobject.tsx",
-      lineNumber: 113,
+      lineNumber: 107,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(import_polaris27.LegacyCard, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(import_polaris27.VerticalStack, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(SortableContainer, { onSortEnd: ({ oldIndex, newIndex }) => {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(import_polaris26.LegacyCard, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(import_polaris26.VerticalStack, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(SortableContainer, { onSortEnd: ({ oldIndex, newIndex }) => {
       let _items = (0, import_react_sortable_hoc6.arrayMove)(articles, oldIndex, newIndex);
       formik.setFieldValue("articles", _items);
-    }, useDragHandle: !0, children: _13.map(articles, (value, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(
+    }, useDragHandle: !0, children: _13.map(articles, (value, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime28.jsxDEV)(
       SortableItem,
       {
         index,
@@ -4480,39 +4449,39 @@ var import_jsx_dev_runtime29 = require("react/jsx-dev-runtime"), ArticleMetaobje
       !1,
       {
         fileName: "app/components/Tables/ArticleMetaobject.tsx",
-        lineNumber: 118,
+        lineNumber: 112,
         columnNumber: 15
       },
       this
     )) }, void 0, !1, {
       fileName: "app/components/Tables/ArticleMetaobject.tsx",
-      lineNumber: 116,
+      lineNumber: 110,
       columnNumber: 11
     }, this) }, void 0, !1, {
       fileName: "app/components/Tables/ArticleMetaobject.tsx",
-      lineNumber: 115,
+      lineNumber: 109,
       columnNumber: 9
     }, this) }, void 0, !1, {
       fileName: "app/components/Tables/ArticleMetaobject.tsx",
-      lineNumber: 114,
+      lineNumber: 108,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/Tables/ArticleMetaobject.tsx",
-    lineNumber: 95,
+    lineNumber: 89,
     columnNumber: 5
   }, this);
 }, ArticleMetaobject_default = ArticleMetaobject;
 
 // app/components/Tables/CollectionMetaobject.tsx
-var import_polaris29 = require("@shopify/polaris");
+var import_polaris28 = require("@shopify/polaris");
 var import_react30 = require("react");
 var import_react_sortable_hoc7 = require("react-sortable-hoc"), _15 = __toESM(require("lodash"));
 
 // app/components/Form/SiteMap/CollectionForm.tsx
 var import_react29 = require("react");
-var _14 = __toESM(require("lodash")), import_polaris28 = require("@shopify/polaris");
-var import_jsx_dev_runtime30 = require("react/jsx-dev-runtime"), CollectionForm = ({ fetcher, activatorTitle, formik }) => {
+var _14 = __toESM(require("lodash")), import_polaris27 = require("@shopify/polaris");
+var import_jsx_dev_runtime29 = require("react/jsx-dev-runtime"), CollectionForm = ({ fetcher, activatorTitle, formik }) => {
   let [faq, setFaq] = (0, import_react29.useState)(), handleSetFaq = (0, import_react29.useCallback)((value) => setFaq(value), []), { active, handleClose, handleOpen } = useHandleToggleModal(), [loading, setLoading] = (0, import_react29.useState)(!1), [options, setOptions] = (0, import_react29.useState)([]), [selectedOptions, setSelectedOptions] = (0, import_react29.useState)([]), [error, setError] = (0, import_react29.useState)(), handleSelectedOption = (0, import_react29.useCallback)(
     (value) => {
       let _faq = options == null ? void 0 : options.filter((it) => get2(it, "value") == get2(value, "[0]"));
@@ -4546,10 +4515,10 @@ var import_jsx_dev_runtime30 = require("react/jsx-dev-runtime"), CollectionForm 
       )}&before=${_14.get(data, "before")}`
     );
   };
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(
-    import_polaris28.Modal,
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(
+    import_polaris27.Modal,
     {
-      activator: /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_polaris28.Button, { size: "micro", onClick: handleOpen, children: activatorTitle }, void 0, !1, {
+      activator: /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(import_polaris27.Button, { size: "micro", onClick: handleOpen, children: activatorTitle }, void 0, !1, {
         fileName: "app/components/Form/SiteMap/CollectionForm.tsx",
         lineNumber: 74,
         columnNumber: 5
@@ -4572,13 +4541,13 @@ var import_jsx_dev_runtime30 = require("react/jsx-dev-runtime"), CollectionForm 
           onAction: handleClose
         }
       ],
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_polaris28.Modal.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_polaris28.Box, { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_polaris28.Box, { padding: "2" }, void 0, !1, {
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(import_polaris27.Modal.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(import_polaris27.Box, { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(import_polaris27.Box, { padding: "2" }, void 0, !1, {
           fileName: "app/components/Form/SiteMap/CollectionForm.tsx",
           lineNumber: 98,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(
           SelectField_default,
           {
             onSearch,
@@ -4599,7 +4568,7 @@ var import_jsx_dev_runtime30 = require("react/jsx-dev-runtime"), CollectionForm 
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_polaris28.Box, { padding: "2" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime29.jsxDEV)(import_polaris27.Box, { padding: "2" }, void 0, !1, {
           fileName: "app/components/Form/SiteMap/CollectionForm.tsx",
           lineNumber: 109,
           columnNumber: 11
@@ -4626,7 +4595,7 @@ var import_jsx_dev_runtime30 = require("react/jsx-dev-runtime"), CollectionForm 
 }, CollectionForm_default = CollectionForm;
 
 // app/components/Tables/CollectionMetaobject.tsx
-var import_jsx_dev_runtime31 = require("react/jsx-dev-runtime"), CollectionMetaobject = ({ formik, faqFetcher: fetcher }) => {
+var import_jsx_dev_runtime30 = require("react/jsx-dev-runtime"), CollectionMetaobject = ({ formik, faqFetcher: fetcher }) => {
   let resourceName = {
     singular: "collection",
     plural: "collections"
@@ -4638,14 +4607,14 @@ var import_jsx_dev_runtime31 = require("react/jsx-dev-runtime"), CollectionMetao
       "product_collections",
       product_collections == null ? void 0 : product_collections.filter((it) => get2(it, "id") !== id)
     );
-  }, SortableItem = (0, import_react_sortable_hoc7.sortableElement)((faq, type, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
-    import_polaris29.IndexTable.Row,
+  }, SortableItem = (0, import_react_sortable_hoc7.sortableElement)((faq, type, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(
+    import_polaris28.IndexTable.Row,
     {
       id: get2(faq, "id"),
       position: index,
       children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_polaris29.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_polaris29.ButtonGroup, { segmented: !0, children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_polaris29.Button, { size: "micro", children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(DragHandle_default, {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_polaris28.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_polaris28.ButtonGroup, { segmented: !0, children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_polaris28.Button, { size: "micro", children: /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(DragHandle_default, {}, void 0, !1, {
             fileName: "app/components/Tables/CollectionMetaobject.tsx",
             lineNumber: 49,
             columnNumber: 13
@@ -4654,14 +4623,14 @@ var import_jsx_dev_runtime31 = require("react/jsx-dev-runtime"), CollectionMetao
             lineNumber: 48,
             columnNumber: 11
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
-            import_polaris29.Button,
+          /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(
+            import_polaris28.Button,
             {
               size: "micro",
               onClick: () => {
                 onRemove(get2(faq, "id"));
               },
-              children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(DeleteIcon_default, {}, void 0, !1, {
+              children: /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(DeleteIcon_default, {}, void 0, !1, {
                 fileName: "app/components/Tables/CollectionMetaobject.tsx",
                 lineNumber: 57,
                 columnNumber: 13
@@ -4685,19 +4654,19 @@ var import_jsx_dev_runtime31 = require("react/jsx-dev-runtime"), CollectionMetao
           lineNumber: 46,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_polaris29.IndexTable.Cell, { children: get2(faq, "name") }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_polaris28.IndexTable.Cell, { children: get2(faq, "name") }, void 0, !1, {
+          fileName: "app/components/Tables/CollectionMetaobject.tsx",
+          lineNumber: 61,
+          columnNumber: 7
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_polaris28.IndexTable.Cell, { children: get2(faq, "type") }, void 0, !1, {
           fileName: "app/components/Tables/CollectionMetaobject.tsx",
           lineNumber: 62,
           columnNumber: 7
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_polaris29.IndexTable.Cell, { children: get2(faq, "type") }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_polaris28.IndexTable.Cell, { children: get2(faq, "id") }, void 0, !1, {
           fileName: "app/components/Tables/CollectionMetaobject.tsx",
           lineNumber: 63,
-          columnNumber: 7
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_polaris29.IndexTable.Cell, { children: get2(faq, "id") }, void 0, !1, {
-          fileName: "app/components/Tables/CollectionMetaobject.tsx",
-          lineNumber: 64,
           columnNumber: 7
         }, this)
       ]
@@ -4710,8 +4679,8 @@ var import_jsx_dev_runtime31 = require("react/jsx-dev-runtime"), CollectionMetao
       columnNumber: 5
     },
     this
-  )), SortableContainer = (0, import_react_sortable_hoc7.sortableContainer)(({ children }) => /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
-    import_polaris29.IndexTable,
+  )), SortableContainer = (0, import_react_sortable_hoc7.sortableContainer)(({ children }) => /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(
+    import_polaris28.IndexTable,
     {
       resourceName,
       itemCount: (product_collections == null ? void 0 : product_collections.length) || 0,
@@ -4728,13 +4697,13 @@ var import_jsx_dev_runtime31 = require("react/jsx-dev-runtime"), CollectionMetao
     !1,
     {
       fileName: "app/components/Tables/CollectionMetaobject.tsx",
-      lineNumber: 69,
+      lineNumber: 68,
       columnNumber: 7
     },
     this
   ));
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_jsx_dev_runtime31.Fragment, { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_jsx_dev_runtime30.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(
       "div",
       {
         style: {
@@ -4743,12 +4712,12 @@ var import_jsx_dev_runtime31 = require("react/jsx-dev-runtime"), CollectionMetao
           justifyContent: "space-between"
         },
         children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_polaris29.Text, { variant: "headingMd", as: "h6", children: "\xA0" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_polaris28.Text, { variant: "headingMd", as: "h6", children: "\xA0" }, void 0, !1, {
             fileName: "app/components/Tables/CollectionMetaobject.tsx",
-            lineNumber: 98,
+            lineNumber: 97,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(
             CollectionForm_default,
             {
               fetcher,
@@ -4759,7 +4728,7 @@ var import_jsx_dev_runtime31 = require("react/jsx-dev-runtime"), CollectionMetao
             !1,
             {
               fileName: "app/components/Tables/CollectionMetaobject.tsx",
-              lineNumber: 102,
+              lineNumber: 101,
               columnNumber: 9
             },
             this
@@ -4770,20 +4739,20 @@ var import_jsx_dev_runtime31 = require("react/jsx-dev-runtime"), CollectionMetao
       !0,
       {
         fileName: "app/components/Tables/CollectionMetaobject.tsx",
-        lineNumber: 91,
+        lineNumber: 90,
         columnNumber: 7
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_polaris29.Box, { padding: 2 }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_polaris28.Box, { padding: 2 }, void 0, !1, {
       fileName: "app/components/Tables/CollectionMetaobject.tsx",
-      lineNumber: 108,
+      lineNumber: 107,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_polaris29.LegacyCard, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_polaris29.VerticalStack, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(SortableContainer, { onSortEnd: ({ oldIndex, newIndex }) => {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_polaris28.LegacyCard, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(import_polaris28.VerticalStack, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(SortableContainer, { onSortEnd: ({ oldIndex, newIndex }) => {
       let _items = (0, import_react_sortable_hoc7.arrayMove)(product_collections, oldIndex, newIndex);
       formik.setFieldValue("product_collections", _items);
-    }, useDragHandle: !0, children: _15.map(product_collections, (value, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
+    }, useDragHandle: !0, children: _15.map(product_collections, (value, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime30.jsxDEV)(
       SortableItem,
       {
         index,
@@ -4797,32 +4766,32 @@ var import_jsx_dev_runtime31 = require("react/jsx-dev-runtime"), CollectionMetao
       !1,
       {
         fileName: "app/components/Tables/CollectionMetaobject.tsx",
-        lineNumber: 113,
+        lineNumber: 112,
         columnNumber: 15
       },
       this
     )) }, void 0, !1, {
       fileName: "app/components/Tables/CollectionMetaobject.tsx",
-      lineNumber: 111,
+      lineNumber: 110,
       columnNumber: 11
     }, this) }, void 0, !1, {
       fileName: "app/components/Tables/CollectionMetaobject.tsx",
-      lineNumber: 110,
+      lineNumber: 109,
       columnNumber: 9
     }, this) }, void 0, !1, {
       fileName: "app/components/Tables/CollectionMetaobject.tsx",
-      lineNumber: 109,
+      lineNumber: 108,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/Tables/CollectionMetaobject.tsx",
-    lineNumber: 90,
+    lineNumber: 89,
     columnNumber: 5
   }, this);
 }, CollectionMetaobject_default = CollectionMetaobject;
 
 // app/routes/app.site-map.$handle.tsx
-var import_jsx_dev_runtime32 = require("react/jsx-dev-runtime"), links = () => [
+var import_jsx_dev_runtime31 = require("react/jsx-dev-runtime"), links = () => [
   { rel: "stylesheet", href: markdown_editor_default },
   { rel: "stylesheet", href: markdown_default },
   { rel: "stylesheet", href: styles_default }
@@ -4986,8 +4955,8 @@ function SiteMetaPage() {
   }), { values } = (0, import_react32.useMemo)(() => formik, [formik]);
   return (0, import_react32.useEffect)(() => {
     handleLoadingChange(!1), setFormDirty(!1), formik.resetForm({ values });
-  }, [actionData]), /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(
-    import_polaris30.Page,
+  }, [actionData]), /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
+    import_polaris29.Page,
     {
       backAction: { content: "Sites", url: "/app/site-maps" },
       title: _16.get(metaobject, "name", ""),
@@ -5003,8 +4972,8 @@ function SiteMetaPage() {
           }
         } : {}
       ],
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(import_polaris30.Layout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(import_polaris30.Layout.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(import_polaris30.Card, { children: [
-        formDirty || loading || formik.dirty ? /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_polaris29.Layout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_polaris29.Layout.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_polaris29.Card, { children: [
+        formDirty || loading || formik.dirty ? /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
           SaveAppBar_default,
           {
             saveAction: formik.handleSubmit,
@@ -5022,9 +4991,9 @@ function SiteMetaPage() {
           },
           this
         ) : null,
-        /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(import_polaris30.VerticalStack, { gap: "3", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(
-            import_polaris30.TextField,
+        /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_polaris29.VerticalStack, { gap: "3", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
+            import_polaris29.TextField,
             {
               label: "Name",
               name: "name",
@@ -5043,8 +5012,8 @@ function SiteMetaPage() {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(
-            import_polaris30.TextField,
+          /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
+            import_polaris29.TextField,
             {
               label: "Domain",
               name: "domain",
@@ -5063,7 +5032,7 @@ function SiteMetaPage() {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(Accordion_default, { title: "Metadata", children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "section", children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(MetaForm_default, { formik }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(Accordion_default, { title: "Metadata", children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("div", { className: "section", children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(MetaForm_default, { formik }, void 0, !1, {
             fileName: "app/routes/app.site-map.$handle.tsx",
             lineNumber: 308,
             columnNumber: 19
@@ -5076,7 +5045,7 @@ function SiteMetaPage() {
             lineNumber: 306,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(Accordion_default, { title: "Header", children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "section", children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(import_react32.Suspense, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(import_react31.Await, { resolve: formik, children: (value) => /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(HeaderFrom_default, { formik: value }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(Accordion_default, { title: "Header", children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("div", { className: "section", children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_react32.Suspense, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_react31.Await, { resolve: formik, children: (value) => /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(HeaderFrom_default, { formik: value }, void 0, !1, {
             fileName: "app/routes/app.site-map.$handle.tsx",
             lineNumber: 316,
             columnNumber: 35
@@ -5097,7 +5066,7 @@ function SiteMetaPage() {
             lineNumber: 312,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(Accordion_default, { title: "Footer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "section", children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(import_react32.Suspense, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(import_react31.Await, { resolve: formik, children: (value) => /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(FooterForm_default, { formik: value }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(Accordion_default, { title: "Footer", children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("div", { className: "section", children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_react32.Suspense, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_react31.Await, { resolve: formik, children: (value) => /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(FooterForm_default, { formik: value }, void 0, !1, {
             fileName: "app/routes/app.site-map.$handle.tsx",
             lineNumber: 326,
             columnNumber: 35
@@ -5118,7 +5087,7 @@ function SiteMetaPage() {
             lineNumber: 322,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(Accordion_default, { title: "FAQs", children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "section", children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(import_react32.Suspense, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(import_react31.Await, { resolve: formik, children: (value) => /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(Accordion_default, { title: "FAQs", children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("div", { className: "section", children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_react32.Suspense, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_react31.Await, { resolve: formik, children: (value) => /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
             FaqMetaObjects_default,
             {
               faqFetcher,
@@ -5149,7 +5118,7 @@ function SiteMetaPage() {
             lineNumber: 332,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(Accordion_default, { title: "Articles", children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "section", children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(import_react32.Suspense, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(import_react31.Await, { resolve: formik, children: (value) => /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(Accordion_default, { title: "Articles", children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("div", { className: "section", children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_react32.Suspense, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_react31.Await, { resolve: formik, children: (value) => /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
             ArticleMetaobject_default,
             {
               faqFetcher: articleFetcher,
@@ -5180,7 +5149,7 @@ function SiteMetaPage() {
             lineNumber: 347,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(Accordion_default, { title: "Products", children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "section", children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(import_react32.Suspense, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(import_react31.Await, { resolve: formik, children: (value) => /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(Accordion_default, { title: "Products", children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("div", { className: "section", children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_react32.Suspense, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(import_react31.Await, { resolve: formik, children: (value) => /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(
             CollectionMetaobject_default,
             {
               faqFetcher: collectionFetcher,
@@ -5211,7 +5180,7 @@ function SiteMetaPage() {
             lineNumber: 362,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(Accordion_default, { title: "Pages", children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "section", children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(PageMetaObject_default, { fetcher: collectionFetcher, formik }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(Accordion_default, { title: "Pages", children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("div", { className: "section", children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(PageMetaObject_default, { fetcher: collectionFetcher, formik }, void 0, !1, {
             fileName: "app/routes/app.site-map.$handle.tsx",
             lineNumber: 378,
             columnNumber: 19
@@ -5224,7 +5193,7 @@ function SiteMetaPage() {
             lineNumber: 376,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(Accordion_default, { title: "Menu", children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { className: "section", children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(MenuMetaobject_default, { formik }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(Accordion_default, { title: "Menu", children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)("div", { className: "section", children: /* @__PURE__ */ (0, import_jsx_dev_runtime31.jsxDEV)(MenuMetaobject_default, { formik }, void 0, !1, {
             fileName: "app/routes/app.site-map.$handle.tsx",
             lineNumber: 383,
             columnNumber: 19
@@ -5275,17 +5244,17 @@ __export(app_article_handle_exports, {
   links: () => links2,
   loader: () => loader5
 });
-var import_node8 = require("@remix-run/node"), import_react34 = require("@remix-run/react"), import_polaris34 = require("@shopify/polaris"), _18 = __toESM(require("lodash")), import_react35 = require("react");
+var import_node8 = require("@remix-run/node"), import_react34 = require("@remix-run/react"), import_polaris33 = require("@shopify/polaris"), _18 = __toESM(require("lodash")), import_react35 = require("react");
 var import_formik2 = require("formik");
 
 // app/components/Form/Product/ImageForm.tsx
-var import_polaris31 = require("@shopify/polaris"), import_react33 = require("react");
-var import_jsx_dev_runtime33 = require("react/jsx-dev-runtime"), ImageForm = ({ onAdd, activatorTitle }) => {
+var import_polaris30 = require("@shopify/polaris"), import_react33 = require("react");
+var import_jsx_dev_runtime32 = require("react/jsx-dev-runtime"), ImageForm = ({ onAdd, activatorTitle }) => {
   let [active, setActive] = (0, import_react33.useState)(!1), [value, setValue] = (0, import_react33.useState)(""), [errors, setErrors] = (0, import_react33.useState)({}), handleValueChange = (0, import_react33.useCallback)((value2) => setValue(value2), []), handleSetErrors = (0, import_react33.useCallback)((value2) => setErrors(value2), []), handleChange = (0, import_react33.useCallback)(() => setActive(!active), [active]);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(
-    import_polaris31.Modal,
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(
+    import_polaris30.Modal,
     {
-      activator: /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(import_polaris31.Button, { size: "micro", onClick: handleChange, children: activatorTitle }, void 0, !1, {
+      activator: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(import_polaris30.Button, { size: "micro", onClick: handleChange, children: activatorTitle }, void 0, !1, {
         fileName: "app/components/Form/Product/ImageForm.tsx",
         lineNumber: 25,
         columnNumber: 5
@@ -5307,9 +5276,9 @@ var import_jsx_dev_runtime33 = require("react/jsx-dev-runtime"), ImageForm = ({ 
           onAction: handleChange
         }
       ],
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(import_polaris31.Modal.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(import_polaris31.Box, { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(
-          import_polaris31.TextField,
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(import_polaris30.Modal.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(import_polaris30.Box, { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(
+          import_polaris30.TextField,
           {
             label: "Media URL",
             value,
@@ -5326,7 +5295,7 @@ var import_jsx_dev_runtime33 = require("react/jsx-dev-runtime"), ImageForm = ({ 
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(import_polaris31.Box, { padding: "2" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime32.jsxDEV)(import_polaris30.Box, { padding: "2" }, void 0, !1, {
           fileName: "app/components/Form/Product/ImageForm.tsx",
           lineNumber: 57,
           columnNumber: 13
@@ -5357,9 +5326,9 @@ var import_jsx_dev_runtime33 = require("react/jsx-dev-runtime"), ImageForm = ({ 
 }, ImageForm_default = ImageForm;
 
 // app/components/ImageGrid.tsx
-var import_polaris32 = require("@shopify/polaris"), _17 = __toESM(require("lodash"));
-var import_react_sortablejs = require("react-sortablejs"), import_jsx_dev_runtime34 = require("react/jsx-dev-runtime"), ImageGrid = ({ images, onRemove, setImages }) => /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(import_polaris32.Box, { children: [
-  /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(import_polaris32.HorizontalGrid, { gap: "4", columns: 1, children: /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(
+var import_polaris31 = require("@shopify/polaris"), _17 = __toESM(require("lodash"));
+var import_react_sortablejs = require("react-sortablejs"), import_jsx_dev_runtime33 = require("react/jsx-dev-runtime"), ImageGrid = ({ images, onRemove, setImages }) => /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(import_polaris31.Box, { children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(import_polaris31.HorizontalGrid, { gap: "4", columns: 1, children: /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(
     import_react_sortablejs.ReactSortable,
     {
       style: {
@@ -5369,7 +5338,7 @@ var import_react_sortablejs = require("react-sortablejs"), import_jsx_dev_runtim
       },
       list: images,
       setList: setImages,
-      children: _17.map(images, (image, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(import_polaris32.Card, { padding: "0", children: /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(
+      children: _17.map(images, (image, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(import_polaris31.Card, { padding: "0", children: /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(
         "div",
         {
           style: {
@@ -5378,7 +5347,7 @@ var import_react_sortablejs = require("react-sortablejs"), import_jsx_dev_runtim
             cursor: "grab"
           },
           children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(
               "div",
               {
                 style: {
@@ -5386,14 +5355,14 @@ var import_react_sortablejs = require("react-sortablejs"), import_jsx_dev_runtim
                   right: 10,
                   top: 10
                 },
-                children: /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(
-                  import_polaris32.Button,
+                children: /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(
+                  import_polaris31.Button,
                   {
                     size: "micro",
                     onClick: () => {
                       onRemove(image);
                     },
-                    children: /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(DeleteIcon_default, {}, void 0, !1, {
+                    children: /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(DeleteIcon_default, {}, void 0, !1, {
                       fileName: "app/components/ImageGrid.tsx",
                       lineNumber: 50,
                       columnNumber: 23
@@ -5418,7 +5387,7 @@ var import_react_sortablejs = require("react-sortablejs"), import_jsx_dev_runtim
               },
               this
             ),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(
               "img",
               {
                 alt: "",
@@ -5468,8 +5437,8 @@ var import_react_sortablejs = require("react-sortablejs"), import_jsx_dev_runtim
     lineNumber: 17,
     columnNumber: 7
   }, this),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(import_polaris32.HorizontalGrid, { columns: 1, children: (images == null ? void 0 : images.length) === 0 ? /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(
-    import_polaris32.EmptyState,
+  /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(import_polaris31.HorizontalGrid, { columns: 1, children: (images == null ? void 0 : images.length) === 0 ? /* @__PURE__ */ (0, import_jsx_dev_runtime33.jsxDEV)(
+    import_polaris31.EmptyState,
     {
       heading: "No image found",
       image: "https://cdn.shopify.com/s/files/1/0262/4071/2726/files/emptystate-files.png"
@@ -5494,8 +5463,8 @@ var import_react_sortablejs = require("react-sortablejs"), import_jsx_dev_runtim
 }, this), ImageGrid_default = ImageGrid;
 
 // app/components/Loaders/FormLoader.tsx
-var import_polaris33 = require("@shopify/polaris"), import_jsx_dev_runtime35 = require("react/jsx-dev-runtime"), FormLoader = () => /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(import_polaris33.Box, { padding: "10", children: /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(import_polaris33.Layout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(import_polaris33.Layout.Section, { children: [
-  /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(import_polaris33.LegacyCard, { sectioned: !0, children: /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(import_polaris33.SkeletonBodyText, {}, void 0, !1, {
+var import_polaris32 = require("@shopify/polaris"), import_jsx_dev_runtime34 = require("react/jsx-dev-runtime"), FormLoader = () => /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(import_polaris32.Box, { padding: "10", children: /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(import_polaris32.Layout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(import_polaris32.Layout.Section, { children: [
+  /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(import_polaris32.LegacyCard, { sectioned: !0, children: /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(import_polaris32.SkeletonBodyText, {}, void 0, !1, {
     fileName: "app/components/Loaders/FormLoader.tsx",
     lineNumber: 16,
     columnNumber: 13
@@ -5504,13 +5473,13 @@ var import_polaris33 = require("@shopify/polaris"), import_jsx_dev_runtime35 = r
     lineNumber: 15,
     columnNumber: 11
   }, this),
-  /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(import_polaris33.LegacyCard, { sectioned: !0, children: /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(import_polaris33.TextContainer, { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(import_polaris33.SkeletonDisplayText, { size: "small" }, void 0, !1, {
+  /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(import_polaris32.LegacyCard, { sectioned: !0, children: /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(import_polaris32.TextContainer, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(import_polaris32.SkeletonDisplayText, { size: "small" }, void 0, !1, {
       fileName: "app/components/Loaders/FormLoader.tsx",
       lineNumber: 20,
       columnNumber: 15
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(import_polaris33.SkeletonBodyText, {}, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime34.jsxDEV)(import_polaris32.SkeletonBodyText, {}, void 0, !1, {
       fileName: "app/components/Loaders/FormLoader.tsx",
       lineNumber: 21,
       columnNumber: 15
@@ -5539,7 +5508,7 @@ var import_polaris33 = require("@shopify/polaris"), import_jsx_dev_runtime35 = r
 }, this), FormLoader_default = FormLoader;
 
 // app/routes/app.article.$handle.tsx
-var import_jsx_dev_runtime36 = require("react/jsx-dev-runtime"), MDEditor4 = (0, import_react35.lazy)(() => import("@uiw/react-md-editor")), links2 = () => [
+var import_jsx_dev_runtime35 = require("react/jsx-dev-runtime"), MDEditor4 = (0, import_react35.lazy)(() => import("@uiw/react-md-editor")), links2 = () => [
   { rel: "stylesheet", href: markdown_editor_default },
   { rel: "stylesheet", href: markdown_default },
   { rel: "stylesheet", href: styles_default }
@@ -5731,16 +5700,16 @@ function ArticlePage() {
   }), { values } = (0, import_react35.useMemo)(() => formik, [formik]);
   return (0, import_react35.useEffect)(() => {
     handleLoadingChange(!1), setFormDirty(!1), formik.resetForm({ values });
-  }, [actionData]), /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(
-    import_polaris34.Page,
+  }, [actionData]), /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(
+    import_polaris33.Page,
     {
       backAction: { content: "Sites", url: "/app/articles" },
       title: _18.get(metaobject, "name", ""),
       subtitle: "Article",
       compactTitle: !0,
       secondaryActions: [{}],
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_polaris34.Layout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_polaris34.Layout.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_polaris34.Card, { children: [
-        formDirty || loading ? /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(import_polaris33.Layout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(import_polaris33.Layout.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(import_polaris33.Card, { children: [
+        formDirty || loading ? /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(
           SaveAppBar_default,
           {
             saveAction: formik.handleSubmit,
@@ -5759,9 +5728,9 @@ function ArticlePage() {
           this
         ) : null,
         toastMarkup,
-        /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_polaris34.VerticalStack, { gap: "3", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(
-            import_polaris34.TextField,
+        /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(import_polaris33.VerticalStack, { gap: "3", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(
+            import_polaris33.TextField,
             {
               label: "Title",
               name: "title",
@@ -5780,18 +5749,18 @@ function ArticlePage() {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_react35.Suspense, { fallback: /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(FormLoader_default, {}, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(import_react35.Suspense, { fallback: /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(FormLoader_default, {}, void 0, !1, {
             fileName: "app/routes/app.article.$handle.tsx",
             lineNumber: 350,
             columnNumber: 35
-          }, this), children: /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_react34.Await, { resolve: values.content_MD, children: (value) => /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_jsx_dev_runtime36.Fragment, { children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("label", { children: "Content" }, void 0, !1, {
+          }, this), children: /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(import_react34.Await, { resolve: values.content_MD, children: (value) => /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(import_jsx_dev_runtime35.Fragment, { children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("label", { children: "Content" }, void 0, !1, {
               fileName: "app/routes/app.article.$handle.tsx",
               lineNumber: 354,
               columnNumber: 23
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("div", { "data-color-mode": "light", children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { "data-color-mode": "light", children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(
                 MDEditor4,
                 {
                   value: value != null && value.includes("children") ? toHTML(value) : value,
@@ -5809,7 +5778,7 @@ function ArticlePage() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_polaris34.Box, { padding: "2" }, void 0, !1, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(import_polaris33.Box, { padding: "2" }, void 0, !1, {
                 fileName: "app/routes/app.article.$handle.tsx",
                 lineNumber: 366,
                 columnNumber: 25
@@ -5832,18 +5801,18 @@ function ArticlePage() {
             lineNumber: 350,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_react35.Suspense, { fallback: /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(FormLoader_default, {}, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(import_react35.Suspense, { fallback: /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(FormLoader_default, {}, void 0, !1, {
             fileName: "app/routes/app.article.$handle.tsx",
             lineNumber: 372,
             columnNumber: 35
-          }, this), children: /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_react34.Await, { resolve: values.content, children: (value) => /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_jsx_dev_runtime36.Fragment, { children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("label", { children: "Content in rich text format (not editable)" }, void 0, !1, {
+          }, this), children: /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(import_react34.Await, { resolve: values.content, children: (value) => /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(import_jsx_dev_runtime35.Fragment, { children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("label", { children: "Content in rich text format (not editable)" }, void 0, !1, {
               fileName: "app/routes/app.article.$handle.tsx",
               lineNumber: 376,
               columnNumber: 23
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("div", { "data-color-mode": "light", children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)("div", { "data-color-mode": "light", children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(
                 MDEditor4,
                 {
                   value: value != null && value.includes("children") ? toHTML(value) : value,
@@ -5861,7 +5830,7 @@ function ArticlePage() {
                 },
                 this
               ),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_polaris34.Box, { padding: "2" }, void 0, !1, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(import_polaris33.Box, { padding: "2" }, void 0, !1, {
                 fileName: "app/routes/app.article.$handle.tsx",
                 lineNumber: 387,
                 columnNumber: 25
@@ -5889,12 +5858,12 @@ function ArticlePage() {
           lineNumber: 339,
           columnNumber: 13
         }, this),
-        !(allCategories != null && allCategories.length) || !allAuthors.length ? /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(FormLoader_default, {}, void 0, !1, {
+        !(allCategories != null && allCategories.length) || !allAuthors.length ? /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(FormLoader_default, {}, void 0, !1, {
           fileName: "app/routes/app.article.$handle.tsx",
           lineNumber: 395,
           columnNumber: 13
         }, this) : null,
-        allCategories != null && allCategories.length ? /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(
+        allCategories != null && allCategories.length ? /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(
           TagSearchField_default,
           {
             label: "Categories",
@@ -5925,12 +5894,12 @@ function ArticlePage() {
           },
           this
         ) : null,
-        /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_polaris34.Box, { padding: "2" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(import_polaris33.Box, { padding: "2" }, void 0, !1, {
           fileName: "app/routes/app.article.$handle.tsx",
           lineNumber: 416,
           columnNumber: 13
         }, this),
-        allAuthors != null && allAuthors.length ? /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(
+        allAuthors != null && allAuthors.length ? /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(
           TagSearchField_default,
           {
             label: "Authors",
@@ -5961,12 +5930,12 @@ function ArticlePage() {
           },
           this
         ) : null,
-        /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_polaris34.Box, { padding: "2" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(import_polaris33.Box, { padding: "2" }, void 0, !1, {
           fileName: "app/routes/app.article.$handle.tsx",
           lineNumber: 436,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(
           "div",
           {
             style: {
@@ -5975,12 +5944,12 @@ function ArticlePage() {
               justifyContent: "space-between"
             },
             children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_polaris34.Text, { variant: "headingMd", as: "h6", children: "Main Media" }, void 0, !1, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(import_polaris33.Text, { variant: "headingMd", as: "h6", children: "Main Media" }, void 0, !1, {
                 fileName: "app/routes/app.article.$handle.tsx",
                 lineNumber: 444,
                 columnNumber: 15
               }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(
                 ImageForm_default,
                 {
                   activatorTitle: `${(_a2 = get2(formik, "values.media", [])) != null && _a2.length ? "Edit" : "Add"} Media`,
@@ -6008,7 +5977,7 @@ function ArticlePage() {
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime35.jsxDEV)(
           ImageGrid_default,
           {
             images: get2(formik, "values.media", []),
@@ -6281,16 +6250,16 @@ __export(app_item_handle_exports, {
   links: () => links3,
   loader: () => loader7
 });
-var import_node11 = require("@remix-run/node"), import_react43 = require("@remix-run/react"), import_polaris39 = require("@shopify/polaris"), _24 = __toESM(require("lodash")), import_react44 = require("react");
+var import_node11 = require("@remix-run/node"), import_react43 = require("@remix-run/react"), import_polaris38 = require("@shopify/polaris"), _24 = __toESM(require("lodash")), import_react44 = require("react");
 
 // app/components/Tables/ProductProperties.tsx
-var import_polaris36 = require("@shopify/polaris");
+var import_polaris35 = require("@shopify/polaris");
 var import_react38 = require("react");
 var import_react_sortable_hoc8 = require("react-sortable-hoc"), _21 = __toESM(require("lodash"));
 
 // app/components/Form/Product/PropertyMetafieldEditForm.tsx
-var import_polaris35 = require("@shopify/polaris"), import_react36 = require("react"), _20 = __toESM(require("lodash"));
-var import_react37 = require("@remix-run/react"), import_jsx_dev_runtime37 = require("react/jsx-dev-runtime"), PropertyMetafieldEditForm = ({
+var import_polaris34 = require("@shopify/polaris"), import_react36 = require("react"), _20 = __toESM(require("lodash"));
+var import_react37 = require("@remix-run/react"), import_jsx_dev_runtime36 = require("react/jsx-dev-runtime"), PropertyMetafieldEditForm = ({
   activatorTitle,
   onAdd,
   values,
@@ -6387,10 +6356,10 @@ var import_react37 = require("@remix-run/react"), import_jsx_dev_runtime37 = req
     setPropertyBase(propertyBase2);
   }, [selectedOptions]), (0, import_react36.useEffect)(() => {
     setLoading(fetcher.state === "loading");
-  }, [fetcher.state]), /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(
-    import_polaris35.Modal,
+  }, [fetcher.state]), /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(
+    import_polaris34.Modal,
     {
-      activator: /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)("div", { style: { display: activatorTitle ? "block" : "none" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(import_polaris35.Button, { size: "micro", onClick: handleToggle, children: activatorTitle }, void 0, !1, {
+      activator: /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)("div", { style: { display: activatorTitle ? "block" : "none" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_polaris34.Button, { size: "micro", onClick: handleToggle, children: activatorTitle }, void 0, !1, {
         fileName: "app/components/Form/Product/PropertyMetafieldEditForm.tsx",
         lineNumber: 202,
         columnNumber: 7
@@ -6412,9 +6381,9 @@ var import_react37 = require("@remix-run/react"), import_jsx_dev_runtime37 = req
           onAction: handleToggle
         }
       ],
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(import_polaris35.Modal.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(import_polaris35.Box, { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(
-          import_polaris35.TextField,
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_polaris34.Modal.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_polaris34.Box, { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(
+          import_polaris34.TextField,
           {
             label: "Name",
             value: name,
@@ -6431,13 +6400,13 @@ var import_react37 = require("@remix-run/react"), import_jsx_dev_runtime37 = req
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(import_polaris35.Box, { padding: "2" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_polaris34.Box, { padding: "2" }, void 0, !1, {
           fileName: "app/components/Form/Product/PropertyMetafieldEditForm.tsx",
           lineNumber: 235,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(
-          import_polaris35.Select,
+        /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(
+          import_polaris34.Select,
           {
             label: "Ranking",
             options: raking,
@@ -6454,13 +6423,13 @@ var import_react37 = require("@remix-run/react"), import_jsx_dev_runtime37 = req
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(import_polaris35.Box, { padding: "2" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_polaris34.Box, { padding: "2" }, void 0, !1, {
           fileName: "app/components/Form/Product/PropertyMetafieldEditForm.tsx",
           lineNumber: 243,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(
-          import_polaris35.TextField,
+        /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(
+          import_polaris34.TextField,
           {
             label: "Property Value",
             value: propertyValue,
@@ -6477,12 +6446,12 @@ var import_react37 = require("@remix-run/react"), import_jsx_dev_runtime37 = req
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(import_polaris35.Box, { padding: "2" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(import_polaris34.Box, { padding: "2" }, void 0, !1, {
           fileName: "app/components/Form/Product/PropertyMetafieldEditForm.tsx",
           lineNumber: 251,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime36.jsxDEV)(
           SelectField_default,
           {
             onSearch,
@@ -6529,7 +6498,7 @@ var import_react37 = require("@remix-run/react"), import_jsx_dev_runtime37 = req
 }, PropertyMetafieldEditForm_default = PropertyMetafieldEditForm;
 
 // app/components/Tables/ProductProperties.tsx
-var import_jsx_dev_runtime38 = require("react/jsx-dev-runtime"), ProductProperties = ({
+var import_jsx_dev_runtime37 = require("react/jsx-dev-runtime"), ProductProperties = ({
   properties,
   loading: isLoading,
   onEdit,
@@ -6553,14 +6522,14 @@ var import_jsx_dev_runtime38 = require("react/jsx-dev-runtime"), ProductProperti
     get2(item, "name") && handleOpen();
   }, [item]);
   let SortableItem = (0, import_react_sortable_hoc8.sortableElement)(
-    ({ id, name, ranking, propertyValue, propertyBase }, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(
-      import_polaris36.IndexTable.Row,
+    ({ id, name, ranking, propertyValue, propertyBase }, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(
+      import_polaris35.IndexTable.Row,
       {
         id: propertyBase.id,
         position: index,
         children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(import_polaris36.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(import_polaris36.ButtonGroup, { segmented: !0, children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(import_polaris36.Button, { size: "micro", children: /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(DragHandle_default, {}, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(import_polaris35.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(import_polaris35.ButtonGroup, { segmented: !0, children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(import_polaris35.Button, { size: "micro", children: /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(DragHandle_default, {}, void 0, !1, {
               fileName: "app/components/Tables/ProductProperties.tsx",
               lineNumber: 76,
               columnNumber: 15
@@ -6569,14 +6538,14 @@ var import_jsx_dev_runtime38 = require("react/jsx-dev-runtime"), ProductProperti
               lineNumber: 75,
               columnNumber: 13
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(
-              import_polaris36.Button,
+            /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(
+              import_polaris35.Button,
               {
                 size: "micro",
                 onClick: () => {
                   onRemove(id);
                 },
-                children: /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(DeleteIcon_default, {}, void 0, !1, {
+                children: /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(DeleteIcon_default, {}, void 0, !1, {
                   fileName: "app/components/Tables/ProductProperties.tsx",
                   lineNumber: 84,
                   columnNumber: 15
@@ -6591,8 +6560,8 @@ var import_jsx_dev_runtime38 = require("react/jsx-dev-runtime"), ProductProperti
               },
               this
             ),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(
-              import_polaris36.Button,
+            /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(
+              import_polaris35.Button,
               {
                 size: "micro",
                 onClick: () => {
@@ -6604,9 +6573,9 @@ var import_jsx_dev_runtime38 = require("react/jsx-dev-runtime"), ProductProperti
                     propertyBase
                   });
                 },
-                children: /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(EditIcon_default, {}, void 0, !1, {
+                children: /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(EditIcon_default, {}, void 0, !1, {
                   fileName: "app/components/Tables/ProductProperties.tsx",
-                  lineNumber: 99,
+                  lineNumber: 98,
                   columnNumber: 15
                 }, this)
               },
@@ -6614,7 +6583,7 @@ var import_jsx_dev_runtime38 = require("react/jsx-dev-runtime"), ProductProperti
               !1,
               {
                 fileName: "app/components/Tables/ProductProperties.tsx",
-                lineNumber: 87,
+                lineNumber: 86,
                 columnNumber: 13
               },
               this
@@ -6628,24 +6597,24 @@ var import_jsx_dev_runtime38 = require("react/jsx-dev-runtime"), ProductProperti
             lineNumber: 73,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(import_polaris36.IndexTable.Cell, { children: truncate(name) }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(import_polaris35.IndexTable.Cell, { children: truncate(name) }, void 0, !1, {
+            fileName: "app/components/Tables/ProductProperties.tsx",
+            lineNumber: 102,
+            columnNumber: 9
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(import_polaris35.IndexTable.Cell, { children: propertyBase.name }, void 0, !1, {
             fileName: "app/components/Tables/ProductProperties.tsx",
             lineNumber: 103,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(import_polaris36.IndexTable.Cell, { children: propertyBase.name }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(import_polaris35.IndexTable.Cell, { children: ranking }, void 0, !1, {
             fileName: "app/components/Tables/ProductProperties.tsx",
-            lineNumber: 104,
+            lineNumber: 105,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(import_polaris36.IndexTable.Cell, { children: ranking }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(import_polaris35.IndexTable.Cell, { children: propertyValue }, void 0, !1, {
             fileName: "app/components/Tables/ProductProperties.tsx",
             lineNumber: 106,
-            columnNumber: 9
-          }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(import_polaris36.IndexTable.Cell, { children: propertyValue }, void 0, !1, {
-            fileName: "app/components/Tables/ProductProperties.tsx",
-            lineNumber: 107,
             columnNumber: 9
           }, this)
         ]
@@ -6659,8 +6628,8 @@ var import_jsx_dev_runtime38 = require("react/jsx-dev-runtime"), ProductProperti
       },
       this
     )
-  ), SortableContainer = (0, import_react_sortable_hoc8.sortableContainer)(({ children }) => /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(
-    import_polaris36.IndexTable,
+  ), SortableContainer = (0, import_react_sortable_hoc8.sortableContainer)(({ children }) => /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(
+    import_polaris35.IndexTable,
     {
       resourceName,
       itemCount: (properties == null ? void 0 : properties.length) || 0,
@@ -6678,18 +6647,18 @@ var import_jsx_dev_runtime38 = require("react/jsx-dev-runtime"), ProductProperti
     !1,
     {
       fileName: "app/components/Tables/ProductProperties.tsx",
-      lineNumber: 113,
+      lineNumber: 112,
       columnNumber: 7
     },
     this
   ));
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(import_polaris36.LegacyCard, { children: [
-    loading || isLoading ? /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(Loaders_default, {}, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(import_polaris35.LegacyCard, { children: [
+    loading || isLoading ? /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(Loaders_default, {}, void 0, !1, {
       fileName: "app/components/Tables/ProductProperties.tsx",
-      lineNumber: 137,
+      lineNumber: 136,
       columnNumber: 31
     }, this) : null,
-    /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(
       PropertyMetafieldEditForm_default,
       {
         activatorTitle: "",
@@ -6704,15 +6673,15 @@ var import_jsx_dev_runtime38 = require("react/jsx-dev-runtime"), ProductProperti
       !1,
       {
         fileName: "app/components/Tables/ProductProperties.tsx",
-        lineNumber: 138,
+        lineNumber: 137,
         columnNumber: 7
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(import_polaris36.VerticalStack, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(SortableContainer, { onSortEnd: ({ oldIndex, newIndex }) => {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(import_polaris35.VerticalStack, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(SortableContainer, { onSortEnd: ({ oldIndex, newIndex }) => {
       let _items = (0, import_react_sortable_hoc8.arrayMove)(properties, oldIndex, newIndex);
       handleItemChange(_items);
-    }, useDragHandle: !0, children: _21.map(properties, (value, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(
+    }, useDragHandle: !0, children: _21.map(properties, (value, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime37.jsxDEV)(
       SortableItem,
       {
         index,
@@ -6727,29 +6696,29 @@ var import_jsx_dev_runtime38 = require("react/jsx-dev-runtime"), ProductProperti
       !1,
       {
         fileName: "app/components/Tables/ProductProperties.tsx",
-        lineNumber: 150,
+        lineNumber: 149,
         columnNumber: 13
       },
       this
     )) }, void 0, !1, {
       fileName: "app/components/Tables/ProductProperties.tsx",
-      lineNumber: 148,
+      lineNumber: 147,
       columnNumber: 9
     }, this) }, void 0, !1, {
       fileName: "app/components/Tables/ProductProperties.tsx",
-      lineNumber: 147,
+      lineNumber: 146,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/Tables/ProductProperties.tsx",
-    lineNumber: 136,
+    lineNumber: 135,
     columnNumber: 5
   }, this);
 }, ProductProperties_default = ProductProperties;
 
 // app/components/Form/Product/PropertyMetafieldForm.tsx
-var import_polaris37 = require("@shopify/polaris"), import_react39 = require("react"), _22 = __toESM(require("lodash"));
-var import_react40 = require("@remix-run/react"), import_jsx_dev_runtime39 = require("react/jsx-dev-runtime"), PropertyMetafieldForm = ({
+var import_polaris36 = require("@shopify/polaris"), import_react39 = require("react"), _22 = __toESM(require("lodash"));
+var import_react40 = require("@remix-run/react"), import_jsx_dev_runtime38 = require("react/jsx-dev-runtime"), PropertyMetafieldForm = ({
   activatorTitle,
   onAdd,
   values,
@@ -6822,10 +6791,10 @@ var import_react40 = require("@remix-run/react"), import_jsx_dev_runtime39 = req
     setPropertyBase(propertyBase2);
   }, [selectedOptions]), (0, import_react39.useEffect)(() => {
     setLoading(fetcher.state === "loading");
-  }, [fetcher.state]), /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)(
-    import_polaris37.Modal,
+  }, [fetcher.state]), /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(
+    import_polaris36.Modal,
     {
-      activator: /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("div", { style: { display: activatorTitle ? "block" : "none" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)(import_polaris37.Button, { size: "micro", onClick: handleOpen, children: activatorTitle }, void 0, !1, {
+      activator: /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)("div", { style: { display: activatorTitle ? "block" : "none" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(import_polaris36.Button, { size: "micro", onClick: handleOpen, children: activatorTitle }, void 0, !1, {
         fileName: "app/components/Form/Product/PropertyMetafieldForm.tsx",
         lineNumber: 146,
         columnNumber: 7
@@ -6847,9 +6816,9 @@ var import_react40 = require("@remix-run/react"), import_jsx_dev_runtime39 = req
           onAction: handleClose
         }
       ],
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)(import_polaris37.Modal.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)(import_polaris37.Box, { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)(
-          import_polaris37.TextField,
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(import_polaris36.Modal.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(import_polaris36.Box, { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(
+          import_polaris36.TextField,
           {
             label: "Name",
             value: name,
@@ -6866,13 +6835,13 @@ var import_react40 = require("@remix-run/react"), import_jsx_dev_runtime39 = req
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)(import_polaris37.Box, { padding: "2" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(import_polaris36.Box, { padding: "2" }, void 0, !1, {
           fileName: "app/components/Form/Product/PropertyMetafieldForm.tsx",
           lineNumber: 179,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)(
-          import_polaris37.Select,
+        /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(
+          import_polaris36.Select,
           {
             label: "Ranking",
             options: raking,
@@ -6889,13 +6858,13 @@ var import_react40 = require("@remix-run/react"), import_jsx_dev_runtime39 = req
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)(import_polaris37.Box, { padding: "2" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(import_polaris36.Box, { padding: "2" }, void 0, !1, {
           fileName: "app/components/Form/Product/PropertyMetafieldForm.tsx",
           lineNumber: 187,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)(
-          import_polaris37.TextField,
+        /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(
+          import_polaris36.TextField,
           {
             label: "Property Value",
             value: propertyValue,
@@ -6912,12 +6881,12 @@ var import_react40 = require("@remix-run/react"), import_jsx_dev_runtime39 = req
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)(import_polaris37.Box, { padding: "2" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(import_polaris36.Box, { padding: "2" }, void 0, !1, {
           fileName: "app/components/Form/Product/PropertyMetafieldForm.tsx",
           lineNumber: 195,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime38.jsxDEV)(
           SelectField_default,
           {
             onSearch,
@@ -6964,8 +6933,8 @@ var import_react40 = require("@remix-run/react"), import_jsx_dev_runtime39 = req
 }, PropertyMetafieldForm_default = PropertyMetafieldForm;
 
 // app/components/Form/Product/DuplicateMetaobject.tsx
-var import_polaris38 = require("@shopify/polaris"), import_react41 = require("react");
-var _23 = __toESM(require("lodash")), import_react42 = require("@remix-run/react"), import_jsx_dev_runtime40 = require("react/jsx-dev-runtime"), DuplicateMetaobject = ({ modalTitle, metaobject, activatorRef }) => {
+var import_polaris37 = require("@shopify/polaris"), import_react41 = require("react");
+var _23 = __toESM(require("lodash")), import_react42 = require("@remix-run/react"), import_jsx_dev_runtime39 = require("react/jsx-dev-runtime"), DuplicateMetaobject = ({ modalTitle, metaobject, activatorRef }) => {
   var _a2;
   let actionErrors = ((_a2 = (0, import_react42.useActionData)()) == null ? void 0 : _a2.errors) || {}, action9 = (0, import_react42.useActionData)() || {}, location = (0, import_react42.useLocation)(), [name, setName] = (0, import_react41.useState)(`Copy of - ${_23.get(metaobject, "name")}`), [errors, setErrors] = (0, import_react41.useState)({}), [laoding, setLoading] = (0, import_react41.useState)(!1), handleLoadingChange = (0, import_react41.useCallback)((value) => setLoading(value), []), handleValueChange = (0, import_react41.useCallback)((value) => setName(value), []), handleSetErrors = (0, import_react41.useCallback)((value) => setErrors(value), []), [active, setActive] = (0, import_react41.useState)(!1), submit = (0, import_react42.useSubmit)(), handleOpen = (0, import_react41.useCallback)(() => {
     setActive(!0), setLoading(!1);
@@ -6978,8 +6947,8 @@ var _23 = __toESM(require("lodash")), import_react42 = require("@remix-run/react
     setLoading(!1);
   }, [action9 == null ? void 0 : action9.data]), (0, import_react41.useEffect)(() => {
     handleClose(), setLoading(!1);
-  }, [location]), /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("div", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("div", { style: { height: 0, display: "none" }, ref: activatorRef, children: /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_polaris38.Button, { onClick: handleOpen, children: "~" }, void 0, !1, {
+  }, [location]), /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("div", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)("div", { style: { height: 0, display: "none" }, ref: activatorRef, children: /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)(import_polaris37.Button, { onClick: handleOpen, children: "~" }, void 0, !1, {
       fileName: "app/components/Form/Product/DuplicateMetaobject.tsx",
       lineNumber: 75,
       columnNumber: 9
@@ -6988,8 +6957,8 @@ var _23 = __toESM(require("lodash")), import_react42 = require("@remix-run/react
       lineNumber: 74,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
-      import_polaris38.Modal,
+    /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)(
+      import_polaris37.Modal,
       {
         small: !0,
         open: active,
@@ -7023,9 +6992,9 @@ var _23 = __toESM(require("lodash")), import_react42 = require("@remix-run/react
             onAction: handleClose
           }
         ],
-        children: /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_polaris38.Modal.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_polaris38.Box, { children: [
-          Object.keys(actionErrors).length ? /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
-            import_polaris38.InlineError,
+        children: /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)(import_polaris37.Modal.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)(import_polaris37.Box, { children: [
+          Object.keys(actionErrors).length ? /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)(
+            import_polaris37.InlineError,
             {
               message: JSON.stringify(actionErrors),
               fieldID: "errors"
@@ -7039,8 +7008,8 @@ var _23 = __toESM(require("lodash")), import_react42 = require("@remix-run/react
             },
             this
           ) : null,
-          /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
-            import_polaris38.TextField,
+          /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)(
+            import_polaris37.TextField,
             {
               label: "Name",
               value: name,
@@ -7057,12 +7026,12 @@ var _23 = __toESM(require("lodash")), import_react42 = require("@remix-run/react
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_polaris38.Box, { padding: "2" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)(import_polaris37.Box, { padding: "2" }, void 0, !1, {
             fileName: "app/components/Form/Product/DuplicateMetaobject.tsx",
             lineNumber: 109,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_polaris38.Text, { variant: "bodyLg", as: "p", children: "All item details will be copied from the original item." }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime39.jsxDEV)(import_polaris37.Text, { variant: "bodyLg", as: "p", children: "All item details will be copied from the original item." }, void 0, !1, {
             fileName: "app/components/Form/Product/DuplicateMetaobject.tsx",
             lineNumber: 111,
             columnNumber: 13
@@ -7095,7 +7064,7 @@ var _23 = __toESM(require("lodash")), import_react42 = require("@remix-run/react
 
 // app/routes/app.item.$handle.tsx
 var import_formik3 = require("formik");
-var import_jsx_dev_runtime41 = require("react/jsx-dev-runtime"), links3 = () => [
+var import_jsx_dev_runtime40 = require("react/jsx-dev-runtime"), links3 = () => [
   { rel: "stylesheet", href: markdown_editor_default },
   { rel: "stylesheet", href: markdown_default },
   { rel: "stylesheet", href: styles_default }
@@ -7295,8 +7264,8 @@ function ProductPage() {
   }, onAddAdditionalMedia = (image) => {
     setAdditionalMedia([image, ...additionalMedia]), handleFormDirty();
   };
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(
-    import_polaris39.Page,
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
+    import_polaris38.Page,
     {
       backAction: { content: "Products", url: "/app/items/item_definition" },
       title: _24.get(metaobject, "name", ""),
@@ -7312,8 +7281,8 @@ function ProductPage() {
           }
         }
       ],
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(import_polaris39.Layout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(import_polaris39.Layout.Section, { children: [
-        formDirty ? /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_polaris38.Layout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_polaris38.Layout.Section, { children: [
+        formDirty ? /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
           SaveAppBar_default,
           {
             saveAction: handleSubmit,
@@ -7331,8 +7300,8 @@ function ProductPage() {
           },
           this
         ) : null,
-        /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(import_polaris39.Card, { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_polaris38.Card, { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
             DuplicateMetaobject_default,
             {
               modalTitle: "Duplicate",
@@ -7361,10 +7330,10 @@ function ProductPage() {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(import_polaris39.VerticalStack, { gap: "3", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_polaris38.VerticalStack, { gap: "3", children: [
             toastMarkup,
-            /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(
-              import_polaris39.TextField,
+            /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
+              import_polaris38.TextField,
               {
                 label: "Name",
                 value: get2(formik, "values.name"),
@@ -7382,19 +7351,19 @@ function ProductPage() {
               },
               this
             ),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(import_react44.Suspense, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(import_react43.Await, { resolve: get2(formik, "values.content"), children: (value) => /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(import_jsx_dev_runtime41.Fragment, { children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("label", { children: "Description" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_react44.Suspense, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_react43.Await, { resolve: get2(formik, "values.content"), children: (value) => /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_jsx_dev_runtime40.Fragment, { children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("label", { children: "Description" }, void 0, !1, {
                 fileName: "app/routes/app.item.$handle.tsx",
                 lineNumber: 433,
                 columnNumber: 23
               }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(import_polaris39.Box, { padding: "1" }, void 0, !1, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_polaris38.Box, { padding: "1" }, void 0, !1, {
                 fileName: "app/routes/app.item.$handle.tsx",
                 lineNumber: 434,
                 columnNumber: 23
               }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)("div", { "data-color-mode": "light", children: [
-                /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)("div", { "data-color-mode": "light", children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
                   MDEditor5,
                   {
                     id: get2(formik, "values.content"),
@@ -7413,7 +7382,7 @@ function ProductPage() {
                   },
                   this
                 ),
-                /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(import_polaris39.Box, { padding: "2" }, void 0, !1, {
+                /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_polaris38.Box, { padding: "2" }, void 0, !1, {
                   fileName: "app/routes/app.item.$handle.tsx",
                   lineNumber: 447,
                   columnNumber: 25
@@ -7436,7 +7405,7 @@ function ProductPage() {
               lineNumber: 429,
               columnNumber: 15
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
               "div",
               {
                 style: {
@@ -7445,12 +7414,12 @@ function ProductPage() {
                   justifyContent: "space-between"
                 },
                 children: [
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(import_polaris39.Text, { variant: "headingMd", as: "h6", children: "Properties" }, void 0, !1, {
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_polaris38.Text, { variant: "headingMd", as: "h6", children: "Properties" }, void 0, !1, {
                     fileName: "app/routes/app.item.$handle.tsx",
                     lineNumber: 461,
                     columnNumber: 17
                   }, this),
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
                     PropertyMetafieldForm_default,
                     {
                       activatorTitle: "Add Property",
@@ -7478,7 +7447,7 @@ function ProductPage() {
               },
               this
             ),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
               ProductProperties_default,
               {
                 fetcher: propertiesFetcher,
@@ -7497,7 +7466,7 @@ function ProductPage() {
               },
               this
             ),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
               "div",
               {
                 style: {
@@ -7506,12 +7475,12 @@ function ProductPage() {
                   justifyContent: "space-between"
                 },
                 children: [
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(import_polaris39.Text, { variant: "headingMd", as: "h6", children: "Main Media" }, void 0, !1, {
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_polaris38.Text, { variant: "headingMd", as: "h6", children: "Main Media" }, void 0, !1, {
                     fileName: "app/routes/app.item.$handle.tsx",
                     lineNumber: 488,
                     columnNumber: 17
                   }, this),
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
                     ImageForm_default,
                     {
                       activatorTitle: `${_24.get(formik, "values.mainmedia.length") ? "Edit" : "Add"} Main Media`,
@@ -7537,7 +7506,7 @@ function ProductPage() {
               },
               this
             ),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
               ImageGrid_default,
               {
                 images: _24.get(formik, "values.mainmedia"),
@@ -7557,7 +7526,7 @@ function ProductPage() {
               },
               this
             ),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
               "div",
               {
                 style: {
@@ -7566,12 +7535,12 @@ function ProductPage() {
                   justifyContent: "space-between"
                 },
                 children: [
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(import_polaris39.Text, { variant: "headingMd", as: "h6", children: "Additional Media" }, void 0, !1, {
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(import_polaris38.Text, { variant: "headingMd", as: "h6", children: "Additional Media" }, void 0, !1, {
                     fileName: "app/routes/app.item.$handle.tsx",
                     lineNumber: 518,
                     columnNumber: 17
                   }, this),
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
                     ImageForm_default,
                     {
                       onAdd: onAddAdditionalMedia,
@@ -7597,7 +7566,7 @@ function ProductPage() {
               },
               this
             ),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime40.jsxDEV)(
               ImageGrid_default,
               {
                 images: additionalMedia,
@@ -7650,11 +7619,11 @@ __export(app_index_copy_exports, {
   default: () => MetaobjectsPage2,
   loader: () => loader8
 });
-var import_node12 = require("@remix-run/node"), import_react46 = require("@remix-run/react"), import_polaris41 = require("@shopify/polaris"), _25 = __toESM(require("lodash")), import_react47 = require("react"), import_polaris42 = require("@shopify/polaris");
+var import_node12 = require("@remix-run/node"), import_react46 = require("@remix-run/react"), import_polaris40 = require("@shopify/polaris"), _25 = __toESM(require("lodash")), import_react47 = require("react"), import_polaris41 = require("@shopify/polaris");
 
 // app/components/Tables/MetaDefinition.tsx
-var import_react45 = require("@remix-run/react"), import_polaris40 = require("@shopify/polaris");
-var import_jsx_dev_runtime42 = require("react/jsx-dev-runtime"), MetaDefinition = ({ edges, pageInfo }) => {
+var import_react45 = require("@remix-run/react"), import_polaris39 = require("@shopify/polaris");
+var import_jsx_dev_runtime41 = require("react/jsx-dev-runtime"), MetaDefinition = ({ edges, pageInfo }) => {
   let orders = [
     {
       id: "1020",
@@ -7662,12 +7631,12 @@ var import_jsx_dev_runtime42 = require("react/jsx-dev-runtime"), MetaDefinition 
       date: "Jul 20 at 4:34pm",
       customer: "Jaydon Stanton",
       total: "$969.44",
-      paymentStatus: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_polaris40.Badge, { progress: "complete", children: "Paid" }, void 0, !1, {
+      paymentStatus: /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(import_polaris39.Badge, { progress: "complete", children: "Paid" }, void 0, !1, {
         fileName: "app/components/Tables/MetaDefinition.tsx",
         lineNumber: 20,
         columnNumber: 22
       }, this),
-      fulfillmentStatus: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_polaris40.Badge, { progress: "incomplete", children: "Unfulfilled" }, void 0, !1, {
+      fulfillmentStatus: /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(import_polaris39.Badge, { progress: "incomplete", children: "Unfulfilled" }, void 0, !1, {
         fileName: "app/components/Tables/MetaDefinition.tsx",
         lineNumber: 21,
         columnNumber: 26
@@ -7679,12 +7648,12 @@ var import_jsx_dev_runtime42 = require("react/jsx-dev-runtime"), MetaDefinition 
       date: "Jul 20 at 3:46pm",
       customer: "Ruben Westerfelt",
       total: "$701.19",
-      paymentStatus: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_polaris40.Badge, { progress: "partiallyComplete", children: "Partially paid" }, void 0, !1, {
+      paymentStatus: /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(import_polaris39.Badge, { progress: "partiallyComplete", children: "Partially paid" }, void 0, !1, {
         fileName: "app/components/Tables/MetaDefinition.tsx",
         lineNumber: 29,
         columnNumber: 22
       }, this),
-      fulfillmentStatus: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_polaris40.Badge, { progress: "incomplete", children: "Unfulfilled" }, void 0, !1, {
+      fulfillmentStatus: /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(import_polaris39.Badge, { progress: "incomplete", children: "Unfulfilled" }, void 0, !1, {
         fileName: "app/components/Tables/MetaDefinition.tsx",
         lineNumber: 30,
         columnNumber: 26
@@ -7696,12 +7665,12 @@ var import_jsx_dev_runtime42 = require("react/jsx-dev-runtime"), MetaDefinition 
       date: "Jul 20 at 3.44pm",
       customer: "Leo Carder",
       total: "$798.24",
-      paymentStatus: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_polaris40.Badge, { progress: "complete", children: "Paid" }, void 0, !1, {
+      paymentStatus: /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(import_polaris39.Badge, { progress: "complete", children: "Paid" }, void 0, !1, {
         fileName: "app/components/Tables/MetaDefinition.tsx",
         lineNumber: 38,
         columnNumber: 22
       }, this),
-      fulfillmentStatus: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_polaris40.Badge, { progress: "incomplete", children: "Unfulfilled" }, void 0, !1, {
+      fulfillmentStatus: /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(import_polaris39.Badge, { progress: "incomplete", children: "Unfulfilled" }, void 0, !1, {
         fileName: "app/components/Tables/MetaDefinition.tsx",
         lineNumber: 39,
         columnNumber: 26
@@ -7711,15 +7680,15 @@ var import_jsx_dev_runtime42 = require("react/jsx-dev-runtime"), MetaDefinition 
     singular: "order",
     plural: "orders"
   }, rowMarkup = edges.map(
-    ({ node: { id, name, type, metaobjectsCount } }, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(
-      import_polaris40.IndexTable.Row,
+    ({ node: { id, name, type, metaobjectsCount } }, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(
+      import_polaris39.IndexTable.Row,
       {
         onNavigation: () => {
         },
         id,
         position: index,
         children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_polaris40.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_react45.Link, { to: `/app/metaobject/${type}`, children: name }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(import_polaris39.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(import_react45.Link, { to: `/app/metaobject/${type}`, children: name }, void 0, !1, {
             fileName: "app/components/Tables/MetaDefinition.tsx",
             lineNumber: 60,
             columnNumber: 13
@@ -7728,12 +7697,12 @@ var import_jsx_dev_runtime42 = require("react/jsx-dev-runtime"), MetaDefinition 
             lineNumber: 59,
             columnNumber: 11
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_polaris40.IndexTable.Cell, { children: type }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(import_polaris39.IndexTable.Cell, { children: type }, void 0, !1, {
             fileName: "app/components/Tables/MetaDefinition.tsx",
             lineNumber: 62,
             columnNumber: 11
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_polaris40.IndexTable.Cell, { children: `${numberFormat(
+          /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(import_polaris39.IndexTable.Cell, { children: `${numberFormat(
             metaobjectsCount
           )} ` }, void 0, !1, {
             fileName: "app/components/Tables/MetaDefinition.tsx",
@@ -7752,8 +7721,8 @@ var import_jsx_dev_runtime42 = require("react/jsx-dev-runtime"), MetaDefinition 
       this
     )
   );
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_polaris40.LegacyCard, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(
-    import_polaris40.IndexTable,
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(import_polaris39.LegacyCard, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime41.jsxDEV)(
+    import_polaris39.IndexTable,
     {
       resourceName,
       itemCount: orders.length,
@@ -7781,7 +7750,7 @@ var import_jsx_dev_runtime42 = require("react/jsx-dev-runtime"), MetaDefinition 
 }, MetaDefinition_default = MetaDefinition;
 
 // app/routes/app._index copy.jsx
-var import_jsx_dev_runtime43 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime42 = require("react/jsx-dev-runtime");
 async function loader8({ request }) {
   let { admin, session } = await authenticate.admin(request), metaDefinitions = await getMetaDefinitions({
     graphql: admin.graphql,
@@ -7790,20 +7759,20 @@ async function loader8({ request }) {
   return (0, import_node12.json)({ metaDefinitions });
 }
 function MetaobjectsPage2() {
-  let { metaDefinitions } = (0, import_react46.useLoaderData)(), [active, setActive] = (0, import_react47.useState)(!0), toggleActive = (0, import_react47.useCallback)(() => setActive((active2) => !active2), []), definitions = _25.get(metaDefinitions, "data.metaobjectDefinitions"), activator = /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.Button, { onClick: toggleActive, disclosure: !0, children: "More actions" }, void 0, !1, {
+  let { metaDefinitions } = (0, import_react46.useLoaderData)(), [active, setActive] = (0, import_react47.useState)(!0), toggleActive = (0, import_react47.useCallback)(() => setActive((active2) => !active2), []), definitions = _25.get(metaDefinitions, "data.metaobjectDefinitions"), activator = /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_polaris41.Button, { onClick: toggleActive, disclosure: !0, children: "More actions" }, void 0, !1, {
     fileName: "app/routes/app._index copy.jsx",
     lineNumber: 37,
     columnNumber: 5
   }, this);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(
-    import_polaris41.Page,
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(
+    import_polaris40.Page,
     {
       title: "Metaobjects",
       subtitle: `${numberFormat(
         _25.get(definitions, "edges.length", 0)
       )} definitions`,
       compactTitle: !0,
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris41.Layout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris41.Layout.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris41.Card, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris41.VerticalStack, { gap: "3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_polaris40.Layout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_polaris40.Layout.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_polaris40.Card, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(import_polaris40.VerticalStack, { gap: "3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime42.jsxDEV)(
         MetaDefinition_default,
         {
           edges: _25.get(definitions, "edges"),
@@ -7852,14 +7821,14 @@ __export(app_items_type_exports, {
   default: () => MetaobjectsPage3,
   loader: () => loader9
 });
-var import_node13 = require("@remix-run/node"), import_react50 = require("@remix-run/react"), import_polaris45 = require("@shopify/polaris"), _26 = __toESM(require("lodash")), import_react51 = require("react");
+var import_node13 = require("@remix-run/node"), import_react50 = require("@remix-run/react"), import_polaris44 = require("@shopify/polaris"), _26 = __toESM(require("lodash")), import_react51 = require("react");
 
 // app/components/Loaders/PageLoader.tsx
-var import_polaris43 = require("@shopify/polaris"), import_jsx_dev_runtime44 = require("react/jsx-dev-runtime");
+var import_polaris42 = require("@shopify/polaris"), import_jsx_dev_runtime43 = require("react/jsx-dev-runtime");
 function PageLoader() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.SkeletonPage, { primaryAction: !0, children: /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.Layout, { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.Layout.Section, { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.LegacyCard, { sectioned: !0, children: /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.SkeletonBodyText, {}, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.SkeletonPage, { primaryAction: !0, children: /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.Layout, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.Layout.Section, { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.LegacyCard, { sectioned: !0, children: /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.SkeletonBodyText, {}, void 0, !1, {
         fileName: "app/components/Loaders/PageLoader.tsx",
         lineNumber: 16,
         columnNumber: 13
@@ -7868,13 +7837,13 @@ function PageLoader() {
         lineNumber: 15,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.LegacyCard, { sectioned: !0, children: /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.TextContainer, { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.SkeletonDisplayText, { size: "small" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.LegacyCard, { sectioned: !0, children: /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.TextContainer, { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.SkeletonDisplayText, { size: "small" }, void 0, !1, {
           fileName: "app/components/Loaders/PageLoader.tsx",
           lineNumber: 20,
           columnNumber: 15
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.SkeletonBodyText, {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.SkeletonBodyText, {}, void 0, !1, {
           fileName: "app/components/Loaders/PageLoader.tsx",
           lineNumber: 21,
           columnNumber: 15
@@ -7888,13 +7857,13 @@ function PageLoader() {
         lineNumber: 18,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.LegacyCard, { sectioned: !0, children: /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.TextContainer, { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.SkeletonDisplayText, { size: "small" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.LegacyCard, { sectioned: !0, children: /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.TextContainer, { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.SkeletonDisplayText, { size: "small" }, void 0, !1, {
           fileName: "app/components/Loaders/PageLoader.tsx",
           lineNumber: 26,
           columnNumber: 15
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.SkeletonBodyText, {}, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.SkeletonBodyText, {}, void 0, !1, {
           fileName: "app/components/Loaders/PageLoader.tsx",
           lineNumber: 27,
           columnNumber: 15
@@ -7913,15 +7882,15 @@ function PageLoader() {
       lineNumber: 14,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.Layout.Section, { secondary: !0, children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.LegacyCard, { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.LegacyCard.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.TextContainer, { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.SkeletonDisplayText, { size: "small" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.Layout.Section, { secondary: !0, children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.LegacyCard, { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.LegacyCard.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.TextContainer, { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.SkeletonDisplayText, { size: "small" }, void 0, !1, {
             fileName: "app/components/Loaders/PageLoader.tsx",
             lineNumber: 35,
             columnNumber: 17
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.SkeletonBodyText, { lines: 2 }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.SkeletonBodyText, { lines: 2 }, void 0, !1, {
             fileName: "app/components/Loaders/PageLoader.tsx",
             lineNumber: 36,
             columnNumber: 17
@@ -7935,7 +7904,7 @@ function PageLoader() {
           lineNumber: 33,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.LegacyCard.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.SkeletonBodyText, { lines: 1 }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.LegacyCard.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.SkeletonBodyText, { lines: 1 }, void 0, !1, {
           fileName: "app/components/Loaders/PageLoader.tsx",
           lineNumber: 40,
           columnNumber: 15
@@ -7949,14 +7918,14 @@ function PageLoader() {
         lineNumber: 32,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.LegacyCard, { subdued: !0, children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.LegacyCard.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.TextContainer, { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.SkeletonDisplayText, { size: "small" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.LegacyCard, { subdued: !0, children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.LegacyCard.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.TextContainer, { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.SkeletonDisplayText, { size: "small" }, void 0, !1, {
             fileName: "app/components/Loaders/PageLoader.tsx",
             lineNumber: 46,
             columnNumber: 17
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.SkeletonBodyText, { lines: 2 }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.SkeletonBodyText, { lines: 2 }, void 0, !1, {
             fileName: "app/components/Loaders/PageLoader.tsx",
             lineNumber: 47,
             columnNumber: 17
@@ -7970,7 +7939,7 @@ function PageLoader() {
           lineNumber: 44,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.LegacyCard.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.SkeletonBodyText, { lines: 2 }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.LegacyCard.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime43.jsxDEV)(import_polaris42.SkeletonBodyText, { lines: 2 }, void 0, !1, {
           fileName: "app/components/Loaders/PageLoader.tsx",
           lineNumber: 51,
           columnNumber: 15
@@ -8002,8 +7971,8 @@ function PageLoader() {
 var PageLoader_default = PageLoader;
 
 // app/components/Tables/ItemMetaObjects.tsx
-var import_react48 = require("@remix-run/react"), import_polaris44 = require("@shopify/polaris");
-var import_react49 = require("react"), import_jsx_dev_runtime45 = require("react/jsx-dev-runtime"), ItemMetaObjects = ({
+var import_react48 = require("@remix-run/react"), import_polaris43 = require("@shopify/polaris");
+var import_react49 = require("react"), import_jsx_dev_runtime44 = require("react/jsx-dev-runtime"), ItemMetaObjects = ({
   edges,
   pageInfo,
   type,
@@ -8024,7 +7993,7 @@ var import_react49 = require("react"), import_jsx_dev_runtime45 = require("react
     queryValue != null && onSearch({ query: queryValue });
   }, [queryValue]);
   let [selected] = (0, import_react49.useState)(0), onHandleCancel = () => {
-  }, { mode, setMode } = (0, import_polaris44.useSetIndexFiltersMode)();
+  }, { mode, setMode } = (0, import_polaris43.useSetIndexFiltersMode)();
   (0, import_react49.useEffect)(() => {
     setLoading(!1);
   }, [edges]);
@@ -8039,15 +8008,15 @@ var import_react49 = require("react"), import_jsx_dev_runtime45 = require("react
         type: type2,
         updatedAt
       }
-    }, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(
-      import_polaris44.IndexTable.Row,
+    }, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(
+      import_polaris43.IndexTable.Row,
       {
         onNavigation: () => {
         },
         id,
         position: index,
         children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(import_polaris44.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(import_polaris44.Text, { variant: "bodyMd", as: "span", children: /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(import_react48.Link, { to: `/app/item/${handle}`, children: truncate(displayName) }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.Text, { variant: "bodyMd", as: "span", children: /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_react48.Link, { to: `/app/item/${handle}`, children: truncate(displayName) }, void 0, !1, {
             fileName: "app/components/Tables/ItemMetaObjects.tsx",
             lineNumber: 90,
             columnNumber: 13
@@ -8060,17 +8029,17 @@ var import_react49 = require("react"), import_jsx_dev_runtime45 = require("react
             lineNumber: 88,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(import_polaris44.IndexTable.Cell, { children: definition.name }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.IndexTable.Cell, { children: definition.name }, void 0, !1, {
             fileName: "app/components/Tables/ItemMetaObjects.tsx",
             lineNumber: 93,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(import_polaris44.IndexTable.Cell, { children: definition.access.storefront }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.IndexTable.Cell, { children: definition.access.storefront }, void 0, !1, {
             fileName: "app/components/Tables/ItemMetaObjects.tsx",
             lineNumber: 94,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(import_polaris44.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(import_polaris44.Badge, { size: "small", children: capabilities.publishable.status }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.Badge, { size: "small", children: capabilities.publishable.status }, void 0, !1, {
             fileName: "app/components/Tables/ItemMetaObjects.tsx",
             lineNumber: 97,
             columnNumber: 11
@@ -8079,7 +8048,7 @@ var import_react49 = require("react"), import_jsx_dev_runtime45 = require("react
             lineNumber: 96,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(import_polaris44.IndexTable.Cell, { children: dateFormatter(updatedAt) }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.IndexTable.Cell, { children: dateFormatter(updatedAt) }, void 0, !1, {
             fileName: "app/components/Tables/ItemMetaObjects.tsx",
             lineNumber: 99,
             columnNumber: 9
@@ -8096,15 +8065,15 @@ var import_react49 = require("react"), import_jsx_dev_runtime45 = require("react
       this
     )
   );
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(import_polaris44.LegacyCard, { children: [
-    loading || isLoading ? /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(Loaders_default, {}, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.LegacyCard, { children: [
+    loading || isLoading ? /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(Loaders_default, {}, void 0, !1, {
       fileName: "app/components/Tables/ItemMetaObjects.tsx",
       lineNumber: 106,
       columnNumber: 31
     }, this) : null,
-    /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(import_polaris44.VerticalStack, { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(
-        import_polaris44.IndexFilters,
+    /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.VerticalStack, { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(
+        import_polaris43.IndexFilters,
         {
           selected,
           filters: [],
@@ -8135,8 +8104,8 @@ var import_react49 = require("react"), import_jsx_dev_runtime45 = require("react
         },
         this
       ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(
-        import_polaris44.IndexTable,
+      /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(
+        import_polaris43.IndexTable,
         {
           resourceName,
           itemCount: edges.length,
@@ -8159,7 +8128,7 @@ var import_react49 = require("react"), import_jsx_dev_runtime45 = require("react
         },
         this
       ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(import_polaris44.HorizontalGrid, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)("div", { className: "grid-container", children: /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(import_polaris43.HorizontalGrid, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)("div", { className: "grid-container", children: /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(
         "div",
         {
           className: "pagination-wrapper",
@@ -8169,8 +8138,8 @@ var import_react49 = require("react"), import_jsx_dev_runtime45 = require("react
             justifyContent: "center",
             padding: 20
           },
-          children: /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(
-            import_polaris44.Pagination,
+          children: /* @__PURE__ */ (0, import_jsx_dev_runtime44.jsxDEV)(
+            import_polaris43.Pagination,
             {
               hasPrevious: pageInfo.hasPreviousPage,
               onPrevious: () => {
@@ -8221,7 +8190,7 @@ var import_react49 = require("react"), import_jsx_dev_runtime45 = require("react
 }, ItemMetaObjects_default = ItemMetaObjects;
 
 // app/routes/app.items.$type.tsx
-var import_jsx_dev_runtime46 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime45 = require("react/jsx-dev-runtime");
 async function loader9({ request, params }) {
   let { admin, session } = await authenticate.admin(request);
   return (0, import_node13.json)({
@@ -8245,20 +8214,20 @@ function MetaobjectsPage3() {
     fetcher.state !== "loading" && pageLoading && setPageLoading(!1);
   }, [fetcher.state]), (0, import_react51.useEffect)(() => {
     fetcher.data || (setPageLoading(!0), onSearch({}));
-  }, []), /* @__PURE__ */ (0, import_jsx_dev_runtime46.jsxDEV)(
-    import_polaris45.Page,
+  }, []), /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(
+    import_polaris44.Page,
     {
       backAction: { content: "Products", url: "/app" },
       title: "Items",
       subtitle: "",
       compactTitle: !0,
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime46.jsxDEV)(import_polaris45.Layout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime46.jsxDEV)(import_polaris45.Layout.Section, { children: [
-        pageLoading ? /* @__PURE__ */ (0, import_jsx_dev_runtime46.jsxDEV)(PageLoader_default, {}, void 0, !1, {
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(import_polaris44.Layout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(import_polaris44.Layout.Section, { children: [
+        pageLoading ? /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(PageLoader_default, {}, void 0, !1, {
           fileName: "app/routes/app.items.$type.tsx",
           lineNumber: 78,
           columnNumber: 26
         }, this) : null,
-        pageLoading ? null : /* @__PURE__ */ (0, import_jsx_dev_runtime46.jsxDEV)(import_polaris45.VerticalStack, { gap: "3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime46.jsxDEV)(
+        pageLoading ? null : /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(import_polaris44.VerticalStack, { gap: "3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime45.jsxDEV)(
           ItemMetaObjects_default,
           {
             edges,
@@ -8307,8 +8276,8 @@ __export(app_metaobjects_exports, {
   default: () => MetaobjectsPage4,
   loader: () => loader10
 });
-var import_node14 = require("@remix-run/node"), import_react52 = require("@remix-run/react"), import_polaris46 = require("@shopify/polaris"), _27 = __toESM(require("lodash")), import_react53 = require("react"), import_polaris47 = require("@shopify/polaris");
-var import_jsx_dev_runtime47 = require("react/jsx-dev-runtime");
+var import_node14 = require("@remix-run/node"), import_react52 = require("@remix-run/react"), import_polaris45 = require("@shopify/polaris"), _27 = __toESM(require("lodash")), import_react53 = require("react"), import_polaris46 = require("@shopify/polaris");
+var import_jsx_dev_runtime46 = require("react/jsx-dev-runtime");
 async function loader10({ request }) {
   let { admin, session } = await authenticate.admin(request), metaDefinitions = await getMetaDefinitions({
     graphql: admin.graphql,
@@ -8317,13 +8286,13 @@ async function loader10({ request }) {
   return (0, import_node14.json)({ metaDefinitions });
 }
 function MetaobjectsPage4() {
-  let { metaDefinitions } = (0, import_react52.useLoaderData)(), [active, setActive] = (0, import_react53.useState)(!0), toggleActive = (0, import_react53.useCallback)(() => setActive((active2) => !active2), []), definitions = _27.get(metaDefinitions, "data.metaobjectDefinitions"), activator = /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(import_polaris47.Button, { onClick: toggleActive, disclosure: !0, children: "More actions" }, void 0, !1, {
+  let { metaDefinitions } = (0, import_react52.useLoaderData)(), [active, setActive] = (0, import_react53.useState)(!0), toggleActive = (0, import_react53.useCallback)(() => setActive((active2) => !active2), []), definitions = _27.get(metaDefinitions, "data.metaobjectDefinitions"), activator = /* @__PURE__ */ (0, import_jsx_dev_runtime46.jsxDEV)(import_polaris46.Button, { onClick: toggleActive, disclosure: !0, children: "More actions" }, void 0, !1, {
     fileName: "app/routes/app.metaobjects.tsx",
     lineNumber: 28,
     columnNumber: 5
   }, this);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
-    import_polaris46.Page,
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime46.jsxDEV)(
+    import_polaris45.Page,
     {
       backAction: { content: "Products", url: "/app" },
       title: "Metaobjects",
@@ -8331,7 +8300,7 @@ function MetaobjectsPage4() {
         _27.get(definitions, "edges.length", 0)
       )} definitions`,
       compactTitle: !0,
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(import_polaris46.Layout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(import_polaris46.Layout.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(import_polaris46.Card, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(import_polaris46.VerticalStack, { gap: "3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime46.jsxDEV)(import_polaris45.Layout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime46.jsxDEV)(import_polaris45.Layout.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime46.jsxDEV)(import_polaris45.Card, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime46.jsxDEV)(import_polaris45.VerticalStack, { gap: "3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime46.jsxDEV)(
         MetaDefinition_default,
         {
           edges: _27.get(definitions, "edges"),
@@ -8382,16 +8351,16 @@ __export(app_product_id_exports, {
   links: () => links4,
   loader: () => loader11
 });
-var import_node15 = require("@remix-run/node"), import_react61 = require("@remix-run/react"), import_polaris52 = require("@shopify/polaris"), _32 = __toESM(require("lodash")), import_react62 = require("react");
+var import_node15 = require("@remix-run/node"), import_react61 = require("@remix-run/react"), import_polaris51 = require("@shopify/polaris"), _32 = __toESM(require("lodash")), import_react62 = require("react");
 
 // app/components/Tables/ProductItems.tsx
-var import_polaris49 = require("@shopify/polaris");
+var import_polaris48 = require("@shopify/polaris");
 var import_react55 = require("react");
 var import_react_sortable_hoc9 = require("react-sortable-hoc"), _29 = __toESM(require("lodash"));
 
 // app/components/Form/Product/ItemMetafieldEditorForm.tsx
-var import_polaris48 = require("@shopify/polaris"), import_react54 = require("react"), _28 = __toESM(require("lodash"));
-var import_jsx_dev_runtime48 = require("react/jsx-dev-runtime"), ItemMetafieldEditorForm = ({
+var import_polaris47 = require("@shopify/polaris"), import_react54 = require("react"), _28 = __toESM(require("lodash"));
+var import_jsx_dev_runtime47 = require("react/jsx-dev-runtime"), ItemMetafieldEditorForm = ({
   fetcher,
   activatorTitle,
   onAdd,
@@ -8461,7 +8430,7 @@ var import_jsx_dev_runtime48 = require("react/jsx-dev-runtime"), ItemMetafieldEd
         "query"
       )}&after=${_28.get(data, "after")}&before=${_28.get(data, "before")}`
     );
-  }, []), activator = /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)("div", { style: { display: "none" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(import_polaris48.Button, { size: "micro", onClick: handleToggle, children: activatorTitle }, void 0, !1, {
+  }, []), activator = /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { style: { display: "none" }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(import_polaris47.Button, { size: "micro", onClick: handleToggle, children: activatorTitle }, void 0, !1, {
     fileName: "app/components/Form/Product/ItemMetafieldEditorForm.tsx",
     lineNumber: 154,
     columnNumber: 7
@@ -8470,8 +8439,8 @@ var import_jsx_dev_runtime48 = require("react/jsx-dev-runtime"), ItemMetafieldEd
     lineNumber: 153,
     columnNumber: 5
   }, this);
-  return values != null && values.name ? /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(
-    import_polaris48.Modal,
+  return values != null && values.name ? /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
+    import_polaris47.Modal,
     {
       activator,
       open: active,
@@ -8487,9 +8456,9 @@ var import_jsx_dev_runtime48 = require("react/jsx-dev-runtime"), ItemMetafieldEd
           onAction: handleToggle
         }
       ],
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(import_polaris48.Modal.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(import_polaris48.Box, { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(
-          import_polaris48.TextField,
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(import_polaris47.Modal.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(import_polaris47.Box, { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
+          import_polaris47.TextField,
           {
             label: "Name",
             value: name,
@@ -8506,13 +8475,13 @@ var import_jsx_dev_runtime48 = require("react/jsx-dev-runtime"), ItemMetafieldEd
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(import_polaris48.Box, { padding: "2" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(import_polaris47.Box, { padding: "2" }, void 0, !1, {
           fileName: "app/components/Form/Product/ItemMetafieldEditorForm.tsx",
           lineNumber: 191,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(
-          import_polaris48.Select,
+        /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
+          import_polaris47.Select,
           {
             label: "Ranking",
             options: raking,
@@ -8529,13 +8498,13 @@ var import_jsx_dev_runtime48 = require("react/jsx-dev-runtime"), ItemMetafieldEd
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(import_polaris48.Box, { padding: "2" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(import_polaris47.Box, { padding: "2" }, void 0, !1, {
           fileName: "app/components/Form/Product/ItemMetafieldEditorForm.tsx",
           lineNumber: 199,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(
-          import_polaris48.TextField,
+        /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
+          import_polaris47.TextField,
           {
             label: "Qty",
             value: qty,
@@ -8553,12 +8522,12 @@ var import_jsx_dev_runtime48 = require("react/jsx-dev-runtime"), ItemMetafieldEd
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(import_polaris48.Box, { padding: "2" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(import_polaris47.Box, { padding: "2" }, void 0, !1, {
           fileName: "app/components/Form/Product/ItemMetafieldEditorForm.tsx",
           lineNumber: 208,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime47.jsxDEV)(
           SelectField_default,
           {
             onSearch,
@@ -8605,7 +8574,7 @@ var import_jsx_dev_runtime48 = require("react/jsx-dev-runtime"), ItemMetafieldEd
 }, ItemMetafieldEditorForm_default = ItemMetafieldEditorForm;
 
 // app/components/Tables/ProductItems.tsx
-var import_jsx_dev_runtime49 = require("react/jsx-dev-runtime"), ProductItems = ({
+var import_jsx_dev_runtime48 = require("react/jsx-dev-runtime"), ProductItems = ({
   items,
   loading: isLoading,
   onRemove,
@@ -8628,32 +8597,32 @@ var import_jsx_dev_runtime49 = require("react/jsx-dev-runtime"), ProductItems = 
     get2(item, "name") && handleOpen();
   }, [item]);
   let SortableItem = (0, import_react_sortable_hoc9.sortableElement)(
-    ({ id, name, ranking, qty, item: item2 }, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
-      import_polaris49.IndexTable.Row,
+    ({ id, name, ranking, qty, item: item2 }, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(
+      import_polaris48.IndexTable.Row,
       {
         id: item2 == null ? void 0 : item2.id,
         position: index,
         children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(import_polaris49.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(import_polaris49.ButtonGroup, { segmented: !0, children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(import_polaris49.Button, { size: "micro", children: /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(DragHandle_default, {}, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(import_polaris48.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(import_polaris48.ButtonGroup, { segmented: !0, children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(import_polaris48.Button, { size: "micro", children: /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(DragHandle_default, {}, void 0, !1, {
               fileName: "app/components/Tables/ProductItems.tsx",
-              lineNumber: 75,
+              lineNumber: 74,
               columnNumber: 15
             }, this) }, void 0, !1, {
               fileName: "app/components/Tables/ProductItems.tsx",
-              lineNumber: 74,
+              lineNumber: 73,
               columnNumber: 13
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
-              import_polaris49.Button,
+            /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(
+              import_polaris48.Button,
               {
                 size: "micro",
                 onClick: () => {
                   onRemove(id);
                 },
-                children: /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(DeleteIcon_default, {}, void 0, !1, {
+                children: /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(DeleteIcon_default, {}, void 0, !1, {
                   fileName: "app/components/Tables/ProductItems.tsx",
-                  lineNumber: 84,
+                  lineNumber: 83,
                   columnNumber: 15
                 }, this)
               },
@@ -8661,22 +8630,13 @@ var import_jsx_dev_runtime49 = require("react/jsx-dev-runtime"), ProductItems = 
               !1,
               {
                 fileName: "app/components/Tables/ProductItems.tsx",
-                lineNumber: 78,
+                lineNumber: 77,
                 columnNumber: 13
               },
               this
             ),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(import_polaris49.Button, { size: "micro", children: /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(DragHandle_default, {}, void 0, !1, {
-              fileName: "app/components/Tables/ProductItems.tsx",
-              lineNumber: 88,
-              columnNumber: 15
-            }, this) }, void 0, !1, {
-              fileName: "app/components/Tables/ProductItems.tsx",
-              lineNumber: 87,
-              columnNumber: 13
-            }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
-              import_polaris49.Button,
+            /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(
+              import_polaris48.Button,
               {
                 size: "micro",
                 onClick: () => {
@@ -8688,9 +8648,9 @@ var import_jsx_dev_runtime49 = require("react/jsx-dev-runtime"), ProductItems = 
                     item: item2
                   });
                 },
-                children: /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(EditIcon_default, {}, void 0, !1, {
+                children: /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(EditIcon_default, {}, void 0, !1, {
                   fileName: "app/components/Tables/ProductItems.tsx",
-                  lineNumber: 103,
+                  lineNumber: 97,
                   columnNumber: 15
                 }, this)
               },
@@ -8698,38 +8658,38 @@ var import_jsx_dev_runtime49 = require("react/jsx-dev-runtime"), ProductItems = 
               !1,
               {
                 fileName: "app/components/Tables/ProductItems.tsx",
-                lineNumber: 91,
+                lineNumber: 85,
                 columnNumber: 13
               },
               this
             )
           ] }, void 0, !0, {
             fileName: "app/components/Tables/ProductItems.tsx",
-            lineNumber: 73,
+            lineNumber: 72,
             columnNumber: 11
           }, this) }, void 0, !1, {
             fileName: "app/components/Tables/ProductItems.tsx",
-            lineNumber: 72,
+            lineNumber: 71,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(import_polaris49.IndexTable.Cell, { children: truncate(name) }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(import_polaris48.IndexTable.Cell, { children: truncate(name) }, void 0, !1, {
             fileName: "app/components/Tables/ProductItems.tsx",
-            lineNumber: 107,
+            lineNumber: 101,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(import_polaris49.IndexTable.Cell, { children: item2 == null ? void 0 : item2.name }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(import_polaris48.IndexTable.Cell, { children: item2 == null ? void 0 : item2.name }, void 0, !1, {
             fileName: "app/components/Tables/ProductItems.tsx",
-            lineNumber: 108,
+            lineNumber: 102,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(import_polaris49.IndexTable.Cell, { children: ranking }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(import_polaris48.IndexTable.Cell, { children: ranking }, void 0, !1, {
             fileName: "app/components/Tables/ProductItems.tsx",
-            lineNumber: 110,
+            lineNumber: 104,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(import_polaris49.IndexTable.Cell, { children: qty }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(import_polaris48.IndexTable.Cell, { children: qty }, void 0, !1, {
             fileName: "app/components/Tables/ProductItems.tsx",
-            lineNumber: 111,
+            lineNumber: 105,
             columnNumber: 9
           }, this)
         ]
@@ -8738,13 +8698,13 @@ var import_jsx_dev_runtime49 = require("react/jsx-dev-runtime"), ProductItems = 
       !0,
       {
         fileName: "app/components/Tables/ProductItems.tsx",
-        lineNumber: 67,
+        lineNumber: 66,
         columnNumber: 7
       },
       this
     )
-  ), SortableContainer = (0, import_react_sortable_hoc9.sortableContainer)(({ children }) => /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
-    import_polaris49.IndexTable,
+  ), SortableContainer = (0, import_react_sortable_hoc9.sortableContainer)(({ children }) => /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(
+    import_polaris48.IndexTable,
     {
       resourceName,
       itemCount: (items == null ? void 0 : items.length) || 0,
@@ -8762,7 +8722,7 @@ var import_jsx_dev_runtime49 = require("react/jsx-dev-runtime"), ProductItems = 
     !1,
     {
       fileName: "app/components/Tables/ProductItems.tsx",
-      lineNumber: 118,
+      lineNumber: 112,
       columnNumber: 7
     },
     this
@@ -8770,13 +8730,13 @@ var import_jsx_dev_runtime49 = require("react/jsx-dev-runtime"), ProductItems = 
     let _items = (0, import_react_sortable_hoc9.arrayMove)(items, oldIndex, newIndex);
     handleItemChange(_items), formik.setFieldValue("items", _items);
   }, { active, handleClose, handleOpen } = useHandleToggleModal();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(import_polaris49.LegacyCard, { children: [
-    loading || isLoading ? /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(Loaders_default, {}, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(import_polaris48.LegacyCard, { children: [
+    loading || isLoading ? /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(Loaders_default, {}, void 0, !1, {
       fileName: "app/components/Tables/ProductItems.tsx",
-      lineNumber: 143,
+      lineNumber: 137,
       columnNumber: 31
     }, this) : null,
-    /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(
       ItemMetafieldEditorForm_default,
       {
         activatorTitle: "",
@@ -8791,12 +8751,12 @@ var import_jsx_dev_runtime49 = require("react/jsx-dev-runtime"), ProductItems = 
       !1,
       {
         fileName: "app/components/Tables/ProductItems.tsx",
-        lineNumber: 144,
+        lineNumber: 138,
         columnNumber: 7
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(import_polaris49.VerticalStack, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(SortableContainer, { onSortEnd, useDragHandle: !0, children: items == null ? void 0 : items.map((value, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(import_polaris48.VerticalStack, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(SortableContainer, { onSortEnd, useDragHandle: !0, children: items == null ? void 0 : items.map((value, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime48.jsxDEV)(
       SortableItem,
       {
         index,
@@ -8810,22 +8770,22 @@ var import_jsx_dev_runtime49 = require("react/jsx-dev-runtime"), ProductItems = 
       !1,
       {
         fileName: "app/components/Tables/ProductItems.tsx",
-        lineNumber: 156,
+        lineNumber: 150,
         columnNumber: 13
       },
       this
     )) }, void 0, !1, {
       fileName: "app/components/Tables/ProductItems.tsx",
-      lineNumber: 154,
+      lineNumber: 148,
       columnNumber: 9
     }, this) }, void 0, !1, {
       fileName: "app/components/Tables/ProductItems.tsx",
-      lineNumber: 153,
+      lineNumber: 147,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/Tables/ProductItems.tsx",
-    lineNumber: 142,
+    lineNumber: 136,
     columnNumber: 5
   }, this);
 }, ProductItems_default = ProductItems;
@@ -8872,8 +8832,8 @@ query Product($id: ID!) {
   `;
 
 // app/components/Form/Product/ItemMetafieldForm.tsx
-var import_polaris50 = require("@shopify/polaris"), import_react56 = require("react"), _30 = __toESM(require("lodash"));
-var import_jsx_dev_runtime50 = require("react/jsx-dev-runtime"), ItemMetafieldForm = ({ fetcher, activatorTitle, onAdd, values }) => {
+var import_polaris49 = require("@shopify/polaris"), import_react56 = require("react"), _30 = __toESM(require("lodash"));
+var import_jsx_dev_runtime49 = require("react/jsx-dev-runtime"), ItemMetafieldForm = ({ fetcher, activatorTitle, onAdd, values }) => {
   let [active, setActive] = (0, import_react56.useState)(!1), [options, setOptions] = (0, import_react56.useState)([]), [loading, setLoading] = (0, import_react56.useState)(!1), [selectedOptions, setSelectedOptions] = (0, import_react56.useState)(
     _30.get(values, "item.id") ? [_30.get(values, "item.id")] : []
   ), [ranking, handleSetRanking] = (0, import_react56.useState)("Key"), setRanking = (0, import_react56.useCallback)((value) => handleSetRanking(value), []), [name, handleSetName] = (0, import_react56.useState)(_30.get(values, "name", "")), setName = (0, import_react56.useCallback)((value) => handleSetName(value), []), [qty, setQty] = (0, import_react56.useState)(_30.get(values, "qty", "")), [errors, handleSetErrors] = (0, import_react56.useState)({}), setErrors = (0, import_react56.useCallback)((value) => handleSetErrors(value), []), [item, handleSetItem] = (0, import_react56.useState)(_30.get(values, "item")), setItem = (0, import_react56.useCallback)((value) => handleSetItem(value), []), onSubmit = () => {
@@ -8933,10 +8893,10 @@ var import_jsx_dev_runtime50 = require("react/jsx-dev-runtime"), ItemMetafieldFo
       )}&after=${_30.get(data, "after")}&before=${_30.get(data, "before")}`
     );
   }, []), handleChange = (0, import_react56.useCallback)(() => setActive(!active), [active]);
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(
-    import_polaris50.Modal,
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
+    import_polaris49.Modal,
     {
-      activator: /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(import_polaris50.Button, { size: "micro", onClick: handleChange, children: activatorTitle }, void 0, !1, {
+      activator: /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(import_polaris49.Button, { size: "micro", onClick: handleChange, children: activatorTitle }, void 0, !1, {
         fileName: "app/components/Form/Product/ItemMetafieldForm.tsx",
         lineNumber: 138,
         columnNumber: 5
@@ -8954,9 +8914,9 @@ var import_jsx_dev_runtime50 = require("react/jsx-dev-runtime"), ItemMetafieldFo
           onAction: handleChange
         }
       ],
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(import_polaris50.Modal.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(import_polaris50.Box, { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(
-          import_polaris50.TextField,
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(import_polaris49.Modal.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(import_polaris49.Box, { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
+          import_polaris49.TextField,
           {
             label: "Name",
             value: name,
@@ -8973,13 +8933,13 @@ var import_jsx_dev_runtime50 = require("react/jsx-dev-runtime"), ItemMetafieldFo
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(import_polaris50.Box, { padding: "2" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(import_polaris49.Box, { padding: "2" }, void 0, !1, {
           fileName: "app/components/Form/Product/ItemMetafieldForm.tsx",
           lineNumber: 170,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(
-          import_polaris50.Select,
+        /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
+          import_polaris49.Select,
           {
             label: "Ranking",
             options: raking,
@@ -8996,13 +8956,13 @@ var import_jsx_dev_runtime50 = require("react/jsx-dev-runtime"), ItemMetafieldFo
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(import_polaris50.Box, { padding: "2" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(import_polaris49.Box, { padding: "2" }, void 0, !1, {
           fileName: "app/components/Form/Product/ItemMetafieldForm.tsx",
           lineNumber: 178,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(
-          import_polaris50.TextField,
+        /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
+          import_polaris49.TextField,
           {
             label: "Qty",
             value: qty,
@@ -9020,12 +8980,12 @@ var import_jsx_dev_runtime50 = require("react/jsx-dev-runtime"), ItemMetafieldFo
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(import_polaris50.Box, { padding: "2" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(import_polaris49.Box, { padding: "2" }, void 0, !1, {
           fileName: "app/components/Form/Product/ItemMetafieldForm.tsx",
           lineNumber: 187,
           columnNumber: 13
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime49.jsxDEV)(
           SelectField_default,
           {
             onSearch,
@@ -9415,8 +9375,8 @@ fragment InventoryItemVariantWithFirstInventoryLevel on ProductVariant {
 }`;
 
 // app/components/Form/Product/DuplicateForm.tsx
-var import_polaris51 = require("@shopify/polaris"), import_react57 = require("react");
-var _31 = __toESM(require("lodash")), import_react58 = require("@remix-run/react"), import_jsx_dev_runtime51 = require("react/jsx-dev-runtime"), DuplicateForm = ({ modalTitle, product, activatorRef }) => {
+var import_polaris50 = require("@shopify/polaris"), import_react57 = require("react");
+var _31 = __toESM(require("lodash")), import_react58 = require("@remix-run/react"), import_jsx_dev_runtime50 = require("react/jsx-dev-runtime"), DuplicateForm = ({ modalTitle, product, activatorRef }) => {
   var _a2;
   let actionErrors = ((_a2 = (0, import_react58.useActionData)()) == null ? void 0 : _a2.errors) || {}, location = (0, import_react58.useLocation)(), [title, setTitle] = (0, import_react57.useState)(`Copy of - ${_31.get(product, "title")}`), [errors, setErrors] = (0, import_react57.useState)({}), [laoding, setLoading] = (0, import_react57.useState)(!1), handleLoadingChange = (0, import_react57.useCallback)((value) => setLoading(value), []), handleValueChange = (0, import_react57.useCallback)((value) => setTitle(value), []), handleSetErrors = (0, import_react57.useCallback)((value) => setErrors(value), []), [active, setActive] = (0, import_react57.useState)(!1), submit = (0, import_react58.useSubmit)(), handleOpen = (0, import_react57.useCallback)(() => setActive(!0), []), handleClose = (0, import_react57.useCallback)(() => {
     setActive(!1);
@@ -9425,8 +9385,8 @@ var _31 = __toESM(require("lodash")), import_react58 = require("@remix-run/react
     setLoading(!1);
   }, [active]), (0, import_react57.useEffect)(() => {
     handleClose();
-  }, [location]), /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)("div", { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)("div", { style: { height: 0, display: "none" }, ref: activatorRef, children: /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(import_polaris51.Button, { onClick: handleOpen, children: "~" }, void 0, !1, {
+  }, [location]), /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)("div", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)("div", { style: { height: 0, display: "none" }, ref: activatorRef, children: /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(import_polaris50.Button, { onClick: handleOpen, children: "~" }, void 0, !1, {
       fileName: "app/components/Form/Product/DuplicateForm.tsx",
       lineNumber: 59,
       columnNumber: 9
@@ -9435,8 +9395,8 @@ var _31 = __toESM(require("lodash")), import_react58 = require("@remix-run/react
       lineNumber: 58,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(
-      import_polaris51.Modal,
+    /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(
+      import_polaris50.Modal,
       {
         small: !0,
         open: active,
@@ -9461,9 +9421,9 @@ var _31 = __toESM(require("lodash")), import_react58 = require("@remix-run/react
             onAction: handleClose
           }
         ],
-        children: /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(import_polaris51.Modal.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(import_polaris51.Box, { children: [
-          Object.keys(actionErrors).length ? /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(
-            import_polaris51.InlineError,
+        children: /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(import_polaris50.Modal.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(import_polaris50.Box, { children: [
+          Object.keys(actionErrors).length ? /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(
+            import_polaris50.InlineError,
             {
               message: JSON.stringify(actionErrors),
               fieldID: "errors"
@@ -9477,8 +9437,8 @@ var _31 = __toESM(require("lodash")), import_react58 = require("@remix-run/react
             },
             this
           ) : null,
-          /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(
-            import_polaris51.TextField,
+          /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(
+            import_polaris50.TextField,
             {
               label: "Title",
               value: title,
@@ -9495,12 +9455,12 @@ var _31 = __toESM(require("lodash")), import_react58 = require("@remix-run/react
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(import_polaris51.Box, { padding: "2" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(import_polaris50.Box, { padding: "2" }, void 0, !1, {
             fileName: "app/components/Form/Product/DuplicateForm.tsx",
             lineNumber: 93,
             columnNumber: 13
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(import_polaris51.Text, { variant: "bodyLg", as: "p", children: "All product details will be copied from the original product." }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime50.jsxDEV)(import_polaris50.Text, { variant: "bodyLg", as: "p", children: "All product details will be copied from the original product." }, void 0, !1, {
             fileName: "app/components/Form/Product/DuplicateForm.tsx",
             lineNumber: 95,
             columnNumber: 13
@@ -11142,7 +11102,7 @@ var HTML5Backend = function(manager, context, options) {
 };
 
 // app/routes/app.product.$id.tsx
-var import_jsx_dev_runtime52 = require("react/jsx-dev-runtime"), MDEditor6 = (0, import_react62.lazy)(() => import("@uiw/react-md-editor")), links4 = () => [
+var import_jsx_dev_runtime51 = require("react/jsx-dev-runtime"), MDEditor6 = (0, import_react62.lazy)(() => import("@uiw/react-md-editor")), links4 = () => [
   { rel: "stylesheet", href: markdown_editor_default },
   { rel: "stylesheet", href: markdown_default }
 ];
@@ -11322,8 +11282,8 @@ function ProductPage2() {
       ]
     ), handleFormDirty();
   };
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(DndProvider, { backend: HTML5Backend, children: /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(
-    import_polaris52.Page,
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(DndProvider, { backend: HTML5Backend, children: /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(
+    import_polaris51.Page,
     {
       backAction: { content: "Products", url: "/app/products" },
       title: _32.get(product, "title", ""),
@@ -11339,8 +11299,8 @@ function ProductPage2() {
           }
         }
       ],
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_polaris52.Layout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_polaris52.Layout.Section, { children: [
-        formDirty ? /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(import_polaris51.Layout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(import_polaris51.Layout.Section, { children: [
+        formDirty ? /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(
           SaveAppBar_default,
           {
             loading,
@@ -11358,8 +11318,8 @@ function ProductPage2() {
           },
           this
         ) : null,
-        /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_polaris52.Card, { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(import_polaris51.Card, { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(
             DuplicateForm_default,
             {
               modalTitle: "Duplicate",
@@ -11375,9 +11335,9 @@ function ProductPage2() {
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_polaris52.VerticalStack, { gap: "3", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(
-              import_polaris52.TextField,
+          /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(import_polaris51.VerticalStack, { gap: "3", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(
+              import_polaris51.TextField,
               {
                 label: "Title",
                 value: get2(formik, "values.title"),
@@ -11395,14 +11355,14 @@ function ProductPage2() {
               },
               this
             ),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_react62.Suspense, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_react61.Await, { resolve: get2(formik, "values.productdescription"), children: (value) => /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_jsx_dev_runtime52.Fragment, { children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("label", { children: "Description" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(import_react62.Suspense, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(import_react61.Await, { resolve: get2(formik, "values.productdescription"), children: (value) => /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(import_jsx_dev_runtime51.Fragment, { children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)("label", { children: "Description" }, void 0, !1, {
                 fileName: "app/routes/app.product.$id.tsx",
                 lineNumber: 386,
                 columnNumber: 25
               }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("div", { "data-color-mode": "light", children: [
-                /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)("div", { "data-color-mode": "light", children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(
                   MDEditor6,
                   {
                     value: value != null && value.includes("children") ? toHTML(value) : value,
@@ -11420,7 +11380,7 @@ function ProductPage2() {
                   },
                   this
                 ),
-                /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_polaris52.Box, { padding: "2" }, void 0, !1, {
+                /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(import_polaris51.Box, { padding: "2" }, void 0, !1, {
                   fileName: "app/routes/app.product.$id.tsx",
                   lineNumber: 400,
                   columnNumber: 27
@@ -11443,14 +11403,14 @@ function ProductPage2() {
               lineNumber: 382,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_react62.Suspense, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_react61.Await, { resolve: get2(formik, "values.description"), children: (value) => /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_jsx_dev_runtime52.Fragment, { children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("label", { children: "Original Description (not editable - to be removed in future)" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(import_react62.Suspense, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(import_react61.Await, { resolve: get2(formik, "values.description"), children: (value) => /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(import_jsx_dev_runtime51.Fragment, { children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)("label", { children: "Original Description (not editable - to be removed in future)" }, void 0, !1, {
                 fileName: "app/routes/app.product.$id.tsx",
                 lineNumber: 411,
                 columnNumber: 25
               }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("div", { "data-color-mode": "light", children: [
-                /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(
+              /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)("div", { "data-color-mode": "light", children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(
                   MDEditor6,
                   {
                     value: value != null && value.includes("children") ? toHTML(value) : value,
@@ -11467,7 +11427,7 @@ function ProductPage2() {
                   },
                   this
                 ),
-                /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_polaris52.Box, { padding: "2" }, void 0, !1, {
+                /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(import_polaris51.Box, { padding: "2" }, void 0, !1, {
                   fileName: "app/routes/app.product.$id.tsx",
                   lineNumber: 430,
                   columnNumber: 27
@@ -11490,7 +11450,7 @@ function ProductPage2() {
               lineNumber: 407,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(
               "div",
               {
                 style: {
@@ -11499,12 +11459,12 @@ function ProductPage2() {
                   justifyContent: "space-between"
                 },
                 children: [
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_polaris52.Text, { variant: "headingMd", as: "h6", children: "Items" }, void 0, !1, {
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(import_polaris51.Text, { variant: "headingMd", as: "h6", children: "Items" }, void 0, !1, {
                     fileName: "app/routes/app.product.$id.tsx",
                     lineNumber: 443,
                     columnNumber: 19
                   }, this),
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(
                     ItemMetafieldForm_default,
                     {
                       activatorTitle: "Add Item",
@@ -11532,7 +11492,7 @@ function ProductPage2() {
               },
               this
             ),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(
               ProductItems_default,
               {
                 fetcher,
@@ -11552,12 +11512,12 @@ function ProductPage2() {
               },
               this
             ),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_polaris52.Box, { padding: "5" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(import_polaris51.Box, { padding: "5" }, void 0, !1, {
               fileName: "app/routes/app.product.$id.tsx",
               lineNumber: 463,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(
               "div",
               {
                 style: {
@@ -11566,12 +11526,12 @@ function ProductPage2() {
                   justifyContent: "space-between"
                 },
                 children: [
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_polaris52.Text, { variant: "headingMd", as: "h6", children: "Properties" }, void 0, !1, {
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(import_polaris51.Text, { variant: "headingMd", as: "h6", children: "Properties" }, void 0, !1, {
                     fileName: "app/routes/app.product.$id.tsx",
                     lineNumber: 471,
                     columnNumber: 19
                   }, this),
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(
                     PropertyMetafieldForm_default,
                     {
                       activatorTitle: "Add Property",
@@ -11599,7 +11559,7 @@ function ProductPage2() {
               },
               this
             ),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(
               ProductProperties_default,
               {
                 fetcher: fetcher2,
@@ -11619,7 +11579,7 @@ function ProductPage2() {
               },
               this
             ),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(
               "div",
               {
                 style: {
@@ -11628,12 +11588,12 @@ function ProductPage2() {
                   justifyContent: "space-between"
                 },
                 children: [
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_polaris52.Text, { variant: "headingMd", as: "h6", children: "Main Media" }, void 0, !1, {
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(import_polaris51.Text, { variant: "headingMd", as: "h6", children: "Main Media" }, void 0, !1, {
                     fileName: "app/routes/app.product.$id.tsx",
                     lineNumber: 499,
                     columnNumber: 19
                   }, this),
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(
                     ImageForm_default,
                     {
                       activatorTitle: `${(_a2 = get2(formik, "values.mainMedia", [])) != null && _a2.length ? "Edit" : "Add"} Main Media`,
@@ -11659,7 +11619,7 @@ function ProductPage2() {
               },
               this
             ),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(
               ImageGrid_default,
               {
                 images: get2(formik, "values.mainMedia", []),
@@ -11679,7 +11639,7 @@ function ProductPage2() {
               },
               this
             ),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(
               "div",
               {
                 style: {
@@ -11688,12 +11648,12 @@ function ProductPage2() {
                   justifyContent: "space-between"
                 },
                 children: [
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_polaris52.Text, { variant: "headingMd", as: "h6", children: "Additional Media" }, void 0, !1, {
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(import_polaris51.Text, { variant: "headingMd", as: "h6", children: "Additional Media" }, void 0, !1, {
                     fileName: "app/routes/app.product.$id.tsx",
                     lineNumber: 531,
                     columnNumber: 19
                   }, this),
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(
                     ImageForm_default,
                     {
                       onAdd: onAddAdditionalMedia,
@@ -11719,7 +11679,7 @@ function ProductPage2() {
               },
               this
             ),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime51.jsxDEV)(
               ImageGrid_default,
               {
                 images: get2(formik, "values.additionalMedia", []),
@@ -11775,21 +11735,21 @@ var app_additional_exports = {};
 __export(app_additional_exports, {
   default: () => AdditionalPage
 });
-var import_polaris53 = require("@shopify/polaris"), import_jsx_dev_runtime53 = require("react/jsx-dev-runtime");
+var import_polaris52 = require("@shopify/polaris"), import_jsx_dev_runtime52 = require("react/jsx-dev-runtime");
 function AdditionalPage() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_polaris53.Page, { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("ui-title-bar", { title: "Additional page" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_polaris52.Page, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("ui-title-bar", { title: "Additional page" }, void 0, !1, {
       fileName: "app/routes/app.additional.jsx",
       lineNumber: 15,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_polaris53.Layout, { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_polaris53.Layout.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_polaris53.Card, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_polaris53.VerticalStack, { gap: "3", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_polaris53.Text, { as: "p", variant: "bodyMd", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_polaris52.Layout, { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_polaris52.Layout.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_polaris52.Card, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_polaris52.VerticalStack, { gap: "3", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_polaris52.Text, { as: "p", variant: "bodyMd", children: [
           "The app template comes with an additional page which demonstrates how to create multiple pages within app navigation using",
           " ",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(
-            import_polaris53.Link,
+          /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(
+            import_polaris52.Link,
             {
               url: "https://shopify.dev/docs/apps/tools/app-bridge",
               target: "_blank",
@@ -11810,21 +11770,21 @@ function AdditionalPage() {
           lineNumber: 20,
           columnNumber: 15
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_polaris53.Text, { as: "p", variant: "bodyMd", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_polaris52.Text, { as: "p", variant: "bodyMd", children: [
           "To create your own page and have it show up in the app navigation, add a page inside ",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(Code, { children: "app/routes" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(Code, { children: "app/routes" }, void 0, !1, {
             fileName: "app/routes/app.additional.jsx",
             lineNumber: 34,
             columnNumber: 47
           }, this),
           ", and a link to it in the ",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(Code, { children: "<ui-nav-menu>" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(Code, { children: "<ui-nav-menu>" }, void 0, !1, {
             fileName: "app/routes/app.additional.jsx",
             lineNumber: 35,
             columnNumber: 35
           }, this),
           " component found in ",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(Code, { children: "app/routes/app.jsx" }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(Code, { children: "app/routes/app.jsx" }, void 0, !1, {
             fileName: "app/routes/app.additional.jsx",
             lineNumber: 36,
             columnNumber: 26
@@ -11848,14 +11808,14 @@ function AdditionalPage() {
         lineNumber: 17,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_polaris53.Layout.Section, { secondary: !0, children: /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_polaris53.Card, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_polaris53.VerticalStack, { gap: "2", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_polaris53.Text, { as: "h2", variant: "headingMd", children: "Resources" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_polaris52.Layout.Section, { secondary: !0, children: /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_polaris52.Card, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_polaris52.VerticalStack, { gap: "2", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_polaris52.Text, { as: "h2", variant: "headingMd", children: "Resources" }, void 0, !1, {
           fileName: "app/routes/app.additional.jsx",
           lineNumber: 44,
           columnNumber: 15
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_polaris53.List, { spacing: "extraTight", children: /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_polaris53.List.Item, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(
-          import_polaris53.Link,
+        /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_polaris52.List, { spacing: "extraTight", children: /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(import_polaris52.List.Item, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(
+          import_polaris52.Link,
           {
             url: "https://shopify.dev/docs/apps/design-guidelines/navigation#app-nav",
             target: "_blank",
@@ -11903,8 +11863,8 @@ function AdditionalPage() {
   }, this);
 }
 function Code({ children }) {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(
-    import_polaris53.Box,
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)(
+    import_polaris52.Box,
     {
       as: "span",
       padding: "025",
@@ -11914,7 +11874,7 @@ function Code({ children }) {
       borderWidth: "1",
       borderColor: "border",
       borderRadius: "1",
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("code", { children }, void 0, !1, {
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime52.jsxDEV)("code", { children }, void 0, !1, {
         fileName: "app/routes/app.additional.jsx",
         lineNumber: 77,
         columnNumber: 7
@@ -11937,11 +11897,11 @@ __export(app_site_maps_exports, {
   default: () => MetaobjectsPage5,
   loader: () => loader12
 });
-var import_node16 = require("@remix-run/node"), import_react65 = require("@remix-run/react"), import_polaris55 = require("@shopify/polaris"), _33 = __toESM(require("lodash")), import_react66 = require("react");
+var import_node16 = require("@remix-run/node"), import_react65 = require("@remix-run/react"), import_polaris54 = require("@shopify/polaris"), _33 = __toESM(require("lodash")), import_react66 = require("react");
 
 // app/components/Tables/SiteMapMetaObjects.tsx
-var import_react63 = require("@remix-run/react"), import_polaris54 = require("@shopify/polaris");
-var import_react64 = require("react"), import_jsx_dev_runtime54 = require("react/jsx-dev-runtime"), SiteMapMetaObjects = ({
+var import_react63 = require("@remix-run/react"), import_polaris53 = require("@shopify/polaris");
+var import_react64 = require("react"), import_jsx_dev_runtime53 = require("react/jsx-dev-runtime"), SiteMapMetaObjects = ({
   edges,
   pageInfo,
   type,
@@ -11962,7 +11922,7 @@ var import_react64 = require("react"), import_jsx_dev_runtime54 = require("react
     queryValue != null && onSearch({ query: queryValue });
   }, [queryValue]);
   let [selected] = (0, import_react64.useState)(0), onHandleCancel = () => {
-  }, { mode, setMode } = (0, import_polaris54.useSetIndexFiltersMode)();
+  }, { mode, setMode } = (0, import_polaris53.useSetIndexFiltersMode)();
   (0, import_react64.useEffect)(() => {
     setLoading(!1);
   }, [edges]);
@@ -11977,9 +11937,9 @@ var import_react64 = require("react"), import_jsx_dev_runtime54 = require("react
         type: type2,
         updatedAt
       }
-    }, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(import_polaris54.IndexTable.Row, { onNavigation: () => {
+    }, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_polaris53.IndexTable.Row, { onNavigation: () => {
     }, id, position: index, children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(import_polaris54.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(import_polaris54.Text, { variant: "bodyMd", as: "span", children: /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(import_react63.Link, { to: `/app/site-map/${handle}`, children: truncate(displayName) }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_polaris53.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_polaris53.Text, { variant: "bodyMd", as: "span", children: /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_react63.Link, { to: `/app/site-map/${handle}`, children: truncate(displayName) }, void 0, !1, {
         fileName: "app/components/Tables/SiteMapMetaObjects.tsx",
         lineNumber: 85,
         columnNumber: 13
@@ -11992,17 +11952,17 @@ var import_react64 = require("react"), import_jsx_dev_runtime54 = require("react
         lineNumber: 83,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(import_polaris54.IndexTable.Cell, { children: definition.name }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_polaris53.IndexTable.Cell, { children: definition.name }, void 0, !1, {
         fileName: "app/components/Tables/SiteMapMetaObjects.tsx",
         lineNumber: 88,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(import_polaris54.IndexTable.Cell, { children: definition.access.storefront }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_polaris53.IndexTable.Cell, { children: definition.access.storefront }, void 0, !1, {
         fileName: "app/components/Tables/SiteMapMetaObjects.tsx",
         lineNumber: 89,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(import_polaris54.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(import_polaris54.Badge, { size: "small", children: capabilities.publishable.status }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_polaris53.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_polaris53.Badge, { size: "small", children: capabilities.publishable.status }, void 0, !1, {
         fileName: "app/components/Tables/SiteMapMetaObjects.tsx",
         lineNumber: 92,
         columnNumber: 11
@@ -12011,7 +11971,7 @@ var import_react64 = require("react"), import_jsx_dev_runtime54 = require("react
         lineNumber: 91,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(import_polaris54.IndexTable.Cell, { children: dateFormatter(updatedAt) }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_polaris53.IndexTable.Cell, { children: dateFormatter(updatedAt) }, void 0, !1, {
         fileName: "app/components/Tables/SiteMapMetaObjects.tsx",
         lineNumber: 94,
         columnNumber: 9
@@ -12022,15 +11982,15 @@ var import_react64 = require("react"), import_jsx_dev_runtime54 = require("react
       columnNumber: 7
     }, this)
   );
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(import_polaris54.LegacyCard, { children: [
-    loading || isLoading ? /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(Loaders_default, {}, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_polaris53.LegacyCard, { children: [
+    loading || isLoading ? /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(Loaders_default, {}, void 0, !1, {
       fileName: "app/components/Tables/SiteMapMetaObjects.tsx",
       lineNumber: 101,
       columnNumber: 31
     }, this) : null,
-    /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(import_polaris54.VerticalStack, { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(
-        import_polaris54.IndexFilters,
+    /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_polaris53.VerticalStack, { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(
+        import_polaris53.IndexFilters,
         {
           selected,
           filters: [],
@@ -12061,8 +12021,8 @@ var import_react64 = require("react"), import_jsx_dev_runtime54 = require("react
         },
         this
       ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(
-        import_polaris54.IndexTable,
+      /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(
+        import_polaris53.IndexTable,
         {
           resourceName,
           itemCount: edges.length,
@@ -12085,7 +12045,7 @@ var import_react64 = require("react"), import_jsx_dev_runtime54 = require("react
         },
         this
       ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(import_polaris54.HorizontalGrid, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)("div", { className: "grid-container", children: /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(import_polaris53.HorizontalGrid, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)("div", { className: "grid-container", children: /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(
         "div",
         {
           className: "pagination-wrapper",
@@ -12095,8 +12055,8 @@ var import_react64 = require("react"), import_jsx_dev_runtime54 = require("react
             justifyContent: "center",
             padding: 20
           },
-          children: /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(
-            import_polaris54.Pagination,
+          children: /* @__PURE__ */ (0, import_jsx_dev_runtime53.jsxDEV)(
+            import_polaris53.Pagination,
             {
               hasPrevious: pageInfo.hasPreviousPage,
               onPrevious: () => {
@@ -12147,7 +12107,7 @@ var import_react64 = require("react"), import_jsx_dev_runtime54 = require("react
 }, SiteMapMetaObjects_default = SiteMapMetaObjects;
 
 // app/routes/app.site-maps.tsx
-var import_jsx_dev_runtime55 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime54 = require("react/jsx-dev-runtime");
 async function loader12({ request, params }) {
   let { admin, session } = await authenticate.admin(request);
   return (0, import_node16.json)({
@@ -12170,20 +12130,20 @@ function MetaobjectsPage5() {
     fetcher.state !== "loading" && pageLoading && setPageLoading(!1);
   }, [fetcher.state]), (0, import_react66.useEffect)(() => {
     fetcher.data || (setPageLoading(!0), onSearch({}));
-  }, []), /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(
-    import_polaris55.Page,
+  }, []), /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(
+    import_polaris54.Page,
     {
       backAction: { content: "Products", url: "/app" },
       title: "Sites",
       subtitle: "",
       compactTitle: !0,
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(import_polaris55.Layout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(import_polaris55.Layout.Section, { children: [
-        pageLoading ? /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(PageLoader_default, {}, void 0, !1, {
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(import_polaris54.Layout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(import_polaris54.Layout.Section, { children: [
+        pageLoading ? /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(PageLoader_default, {}, void 0, !1, {
           fileName: "app/routes/app.site-maps.tsx",
           lineNumber: 74,
           columnNumber: 26
         }, this) : null,
-        pageLoading ? null : /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(import_polaris55.VerticalStack, { gap: "3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(
+        pageLoading ? null : /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(import_polaris54.VerticalStack, { gap: "3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime54.jsxDEV)(
           SiteMapMetaObjects_default,
           {
             edges,
@@ -12232,11 +12192,11 @@ __export(app_articles_exports, {
   default: () => MetaobjectsPage6,
   loader: () => loader13
 });
-var import_node17 = require("@remix-run/node"), import_react69 = require("@remix-run/react"), import_polaris57 = require("@shopify/polaris"), _34 = __toESM(require("lodash")), import_react70 = require("react");
+var import_node17 = require("@remix-run/node"), import_react69 = require("@remix-run/react"), import_polaris56 = require("@shopify/polaris"), _34 = __toESM(require("lodash")), import_react70 = require("react");
 
 // app/components/Tables/Articles.tsx
-var import_react67 = require("@remix-run/react"), import_polaris56 = require("@shopify/polaris");
-var import_react68 = require("react"), import_jsx_dev_runtime56 = require("react/jsx-dev-runtime"), Articles = ({
+var import_react67 = require("@remix-run/react"), import_polaris55 = require("@shopify/polaris");
+var import_react68 = require("react"), import_jsx_dev_runtime55 = require("react/jsx-dev-runtime"), Articles = ({
   edges,
   pageInfo,
   type,
@@ -12257,7 +12217,7 @@ var import_react68 = require("react"), import_jsx_dev_runtime56 = require("react
     queryValue != null && onSearch({ query: queryValue });
   }, [queryValue]);
   let [selected] = (0, import_react68.useState)(0), onHandleCancel = () => {
-  }, { mode, setMode } = (0, import_polaris56.useSetIndexFiltersMode)();
+  }, { mode, setMode } = (0, import_polaris55.useSetIndexFiltersMode)();
   (0, import_react68.useEffect)(() => {
     setLoading(!1);
   }, [edges]);
@@ -12272,15 +12232,15 @@ var import_react68 = require("react"), import_jsx_dev_runtime56 = require("react
         type: type2,
         updatedAt
       }
-    }, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(
-      import_polaris56.IndexTable.Row,
+    }, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(
+      import_polaris55.IndexTable.Row,
       {
         onNavigation: () => {
         },
         id,
         position: index,
         children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(import_polaris56.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(import_polaris56.Text, { variant: "bodyMd", as: "span", children: /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(import_react67.Link, { to: `/app/article/${handle}`, children: truncate(displayName) }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(import_polaris55.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(import_polaris55.Text, { variant: "bodyMd", as: "span", children: /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(import_react67.Link, { to: `/app/article/${handle}`, children: truncate(displayName) }, void 0, !1, {
             fileName: "app/components/Tables/Articles.tsx",
             lineNumber: 90,
             columnNumber: 13
@@ -12293,17 +12253,17 @@ var import_react68 = require("react"), import_jsx_dev_runtime56 = require("react
             lineNumber: 88,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(import_polaris56.IndexTable.Cell, { children: definition.name }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(import_polaris55.IndexTable.Cell, { children: definition.name }, void 0, !1, {
             fileName: "app/components/Tables/Articles.tsx",
             lineNumber: 93,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(import_polaris56.IndexTable.Cell, { children: definition.access.storefront }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(import_polaris55.IndexTable.Cell, { children: definition.access.storefront }, void 0, !1, {
             fileName: "app/components/Tables/Articles.tsx",
             lineNumber: 94,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(import_polaris56.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(import_polaris56.Badge, { size: "small", children: capabilities.publishable.status }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(import_polaris55.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(import_polaris55.Badge, { size: "small", children: capabilities.publishable.status }, void 0, !1, {
             fileName: "app/components/Tables/Articles.tsx",
             lineNumber: 97,
             columnNumber: 11
@@ -12312,7 +12272,7 @@ var import_react68 = require("react"), import_jsx_dev_runtime56 = require("react
             lineNumber: 96,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(import_polaris56.IndexTable.Cell, { children: dateFormatter(updatedAt) }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(import_polaris55.IndexTable.Cell, { children: dateFormatter(updatedAt) }, void 0, !1, {
             fileName: "app/components/Tables/Articles.tsx",
             lineNumber: 99,
             columnNumber: 9
@@ -12329,15 +12289,15 @@ var import_react68 = require("react"), import_jsx_dev_runtime56 = require("react
       this
     )
   );
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(import_polaris56.LegacyCard, { children: [
-    loading || isLoading ? /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(Loaders_default, {}, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(import_polaris55.LegacyCard, { children: [
+    loading || isLoading ? /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(Loaders_default, {}, void 0, !1, {
       fileName: "app/components/Tables/Articles.tsx",
       lineNumber: 106,
       columnNumber: 31
     }, this) : null,
-    /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(import_polaris56.VerticalStack, { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(
-        import_polaris56.IndexFilters,
+    /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(import_polaris55.VerticalStack, { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(
+        import_polaris55.IndexFilters,
         {
           selected,
           filters: [],
@@ -12368,8 +12328,8 @@ var import_react68 = require("react"), import_jsx_dev_runtime56 = require("react
         },
         this
       ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(
-        import_polaris56.IndexTable,
+      /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(
+        import_polaris55.IndexTable,
         {
           resourceName,
           itemCount: edges.length,
@@ -12392,7 +12352,7 @@ var import_react68 = require("react"), import_jsx_dev_runtime56 = require("react
         },
         this
       ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(import_polaris56.HorizontalGrid, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)("div", { className: "grid-container", children: /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(import_polaris55.HorizontalGrid, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)("div", { className: "grid-container", children: /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(
         "div",
         {
           className: "pagination-wrapper",
@@ -12402,8 +12362,8 @@ var import_react68 = require("react"), import_jsx_dev_runtime56 = require("react
             justifyContent: "center",
             padding: 20
           },
-          children: /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(
-            import_polaris56.Pagination,
+          children: /* @__PURE__ */ (0, import_jsx_dev_runtime55.jsxDEV)(
+            import_polaris55.Pagination,
             {
               hasPrevious: pageInfo.hasPreviousPage,
               onPrevious: () => {
@@ -12454,7 +12414,7 @@ var import_react68 = require("react"), import_jsx_dev_runtime56 = require("react
 }, Articles_default = Articles;
 
 // app/routes/app.articles.tsx
-var import_jsx_dev_runtime57 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime56 = require("react/jsx-dev-runtime");
 async function loader13({ request, params }) {
   let { admin, session } = await authenticate.admin(request);
   return (0, import_node17.json)({
@@ -12477,20 +12437,20 @@ function MetaobjectsPage6() {
     fetcher.state !== "loading" && pageLoading && setPageLoading(!1);
   }, [fetcher.state]), (0, import_react70.useEffect)(() => {
     fetcher.data || (setPageLoading(!0), onSearch({}));
-  }, []), /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(
-    import_polaris57.Page,
+  }, []), /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(
+    import_polaris56.Page,
     {
       backAction: { content: "Products", url: "/app" },
       title: "Articles",
       subtitle: "",
       compactTitle: !0,
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(import_polaris57.Layout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(import_polaris57.Layout.Section, { children: [
-        pageLoading ? /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(PageLoader_default, {}, void 0, !1, {
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(import_polaris56.Layout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(import_polaris56.Layout.Section, { children: [
+        pageLoading ? /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(PageLoader_default, {}, void 0, !1, {
           fileName: "app/routes/app.articles.tsx",
           lineNumber: 75,
           columnNumber: 26
         }, this) : null,
-        pageLoading ? null : /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(import_polaris57.VerticalStack, { gap: "3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(
+        pageLoading ? null : /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(import_polaris56.VerticalStack, { gap: "3", children: /* @__PURE__ */ (0, import_jsx_dev_runtime56.jsxDEV)(
           Articles_default,
           {
             edges,
@@ -12539,12 +12499,12 @@ __export(app_products_exports, {
   default: () => ProductsPage,
   loader: () => loader14
 });
-var import_node18 = require("@remix-run/node"), import_react73 = require("@remix-run/react"), import_polaris59 = require("@shopify/polaris"), _35 = __toESM(require("lodash")), import_react74 = require("react");
+var import_node18 = require("@remix-run/node"), import_react73 = require("@remix-run/react"), import_polaris58 = require("@shopify/polaris"), _35 = __toESM(require("lodash")), import_react74 = require("react");
 
 // app/components/Tables/Products.tsx
-var import_polaris58 = require("@shopify/polaris");
+var import_polaris57 = require("@shopify/polaris");
 var import_react71 = require("react");
-var import_react72 = require("@remix-run/react"), import_jsx_dev_runtime58 = require("react/jsx-dev-runtime"), Products = ({
+var import_react72 = require("@remix-run/react"), import_jsx_dev_runtime57 = require("react/jsx-dev-runtime"), Products = ({
   edges,
   pageInfo,
   onSearch,
@@ -12564,7 +12524,7 @@ var import_react72 = require("@remix-run/react"), import_jsx_dev_runtime58 = req
     queryValue != null && onSearch({ query: queryValue });
   }, [queryValue]);
   let [selected] = (0, import_react71.useState)(0), onHandleCancel = () => {
-  }, { mode, setMode } = (0, import_polaris58.useSetIndexFiltersMode)();
+  }, { mode, setMode } = (0, import_polaris57.useSetIndexFiltersMode)();
   (0, import_react71.useEffect)(() => {
     setLoading(!1);
   }, [edges]);
@@ -12580,10 +12540,10 @@ var import_react72 = require("@remix-run/react"), import_jsx_dev_runtime58 = req
       }
     }, index) => {
       var _a2;
-      return /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(import_polaris58.IndexTable.Row, { onNavigation: () => {
+      return /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(import_polaris57.IndexTable.Row, { onNavigation: () => {
       }, id, position: index, children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(import_polaris58.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(
-          import_polaris58.Thumbnail,
+        /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(import_polaris57.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(
+          import_polaris57.Thumbnail,
           {
             source: (featuredImage == null ? void 0 : featuredImage.transformedSrc) || ((_a2 = featuredMedia == null ? void 0 : featuredMedia.preview) == null ? void 0 : _a2.transformedSrc) || IMAGE_PLACEHOLDER,
             size: "small",
@@ -12602,7 +12562,7 @@ var import_react72 = require("@remix-run/react"), import_jsx_dev_runtime58 = req
           lineNumber: 79,
           columnNumber: 9
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(import_polaris58.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(import_polaris58.Text, { variant: "bodyMd", fontWeight: "bold", as: "span", children: /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(import_react72.Link, { to: `/app/product/${getProductIDNumber(id)}`, children: truncate(title) }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(import_polaris57.IndexTable.Cell, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(import_polaris57.Text, { variant: "bodyMd", fontWeight: "bold", as: "span", children: /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(import_react72.Link, { to: `/app/product/${getProductIDNumber(id)}`, children: truncate(title) }, void 0, !1, {
           fileName: "app/components/Tables/Products.tsx",
           lineNumber: 92,
           columnNumber: 13
@@ -12615,12 +12575,12 @@ var import_react72 = require("@remix-run/react"), import_jsx_dev_runtime58 = req
           lineNumber: 90,
           columnNumber: 9
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(import_polaris58.IndexTable.Cell, { children: status }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(import_polaris57.IndexTable.Cell, { children: status }, void 0, !1, {
           fileName: "app/components/Tables/Products.tsx",
           lineNumber: 98,
           columnNumber: 9
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(import_polaris58.IndexTable.Cell, { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(import_polaris57.IndexTable.Cell, { children: [
           totalInventory,
           " in stock"
         ] }, void 0, !0, {
@@ -12635,15 +12595,15 @@ var import_react72 = require("@remix-run/react"), import_jsx_dev_runtime58 = req
       }, this);
     }
   );
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(import_polaris58.LegacyCard, { children: [
-    loading || isLoading ? /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(Loaders_default, {}, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(import_polaris57.LegacyCard, { children: [
+    loading || isLoading ? /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(Loaders_default, {}, void 0, !1, {
       fileName: "app/components/Tables/Products.tsx",
       lineNumber: 106,
       columnNumber: 31
     }, this) : null,
-    /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(import_polaris58.VerticalStack, { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(
-        import_polaris58.IndexFilters,
+    /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(import_polaris57.VerticalStack, { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(
+        import_polaris57.IndexFilters,
         {
           selected,
           filters: [],
@@ -12674,8 +12634,8 @@ var import_react72 = require("@remix-run/react"), import_jsx_dev_runtime58 = req
         },
         this
       ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(
-        import_polaris58.IndexTable,
+      /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(
+        import_polaris57.IndexTable,
         {
           resourceName,
           itemCount: edges.length,
@@ -12697,7 +12657,7 @@ var import_react72 = require("@remix-run/react"), import_jsx_dev_runtime58 = req
         },
         this
       ),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(import_polaris58.HorizontalGrid, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)("div", { className: "grid-container", children: /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(import_polaris57.HorizontalGrid, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)("div", { className: "grid-container", children: /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(
         "div",
         {
           className: "pagination-wrapper",
@@ -12707,8 +12667,8 @@ var import_react72 = require("@remix-run/react"), import_jsx_dev_runtime58 = req
             justifyContent: "center",
             padding: 20
           },
-          children: /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(
-            import_polaris58.Pagination,
+          children: /* @__PURE__ */ (0, import_jsx_dev_runtime57.jsxDEV)(
+            import_polaris57.Pagination,
             {
               hasPrevious: pageInfo.hasPreviousPage,
               onPrevious: () => {
@@ -12759,7 +12719,7 @@ var import_react72 = require("@remix-run/react"), import_jsx_dev_runtime58 = req
 }, Products_default = Products;
 
 // app/routes/app.products.tsx
-var import_jsx_dev_runtime59 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime58 = require("react/jsx-dev-runtime");
 async function loader14({ request, params }) {
   return (0, import_node18.json)({
     type: params.type
@@ -12783,20 +12743,20 @@ function ProductsPage() {
     fetcher.data || (setPageLoading(!0), handleFetch({}));
   }, []), (0, import_react74.useEffect)(() => {
     fetcher.state === "loading" ? setLoading(!0) : setLoading(!1), fetcher.data && (setEdges(_35.get(fetcher.data, "data.products.edges", [])), setPageInfo(_35.get(fetcher.data, "data.products.pageInfo", {})));
-  }, [fetcher]), /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)(
-    import_polaris59.Page,
+  }, [fetcher]), /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(
+    import_polaris58.Page,
     {
       backAction: { content: "Products", url: "/app" },
       title: "Products",
       subtitle: "",
       compactTitle: !0,
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)(import_polaris59.Layout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)(import_polaris59.Layout.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)(import_polaris59.VerticalStack, { gap: "3", children: [
-        pageLoading ? /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)(PageLoader_default, {}, void 0, !1, {
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(import_polaris58.Layout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(import_polaris58.Layout.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(import_polaris58.VerticalStack, { gap: "3", children: [
+        pageLoading ? /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(PageLoader_default, {}, void 0, !1, {
           fileName: "app/routes/app.products.tsx",
           lineNumber: 70,
           columnNumber: 28
         }, this) : null,
-        pageLoading ? null : /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)(
+        pageLoading ? null : /* @__PURE__ */ (0, import_jsx_dev_runtime58.jsxDEV)(
           Products_default,
           {
             edges,
@@ -12845,8 +12805,8 @@ __export(app_index_exports, {
   default: () => ProductsPage2,
   loader: () => loader15
 });
-var import_node19 = require("@remix-run/node"), import_react75 = require("@remix-run/react"), import_polaris60 = require("@shopify/polaris"), _36 = __toESM(require("lodash")), import_react76 = require("react");
-var import_jsx_dev_runtime60 = require("react/jsx-dev-runtime");
+var import_node19 = require("@remix-run/node"), import_react75 = require("@remix-run/react"), import_polaris59 = require("@shopify/polaris"), _36 = __toESM(require("lodash")), import_react76 = require("react");
+var import_jsx_dev_runtime59 = require("react/jsx-dev-runtime");
 async function loader15({ request, params }) {
   return (0, import_node19.json)({
     type: params.type
@@ -12870,20 +12830,20 @@ function ProductsPage2() {
     fetcher.data || (setPageLoading(!0), handleFetch({}));
   }, []), (0, import_react76.useEffect)(() => {
     fetcher.state === "loading" ? setLoading(!0) : setLoading(!1), fetcher.data && (setEdges(_36.get(fetcher.data, "data.products.edges", [])), setPageInfo(_36.get(fetcher.data, "data.products.pageInfo", {})));
-  }, [fetcher]), /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(
-    import_polaris60.Page,
+  }, [fetcher]), /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)(
+    import_polaris59.Page,
     {
       backAction: { content: "Products", url: "/app" },
       title: definitionType,
       subtitle: "Products",
       compactTitle: !0,
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(import_polaris60.Layout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(import_polaris60.Layout.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(import_polaris60.VerticalStack, { gap: "3", children: [
-        pageLoading ? /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(PageLoader_default, {}, void 0, !1, {
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)(import_polaris59.Layout, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)(import_polaris59.Layout.Section, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)(import_polaris59.VerticalStack, { gap: "3", children: [
+        pageLoading ? /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)(PageLoader_default, {}, void 0, !1, {
           fileName: "app/routes/app._index.tsx",
           lineNumber: 70,
           columnNumber: 28
         }, this) : null,
-        pageLoading ? null : /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(
+        pageLoading ? null : /* @__PURE__ */ (0, import_jsx_dev_runtime59.jsxDEV)(
           Products_default,
           {
             edges,
@@ -12934,10 +12894,10 @@ __export(route_exports, {
   links: () => links5,
   loader: () => loader16
 });
-var import_react77 = require("react"), import_node20 = require("@remix-run/node"), import_polaris61 = require("@shopify/polaris"), import_react78 = require("@remix-run/react");
+var import_react77 = require("react"), import_node20 = require("@remix-run/node"), import_polaris60 = require("@shopify/polaris"), import_react78 = require("@remix-run/react");
 
 // node_modules/@shopify/polaris/build/esm/styles.css
-var styles_default2 = "/build/_assets/styles-VWGT2L3K.css";
+var styles_default2 = "/build/_assets/styles-S2UC6H46.css";
 
 // app/routes/auth.login/error.server.jsx
 var import_server3 = require("@shopify/shopify-app-remix/server");
@@ -12946,7 +12906,7 @@ function loginErrorMessage(loginErrors) {
 }
 
 // app/routes/auth.login/route.jsx
-var import_jsx_dev_runtime61 = require("react/jsx-dev-runtime"), links5 = () => [{ rel: "stylesheet", href: styles_default2 }];
+var import_jsx_dev_runtime60 = require("react/jsx-dev-runtime"), links5 = () => [{ rel: "stylesheet", href: styles_default2 }];
 async function loader16({ request }) {
   let errors = loginErrorMessage(await login(request));
   return (0, import_node20.json)({
@@ -12962,14 +12922,14 @@ async function action7({ request }) {
 }
 function Auth() {
   let { polarisTranslations } = (0, import_react78.useLoaderData)(), loaderData = (0, import_react78.useLoaderData)(), actionData = (0, import_react78.useActionData)(), [shop, setShop] = (0, import_react77.useState)(""), { errors } = actionData || loaderData;
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)(import_polaris61.AppProvider, { i18n: polarisTranslations, children: /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)(import_polaris61.Page, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)(import_polaris61.Card, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)(import_react78.Form, { method: "post", children: /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)(import_polaris61.FormLayout, { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)(import_polaris61.Text, { variant: "headingMd", as: "h2", children: "Log in" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(import_polaris60.AppProvider, { i18n: polarisTranslations, children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(import_polaris60.Page, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(import_polaris60.Card, { children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(import_react78.Form, { method: "post", children: /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(import_polaris60.FormLayout, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(import_polaris60.Text, { variant: "headingMd", as: "h2", children: "Log in" }, void 0, !1, {
       fileName: "app/routes/auth.login/route.jsx",
       lineNumber: 51,
       columnNumber: 15
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)(
-      import_polaris61.TextField,
+    /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(
+      import_polaris60.TextField,
       {
         type: "text",
         name: "shop",
@@ -12989,7 +12949,7 @@ function Auth() {
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)(import_polaris61.Button, { submit: !0, children: "Log in" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime60.jsxDEV)(import_polaris60.Button, { submit: !0, children: "Log in" }, void 0, !1, {
       fileName: "app/routes/auth.login/route.jsx",
       lineNumber: 64,
       columnNumber: 15
@@ -13050,7 +13010,7 @@ var import_node21 = require("@remix-run/node"), import_react79 = require("@remix
 var style_default = "/build/_assets/style-SMVNRRZV.css";
 
 // app/routes/_index/route.jsx
-var import_jsx_dev_runtime62 = require("react/jsx-dev-runtime"), links6 = () => [{ rel: "stylesheet", href: style_default }];
+var import_jsx_dev_runtime61 = require("react/jsx-dev-runtime"), links6 = () => [{ rel: "stylesheet", href: style_default }];
 async function loader17({ request }) {
   let url = new URL(request.url);
   if (url.searchParams.get("shop"))
@@ -13059,30 +13019,30 @@ async function loader17({ request }) {
 }
 function App2() {
   let { showForm } = (0, import_react79.useLoaderData)();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)("div", { className: "index", children: /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)("div", { className: "content", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)("h1", { children: "A short heading about [your app]" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("div", { className: "index", children: /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("div", { className: "content", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("h1", { children: "A short heading about [your app]" }, void 0, !1, {
       fileName: "app/routes/_index/route.jsx",
       lineNumber: 26,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)("p", { children: "A tagline about [your app] that describes your value proposition." }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("p", { children: "A tagline about [your app] that describes your value proposition." }, void 0, !1, {
       fileName: "app/routes/_index/route.jsx",
       lineNumber: 27,
       columnNumber: 9
     }, this),
-    showForm && /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)(import_react79.Form, { method: "post", action: "/auth/login", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)("label", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)("span", { children: "Shop domain" }, void 0, !1, {
+    showForm && /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)(import_react79.Form, { method: "post", action: "/auth/login", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("label", { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("span", { children: "Shop domain" }, void 0, !1, {
           fileName: "app/routes/_index/route.jsx",
           lineNumber: 31,
           columnNumber: 15
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)("input", { type: "text", name: "shop" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("input", { type: "text", name: "shop" }, void 0, !1, {
           fileName: "app/routes/_index/route.jsx",
           lineNumber: 32,
           columnNumber: 15
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)("span", { children: "e.g: my-shop-domain.myshopify.com" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("span", { children: "e.g: my-shop-domain.myshopify.com" }, void 0, !1, {
           fileName: "app/routes/_index/route.jsx",
           lineNumber: 33,
           columnNumber: 15
@@ -13092,7 +13052,7 @@ function App2() {
         lineNumber: 30,
         columnNumber: 13
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)("button", { type: "submit", children: "Log in" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("button", { type: "submit", children: "Log in" }, void 0, !1, {
         fileName: "app/routes/_index/route.jsx",
         lineNumber: 35,
         columnNumber: 13
@@ -13102,9 +13062,9 @@ function App2() {
       lineNumber: 29,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)("ul", { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)("li", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)("strong", { children: "Product feature" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("ul", { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("li", { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("strong", { children: "Product feature" }, void 0, !1, {
           fileName: "app/routes/_index/route.jsx",
           lineNumber: 40,
           columnNumber: 13
@@ -13115,8 +13075,8 @@ function App2() {
         lineNumber: 39,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)("li", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)("strong", { children: "Product feature" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("li", { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("strong", { children: "Product feature" }, void 0, !1, {
           fileName: "app/routes/_index/route.jsx",
           lineNumber: 44,
           columnNumber: 13
@@ -13127,8 +13087,8 @@ function App2() {
         lineNumber: 43,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)("li", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)("strong", { children: "Product feature" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("li", { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime61.jsxDEV)("strong", { children: "Product feature" }, void 0, !1, {
           fileName: "app/routes/_index/route.jsx",
           lineNumber: 48,
           columnNumber: 13
@@ -13175,40 +13135,40 @@ __export(app_exports, {
 });
 var import_node22 = require("@remix-run/node"), import_react80 = require("@remix-run/react");
 var import_server4 = require("@shopify/shopify-app-remix/server"), import_react81 = require("@shopify/shopify-app-remix/react");
-var import_polaris62 = require("@shopify/polaris"), import_jsx_dev_runtime63 = require("react/jsx-dev-runtime"), links7 = () => [{ rel: "stylesheet", href: styles_default2 }];
+var import_polaris61 = require("@shopify/polaris"), import_jsx_dev_runtime62 = require("react/jsx-dev-runtime"), links7 = () => [{ rel: "stylesheet", href: styles_default2 }];
 async function loader19({ request }) {
   return await authenticate.admin(request), (0, import_node22.json)({ apiKey: process.env.SHOPIFY_API_KEY });
 }
 function App3() {
   let { apiKey } = (0, import_react80.useLoaderData)();
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime63.jsxDEV)(import_react81.AppProvider, { isEmbeddedApp: !0, apiKey, children: /* @__PURE__ */ (0, import_jsx_dev_runtime63.jsxDEV)(import_polaris62.Frame, { children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime63.jsxDEV)("ui-nav-menu", { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime63.jsxDEV)(import_react80.Link, { to: "/app", rel: "home", children: "Home" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)(import_react81.AppProvider, { isEmbeddedApp: !0, apiKey, children: /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)(import_polaris61.Frame, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)("ui-nav-menu", { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)(import_react80.Link, { to: "/app", rel: "home", children: "Home" }, void 0, !1, {
         fileName: "app/routes/app.jsx",
         lineNumber: 27,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime63.jsxDEV)(import_react80.Link, { to: "/app/products", children: "Products" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)(import_react80.Link, { to: "/app/products", children: "Products" }, void 0, !1, {
         fileName: "app/routes/app.jsx",
         lineNumber: 30,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime63.jsxDEV)(import_react80.Link, { to: "/app/items/item_definition", children: "Items" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)(import_react80.Link, { to: "/app/items/item_definition", children: "Items" }, void 0, !1, {
         fileName: "app/routes/app.jsx",
         lineNumber: 31,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime63.jsxDEV)(import_react80.Link, { to: "/app/site-maps", children: "Sites" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)(import_react80.Link, { to: "/app/site-maps", children: "Sites" }, void 0, !1, {
         fileName: "app/routes/app.jsx",
         lineNumber: 32,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime63.jsxDEV)(import_react80.Link, { to: "/app/articles", children: "Articles" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)(import_react80.Link, { to: "/app/articles", children: "Articles" }, void 0, !1, {
         fileName: "app/routes/app.jsx",
         lineNumber: 33,
         columnNumber: 10
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime63.jsxDEV)(import_react80.Link, { to: "/app/metaobjects", children: "Metaobjects" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)(import_react80.Link, { to: "/app/metaobjects", children: "Metaobjects" }, void 0, !1, {
         fileName: "app/routes/app.jsx",
         lineNumber: 34,
         columnNumber: 10
@@ -13218,7 +13178,7 @@ function App3() {
       lineNumber: 26,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime63.jsxDEV)(import_react80.Outlet, {}, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime62.jsxDEV)(import_react80.Outlet, {}, void 0, !1, {
       fileName: "app/routes/app.jsx",
       lineNumber: 36,
       columnNumber: 7
@@ -13239,10 +13199,10 @@ function ErrorBoundary() {
 var headers = (headersArgs) => import_server4.boundary.headers(headersArgs);
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-HZFEQ3JN.js", imports: ["/build/_shared/chunk-JXHNNPNR.js", "/build/_shared/chunk-H36SQQE5.js", "/build/_shared/chunk-U2JNBMDV.js", "/build/_shared/chunk-JKUASME7.js", "/build/_shared/chunk-COYC34KL.js", "/build/_shared/chunk-N4FG5RPV.js", "/build/_shared/chunk-TVZC3ZTX.js", "/build/_shared/chunk-RODUX5XG.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-KNF5UWD4.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-D7AVG6ZK.js", imports: ["/build/_shared/chunk-2L7VYSCH.js", "/build/_shared/chunk-TMJLOEVS.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app": { id: "routes/app", parentId: "root", path: "app", index: void 0, caseSensitive: void 0, module: "/build/routes/app-3AWGCQ4D.js", imports: ["/build/_shared/chunk-SEK2WCG6.js", "/build/_shared/chunk-WQFJ2CRD.js", "/build/_shared/chunk-TMJLOEVS.js", "/build/_shared/chunk-NMF5CLGW.js", "/build/_shared/chunk-FPZ7L3CR.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/app._index copy": { id: "routes/app._index copy", parentId: "routes/app", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/app._index copy-C5XA7KFM.js", imports: ["/build/_shared/chunk-IOGSFHWH.js", "/build/_shared/chunk-KMCPHBOA.js", "/build/_shared/chunk-E7A3J4TI.js", "/build/_shared/chunk-HEEBV5QK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app._index": { id: "routes/app._index", parentId: "routes/app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/app._index-E5LSV6WZ.js", imports: ["/build/_shared/chunk-O554AZBH.js", "/build/_shared/chunk-OCNRREPE.js", "/build/_shared/chunk-HQGD24L4.js", "/build/_shared/chunk-HEEBV5QK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.additional": { id: "routes/app.additional", parentId: "routes/app", path: "additional", index: void 0, caseSensitive: void 0, module: "/build/routes/app.additional-J2KZ4CQF.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.article.$handle": { id: "routes/app.article.$handle", parentId: "routes/app", path: "article/:handle", index: void 0, caseSensitive: void 0, module: "/build/routes/app.article.$handle-7XYJP3ZG.js", imports: ["/build/_shared/chunk-M5JWZECC.js", "/build/_shared/chunk-NYBVFPCE.js", "/build/_shared/chunk-SOZWN2R5.js", "/build/_shared/chunk-3YSHUN6I.js", "/build/_shared/chunk-E7A3J4TI.js", "/build/_shared/chunk-HEEBV5QK.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.articles": { id: "routes/app.articles", parentId: "routes/app", path: "articles", index: void 0, caseSensitive: void 0, module: "/build/routes/app.articles-IDAU6GDM.js", imports: ["/build/_shared/chunk-OCNRREPE.js", "/build/_shared/chunk-HQGD24L4.js", "/build/_shared/chunk-E7A3J4TI.js", "/build/_shared/chunk-HEEBV5QK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.item.$handle": { id: "routes/app.item.$handle", parentId: "routes/app", path: "item/:handle", index: void 0, caseSensitive: void 0, module: "/build/routes/app.item.$handle-YAYDBOTA.js", imports: ["/build/_shared/chunk-PQLXFXZG.js", "/build/_shared/chunk-HQGD24L4.js", "/build/_shared/chunk-2MPW2Q6T.js", "/build/_shared/chunk-M5JWZECC.js", "/build/_shared/chunk-SOZWN2R5.js", "/build/_shared/chunk-3YSHUN6I.js", "/build/_shared/chunk-E7A3J4TI.js", "/build/_shared/chunk-HEEBV5QK.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.item.duplicate": { id: "routes/app.item.duplicate", parentId: "routes/app", path: "item/duplicate", index: void 0, caseSensitive: void 0, module: "/build/routes/app.item.duplicate-LXGN3DMA.js", imports: void 0, hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.items.$type": { id: "routes/app.items.$type", parentId: "routes/app", path: "items/:type", index: void 0, caseSensitive: void 0, module: "/build/routes/app.items.$type-LILAOSQT.js", imports: ["/build/_shared/chunk-OCNRREPE.js", "/build/_shared/chunk-HQGD24L4.js", "/build/_shared/chunk-E7A3J4TI.js", "/build/_shared/chunk-HEEBV5QK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.metaobject.$type": { id: "routes/app.metaobject.$type", parentId: "routes/app", path: "metaobject/:type", index: void 0, caseSensitive: void 0, module: "/build/routes/app.metaobject.$type-TA2LRIXD.js", imports: ["/build/_shared/chunk-KMCPHBOA.js", "/build/_shared/chunk-HQGD24L4.js", "/build/_shared/chunk-E7A3J4TI.js", "/build/_shared/chunk-HEEBV5QK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.metaobjects": { id: "routes/app.metaobjects", parentId: "routes/app", path: "metaobjects", index: void 0, caseSensitive: void 0, module: "/build/routes/app.metaobjects-H7G2RB3E.js", imports: ["/build/_shared/chunk-IOGSFHWH.js", "/build/_shared/chunk-KMCPHBOA.js", "/build/_shared/chunk-E7A3J4TI.js", "/build/_shared/chunk-HEEBV5QK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.product.$id": { id: "routes/app.product.$id", parentId: "routes/app", path: "product/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/app.product.$id-JLGUAUXI.js", imports: ["/build/_shared/chunk-PQLXFXZG.js", "/build/_shared/chunk-HQGD24L4.js", "/build/_shared/chunk-2MPW2Q6T.js", "/build/_shared/chunk-M5JWZECC.js", "/build/_shared/chunk-3YSHUN6I.js", "/build/_shared/chunk-E7A3J4TI.js", "/build/_shared/chunk-HEEBV5QK.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.product.duplicate": { id: "routes/app.product.duplicate", parentId: "routes/app", path: "product/duplicate", index: void 0, caseSensitive: void 0, module: "/build/routes/app.product.duplicate-4KPDXDOO.js", imports: void 0, hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.products": { id: "routes/app.products", parentId: "routes/app", path: "products", index: void 0, caseSensitive: void 0, module: "/build/routes/app.products-36N5W7X5.js", imports: ["/build/_shared/chunk-O554AZBH.js", "/build/_shared/chunk-OCNRREPE.js", "/build/_shared/chunk-HQGD24L4.js", "/build/_shared/chunk-HEEBV5QK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.search-collections": { id: "routes/app.search-collections", parentId: "routes/app", path: "search-collections", index: void 0, caseSensitive: void 0, module: "/build/routes/app.search-collections-H5TZFVDI.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.search-metaobjects.$type": { id: "routes/app.search-metaobjects.$type", parentId: "routes/app", path: "search-metaobjects/:type", index: void 0, caseSensitive: void 0, module: "/build/routes/app.search-metaobjects.$type-3SNQBDN4.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.search-products": { id: "routes/app.search-products", parentId: "routes/app", path: "search-products", index: void 0, caseSensitive: void 0, module: "/build/routes/app.search-products-6AIRR33V.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.site-map.$handle": { id: "routes/app.site-map.$handle", parentId: "routes/app", path: "site-map/:handle", index: void 0, caseSensitive: void 0, module: "/build/routes/app.site-map.$handle-6CLFIQIK.js", imports: ["/build/_shared/chunk-2MPW2Q6T.js", "/build/_shared/chunk-NYBVFPCE.js", "/build/_shared/chunk-SOZWN2R5.js", "/build/_shared/chunk-3YSHUN6I.js", "/build/_shared/chunk-E7A3J4TI.js", "/build/_shared/chunk-HEEBV5QK.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.site-maps": { id: "routes/app.site-maps", parentId: "routes/app", path: "site-maps", index: void 0, caseSensitive: void 0, module: "/build/routes/app.site-maps-R52JCPK6.js", imports: ["/build/_shared/chunk-OCNRREPE.js", "/build/_shared/chunk-HQGD24L4.js", "/build/_shared/chunk-E7A3J4TI.js", "/build/_shared/chunk-HEEBV5QK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/auth.$": { id: "routes/auth.$", parentId: "root", path: "auth/*", index: void 0, caseSensitive: void 0, module: "/build/routes/auth.$-7PY6ZHS6.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/auth.login": { id: "routes/auth.login", parentId: "root", path: "auth/login", index: void 0, caseSensitive: void 0, module: "/build/routes/auth.login-3A7YNLFM.js", imports: ["/build/_shared/chunk-SEK2WCG6.js", "/build/_shared/chunk-2L7VYSCH.js", "/build/_shared/chunk-TMJLOEVS.js", "/build/_shared/chunk-NMF5CLGW.js", "/build/_shared/chunk-FPZ7L3CR.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/webhooks": { id: "routes/webhooks", parentId: "root", path: "webhooks", index: void 0, caseSensitive: void 0, module: "/build/routes/webhooks-AKIH6B3Q.js", imports: void 0, hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "40b98eb5", hmr: { runtime: "/build/_shared/chunk-COYC34KL.js", timestamp: 1711439254180 }, url: "/build/manifest-40B98EB5.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-673E7ZUG.js", imports: ["/build/_shared/chunk-JXHNNPNR.js", "/build/_shared/chunk-H36SQQE5.js", "/build/_shared/chunk-WEVALTTY.js", "/build/_shared/chunk-JKUASME7.js", "/build/_shared/chunk-UUM35YD6.js", "/build/_shared/chunk-N4FG5RPV.js", "/build/_shared/chunk-TVZC3ZTX.js", "/build/_shared/chunk-RODUX5XG.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-Y2JKRLDL.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-727D4MNS.js", imports: ["/build/_shared/chunk-2L7VYSCH.js", "/build/_shared/chunk-TMJLOEVS.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app": { id: "routes/app", parentId: "root", path: "app", index: void 0, caseSensitive: void 0, module: "/build/routes/app-JMG5QCD7.js", imports: ["/build/_shared/chunk-Z4WZKCUW.js", "/build/_shared/chunk-WQFJ2CRD.js", "/build/_shared/chunk-TMJLOEVS.js", "/build/_shared/chunk-3FUCSJLB.js", "/build/_shared/chunk-FPZ7L3CR.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !0 }, "routes/app._index copy": { id: "routes/app._index copy", parentId: "routes/app", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/app._index copy-ILQF3OKM.js", imports: ["/build/_shared/chunk-TDGSKHMC.js", "/build/_shared/chunk-KCL6SWIQ.js", "/build/_shared/chunk-E7A3J4TI.js", "/build/_shared/chunk-W333RDEB.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app._index": { id: "routes/app._index", parentId: "routes/app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/app._index-D5YD7TRB.js", imports: ["/build/_shared/chunk-MI5N6LOS.js", "/build/_shared/chunk-I3XSTOLI.js", "/build/_shared/chunk-Q5N6DXQA.js", "/build/_shared/chunk-W333RDEB.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.additional": { id: "routes/app.additional", parentId: "routes/app", path: "additional", index: void 0, caseSensitive: void 0, module: "/build/routes/app.additional-T2F666YN.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.article.$handle": { id: "routes/app.article.$handle", parentId: "routes/app", path: "article/:handle", index: void 0, caseSensitive: void 0, module: "/build/routes/app.article.$handle-VCLIIX7W.js", imports: ["/build/_shared/chunk-EDXGPGNJ.js", "/build/_shared/chunk-AHPLIXZP.js", "/build/_shared/chunk-YMF6HLSR.js", "/build/_shared/chunk-54DZ43JQ.js", "/build/_shared/chunk-E7A3J4TI.js", "/build/_shared/chunk-W333RDEB.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.articles": { id: "routes/app.articles", parentId: "routes/app", path: "articles", index: void 0, caseSensitive: void 0, module: "/build/routes/app.articles-MH67SANU.js", imports: ["/build/_shared/chunk-I3XSTOLI.js", "/build/_shared/chunk-Q5N6DXQA.js", "/build/_shared/chunk-E7A3J4TI.js", "/build/_shared/chunk-W333RDEB.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.item.$handle": { id: "routes/app.item.$handle", parentId: "routes/app", path: "item/:handle", index: void 0, caseSensitive: void 0, module: "/build/routes/app.item.$handle-R7QCI3BM.js", imports: ["/build/_shared/chunk-4NINSXQV.js", "/build/_shared/chunk-Q5N6DXQA.js", "/build/_shared/chunk-VZP5GZ3W.js", "/build/_shared/chunk-EDXGPGNJ.js", "/build/_shared/chunk-YMF6HLSR.js", "/build/_shared/chunk-54DZ43JQ.js", "/build/_shared/chunk-E7A3J4TI.js", "/build/_shared/chunk-W333RDEB.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.item.duplicate": { id: "routes/app.item.duplicate", parentId: "routes/app", path: "item/duplicate", index: void 0, caseSensitive: void 0, module: "/build/routes/app.item.duplicate-LXGN3DMA.js", imports: void 0, hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.items.$type": { id: "routes/app.items.$type", parentId: "routes/app", path: "items/:type", index: void 0, caseSensitive: void 0, module: "/build/routes/app.items.$type-QLV7Q6CU.js", imports: ["/build/_shared/chunk-I3XSTOLI.js", "/build/_shared/chunk-Q5N6DXQA.js", "/build/_shared/chunk-E7A3J4TI.js", "/build/_shared/chunk-W333RDEB.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.metaobject.$type": { id: "routes/app.metaobject.$type", parentId: "routes/app", path: "metaobject/:type", index: void 0, caseSensitive: void 0, module: "/build/routes/app.metaobject.$type-5UL2Y2TM.js", imports: ["/build/_shared/chunk-KCL6SWIQ.js", "/build/_shared/chunk-Q5N6DXQA.js", "/build/_shared/chunk-E7A3J4TI.js", "/build/_shared/chunk-W333RDEB.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.metaobjects": { id: "routes/app.metaobjects", parentId: "routes/app", path: "metaobjects", index: void 0, caseSensitive: void 0, module: "/build/routes/app.metaobjects-VVHV37XS.js", imports: ["/build/_shared/chunk-TDGSKHMC.js", "/build/_shared/chunk-KCL6SWIQ.js", "/build/_shared/chunk-E7A3J4TI.js", "/build/_shared/chunk-W333RDEB.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.product.$id": { id: "routes/app.product.$id", parentId: "routes/app", path: "product/:id", index: void 0, caseSensitive: void 0, module: "/build/routes/app.product.$id-6HTOZDSR.js", imports: ["/build/_shared/chunk-4NINSXQV.js", "/build/_shared/chunk-Q5N6DXQA.js", "/build/_shared/chunk-VZP5GZ3W.js", "/build/_shared/chunk-EDXGPGNJ.js", "/build/_shared/chunk-54DZ43JQ.js", "/build/_shared/chunk-E7A3J4TI.js", "/build/_shared/chunk-W333RDEB.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.product.duplicate": { id: "routes/app.product.duplicate", parentId: "routes/app", path: "product/duplicate", index: void 0, caseSensitive: void 0, module: "/build/routes/app.product.duplicate-4KPDXDOO.js", imports: void 0, hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.products": { id: "routes/app.products", parentId: "routes/app", path: "products", index: void 0, caseSensitive: void 0, module: "/build/routes/app.products-BHXOJNCP.js", imports: ["/build/_shared/chunk-MI5N6LOS.js", "/build/_shared/chunk-I3XSTOLI.js", "/build/_shared/chunk-Q5N6DXQA.js", "/build/_shared/chunk-W333RDEB.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.search-collections": { id: "routes/app.search-collections", parentId: "routes/app", path: "search-collections", index: void 0, caseSensitive: void 0, module: "/build/routes/app.search-collections-H5TZFVDI.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.search-metaobjects.$type": { id: "routes/app.search-metaobjects.$type", parentId: "routes/app", path: "search-metaobjects/:type", index: void 0, caseSensitive: void 0, module: "/build/routes/app.search-metaobjects.$type-3SNQBDN4.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.search-products": { id: "routes/app.search-products", parentId: "routes/app", path: "search-products", index: void 0, caseSensitive: void 0, module: "/build/routes/app.search-products-6AIRR33V.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.site-map.$handle": { id: "routes/app.site-map.$handle", parentId: "routes/app", path: "site-map/:handle", index: void 0, caseSensitive: void 0, module: "/build/routes/app.site-map.$handle-72EFAFWR.js", imports: ["/build/_shared/chunk-VZP5GZ3W.js", "/build/_shared/chunk-AHPLIXZP.js", "/build/_shared/chunk-YMF6HLSR.js", "/build/_shared/chunk-54DZ43JQ.js", "/build/_shared/chunk-E7A3J4TI.js", "/build/_shared/chunk-W333RDEB.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/app.site-maps": { id: "routes/app.site-maps", parentId: "routes/app", path: "site-maps", index: void 0, caseSensitive: void 0, module: "/build/routes/app.site-maps-ZAIX6YBI.js", imports: ["/build/_shared/chunk-I3XSTOLI.js", "/build/_shared/chunk-Q5N6DXQA.js", "/build/_shared/chunk-E7A3J4TI.js", "/build/_shared/chunk-W333RDEB.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/auth.$": { id: "routes/auth.$", parentId: "root", path: "auth/*", index: void 0, caseSensitive: void 0, module: "/build/routes/auth.$-7PY6ZHS6.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/auth.login": { id: "routes/auth.login", parentId: "root", path: "auth/login", index: void 0, caseSensitive: void 0, module: "/build/routes/auth.login-554FYP5P.js", imports: ["/build/_shared/chunk-Z4WZKCUW.js", "/build/_shared/chunk-2L7VYSCH.js", "/build/_shared/chunk-TMJLOEVS.js", "/build/_shared/chunk-3FUCSJLB.js", "/build/_shared/chunk-FPZ7L3CR.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/webhooks": { id: "routes/webhooks", parentId: "root", path: "webhooks", index: void 0, caseSensitive: void 0, module: "/build/routes/webhooks-AKIH6B3Q.js", imports: void 0, hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "5b8319a7", hmr: { runtime: "/build/_shared/chunk-UUM35YD6.js", timestamp: 1713757680480 }, url: "/build/manifest-5B8319A7.js" };
 
 // server-entry-module:@remix-run/dev/server-build
-var assetsBuildDirectory = "public/build", future = { v2_dev: { port: "51420" }, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !0, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
+var assetsBuildDirectory = "public/build", future = { v2_dev: { port: "53187" }, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !0, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
   root: {
     id: "root",
     parentId: void 0,

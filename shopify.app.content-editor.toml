@@ -2,7 +2,7 @@
 
 name = "content-editor"
 client_id = "711155bca565a06b2e097bbe1198c624"
-application_url = "https://solomon-width-clinton-screensaver.trycloudflare.com"
+application_url = "https://edward-parental-prince-vessel.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products,write_metaobject_definitions,write_metaobjects,read_met
 
 [auth]
 redirect_urls = [
-  "https://solomon-width-clinton-screensaver.trycloudflare.com/auth/callback",
-  "https://solomon-width-clinton-screensaver.trycloudflare.com/auth/shopify/callback",
-  "https://solomon-width-clinton-screensaver.trycloudflare.com/api/auth/callback"
+  "https://edward-parental-prince-vessel.trycloudflare.com/auth/callback",
+  "https://edward-parental-prince-vessel.trycloudflare.com/auth/shopify/callback",
+  "https://edward-parental-prince-vessel.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

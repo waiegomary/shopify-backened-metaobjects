@@ -33,6 +33,7 @@
     "@shopify/shopify-app-session-storage-prisma": "^1.0.0",
     "@tanstack/react-table": "^8.10.7",
     "@uiw/react-md-editor": "^3.23.6",
+    "axios": "^1.6.8",
     "cross-env": "^7.0.3",
     "crypto-js": "^3.1.9-1",
     "formik": "^2.4.5",
@@ -47,7 +48,8 @@
     "react-sortablejs": "^6.1.4",
     "react-trix": "^0.10.2",
     "sortablejs": "^1.15.0",
-    "trix": "^2.0.6"
+    "trix": "^2.0.6",
+    "web": "^0.0.2"
   },
   "devDependencies": {
     "@remix-run/dev": "^1.19.1",
